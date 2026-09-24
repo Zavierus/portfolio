@@ -38,7 +38,7 @@ def start_server(port):
 
 
 SLIDE_NOTES = [
-    "P01: 封面 - ZIAVER / 王泽源 · 内容产品与创意技术 (2026 Edition)",
+    "P01: 封面 - ZENO / 王泽源 · 内容产品与创意技术 (2026 Edition)",
     "P02: 理念与工作流 - 三位一体工作流体系 (内容策略 × 视觉审美 × 可玩原型)",
     "P03: 核心战绩 - 业务结果数据看板 (25.81亿 GMV / 4.7% CTR / 2000+ 摄影人次 / 56万 粉丝)",
     "P04: 职业经历 - 字节跳动、瓜子二手车、敢览文化实战历程与能力雷达",
@@ -126,7 +126,7 @@ def main():
         deck_page.wait_for_timeout(1000)
 
         # 1a. Export Multi-page 16:9 PDF
-        deck_pdf_path = get_writable_path(DIST / "ZIAVER_王泽源_作品集画册_16x9.pdf")
+        deck_pdf_path = get_writable_path(DIST / "ZENO_王泽源_作品集画册_16x9.pdf")
         deck_page.pdf(
             path=str(deck_pdf_path),
             width="1920px",
@@ -147,7 +147,7 @@ def main():
         print(f"  [OK] Exported {len(slide_imgs)} high-resolution slide PNGs")
 
         # 1c. Build PPTX
-        deck_pptx_path = get_writable_path(DIST / "ZIAVER_王泽源_作品集画册_16x9.pptx")
+        deck_pptx_path = get_writable_path(DIST / "ZENO_王泽源_作品集画册_16x9.pptx")
         build_pptx(slide_imgs, deck_pptx_path)
         deck_ctx.close()
 
@@ -165,7 +165,7 @@ def main():
         card_page.wait_for_timeout(1000)
 
         card_locator = card_page.locator(".showcase-card")
-        card_png_path = get_writable_path(DIST / "ZIAVER_简历专用_作品集一图流展板.png")
+        card_png_path = get_writable_path(DIST / "ZENO_简历专用_作品集一图流展板.png")
         card_locator.screenshot(path=str(card_png_path))
         print(f"  [OK] Resume card generated: {card_png_path.name}")
         card_ctx.close()
@@ -214,7 +214,7 @@ def main():
         long_page.evaluate("window.scrollTo(0, 0)")
         long_page.wait_for_timeout(1200)
 
-        long_png_path = get_writable_path(DIST / "ZIAVER_作品集全景长图_一图流.png")
+        long_png_path = get_writable_path(DIST / "ZENO_作品集全景长图_一图流.png")
         long_page.screenshot(path=str(long_png_path), full_page=True)
         print(f"  [OK] Long scroll generated: {long_png_path.name}")
         long_ctx.close()
@@ -897,7 +897,7 @@ def main():
                 }
             }
         """)
-        long_pdf_path = get_writable_path(DIST / "ZIAVER_王泽源_作品集网页原貌_打印版.pdf")
+        long_pdf_path = get_writable_path(DIST / "ZENO_王泽源_作品集网页原貌_打印版.pdf")
         print_page.pdf(
             path=str(long_pdf_path),
             format="A4",

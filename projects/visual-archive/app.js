@@ -15,7 +15,7 @@ let activeIndex = 0;
 let activeLanguage = "zh";
 
 try {
-  activeLanguage = window.localStorage.getItem("ziaver-language") === "en" ? "en" : "zh";
+  activeLanguage = (window.localStorage.getItem("zeno-language") || window.localStorage.getItem("ziaver-language")) === "en" ? "en" : "zh";
 } catch {
   activeLanguage = "zh";
 }
@@ -299,7 +299,10 @@ function applyArchiveLanguage(language) {
   }
   render();
   window.setTimeout(() => document.documentElement.removeAttribute("data-language-switching"), 420);
-  try { window.localStorage.setItem("ziaver-language", activeLanguage); } catch {}
+  try {
+    window.localStorage.setItem("zeno-language", activeLanguage);
+    window.localStorage.setItem("ziaver-language", activeLanguage);
+  } catch {}
 }
 
 languageToggle?.addEventListener("click", () => applyArchiveLanguage(activeLanguage === "zh" ? "en" : "zh"));

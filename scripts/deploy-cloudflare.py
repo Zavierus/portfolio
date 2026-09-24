@@ -17,9 +17,9 @@ PORTFOLIO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PACKAGE_DIR = os.path.dirname(PORTFOLIO_DIR)
 DESKTOP_DIR = os.path.join(os.path.expanduser("~"), "Desktop")
 
-TARGET_ONLINE_URL = "https://soft-salad-ff03.939431931.workers.dev"
-RESUME_ASSET_PATH = os.path.join(PORTFOLIO_DIR, "assets", "resume", "王泽源_Ziaver_个人主简历.pdf")
-RESUME_PACKAGE_PATH = os.path.join(PACKAGE_DIR, "resume", "王泽源_ZIAVER_简历.pdf")
+TARGET_ONLINE_URL = "https://zeno0.com"
+RESUME_ASSET_PATH = os.path.join(PORTFOLIO_DIR, "assets", "resume", "王泽源_Zeno_个人主简历.pdf")
+RESUME_PACKAGE_PATH = os.path.join(PACKAGE_DIR, "resume", "王泽源_Zeno_简历.pdf")
 
 try:
     import pymupdf as fitz
@@ -31,7 +31,7 @@ except ImportError:
 
 def print_banner():
     print("=" * 68)
-    print("       ⚡ ZIAVER 简历与 Cloudflare 在线作品集一键极速同步")
+    print("       ⚡ ZENO 简历与 Cloudflare 在线作品集一键极速同步")
     print("=" * 68)
     print()
 

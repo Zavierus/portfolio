@@ -4,7 +4,7 @@ Runtime status: all four authored PULSE worlds are published as local high and l
 
 ## Authored worlds
 
-- Design, modeling, materials, animation, LODs, and runtime integration: Ziaver / Wang Zeyuan
+- Design, modeling, materials, animation, LODs, and runtime integration: Zeno / Wang Zeyuan
 - License: custom permissive portfolio use
 - Source records: `assets/source/pulse-room/worlds/*.source.json`
 - Published runtime: local high and low Meshopt/KTX2 GLBs under `assets/runtime/pulse-room/models/`

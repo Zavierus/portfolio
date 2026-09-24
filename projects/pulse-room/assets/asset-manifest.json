@@ -10,7 +10,7 @@
       "controls": ["shell_compress", "plate_split", "nerve_sweep", "scar_idle"],
       "source": {
         "origin": "authored",
-        "author": "Ziaver / Wang Zeyuan",
+        "author": "Zeno / Wang Zeyuan",
         "license": "CUSTOM-PERMISSIVE",
         "path": "assets/source/pulse-room/worlds/signal-chrysalis.source.json"
       },
@@ -29,7 +29,7 @@
       "controls": ["left_strike", "center_strike", "right_strike", "gate_lock", "cable_tension"],
       "source": {
         "origin": "authored",
-        "author": "Ziaver / Wang Zeyuan",
+        "author": "Zeno / Wang Zeyuan",
         "license": "CUSTOM-PERMISSIVE",
         "path": "assets/source/pulse-room/worlds/triune-gate.source.json"
       },
@@ -48,7 +48,7 @@
       "controls": ["shell_reveal", "void_cross", "scale_reveal", "relic_idle"],
       "source": {
         "origin": "authored",
-        "author": "Ziaver / Wang Zeyuan",
+        "author": "Zeno / Wang Zeyuan",
         "license": "CUSTOM-PERMISSIVE",
         "path": "assets/source/pulse-room/worlds/null-cathedral.source.json"
       },
@@ -67,7 +67,7 @@
       "controls": ["lattice_bend", "cluster_break", "cluster_rebuild", "packet_idle"],
       "source": {
         "origin": "authored",
-        "author": "Ziaver / Wang Zeyuan",
+        "author": "Zeno / Wang Zeyuan",
         "license": "CUSTOM-PERMISSIVE",
         "path": "assets/source/pulse-room/worlds/packet-bloom.source.json"
       },

@@ -1,10 +1,10 @@
-﻿const resumeEvidence = (quote) => ({
+const resumeEvidence = (quote) => ({
   source: "../resume_out.txt",
   quote,
 });
 
 export const profile = {
-  identity: "王泽源 / ZIAVER",
+  identity: "王泽源 / ZENO",
   role: "AIGC项目设计 · 内容产品 · 创意技术",
   location: "深圳",
   email: "939431931@qq.com",

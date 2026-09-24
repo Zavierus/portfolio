@@ -45,7 +45,7 @@ def error_body(code, message, status):
 
 
 def steam_json(url, timeout=12):
-    request = Request(url, headers={"accept": "application/json", "user-agent": "ZiaverPlayerSignal/1.0"})
+    request = Request(url, headers={"accept": "application/json", "user-agent": "ZenoPlayerSignal/1.0"})
     try:
         with urlopen(request, timeout=timeout) as response:
             status = getattr(response, "status", 200)
@@ -163,13 +163,13 @@ def reviews_api(parameters):
 
 
 class PreviewHandler(SimpleHTTPRequestHandler):
-    server_version = "ZIAVERPreview/1.1"
+    server_version = "ZENOPreview/1.1"
 
     def end_headers(self):
         self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
         self.send_header("Pragma", "no-cache")
         self.send_header("Expires", "0")
-        self.send_header("X-Ziaver-Preview", "latest")
+        self.send_header("X-Zeno-Preview", "latest")
         super().end_headers()
 
     def log_message(self, format, *args):

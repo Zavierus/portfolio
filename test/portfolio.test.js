@@ -36,5 +36,5 @@ test("portfolio publishes the redesigned visual editor and resume", async () => 
   assert.match(html, /class="visual-editor__companions"/);
   assert.match(html, /assets\/resume\/[^"']+\.pdf/);
   assert.match(html, /\sdownload(?:\s|>)/i);
-  await access(new URL("assets/resume/王泽源_Ziaver_个人主简历.pdf", root));
+  await access(new URL("assets/resume/王泽源_Zeno_个人主简历.pdf", root));
 });

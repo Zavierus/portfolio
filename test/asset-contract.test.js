@@ -62,7 +62,7 @@ test("original authored assets do not need a fabricated external source URL", ()
   const manifest = validManifest();
   manifest.assets[0].source = {
     origin: "authored",
-    author: "Ziaver / Wang Zeyuan",
+    author: "Zeno / Wang Zeyuan",
     license: "CUSTOM-PERMISSIVE",
     path: "assets/source/pulse-room/worlds/signal-chrysalis.source.json",
   };

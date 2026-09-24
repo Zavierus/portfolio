@@ -1,4 +1,4 @@
-﻿const PROJECT_NAMES = {
+const PROJECT_NAMES = {
   "frame-zero": "FRAME//ZERO",
   "pulse-room": "PULSE ROOM",
   "set-flow": "SET//FLOW",
@@ -99,11 +99,13 @@ export function mountPortalGallery({ root } = {}) {
     if (transitionImage && media) transitionImage.src = media.currentSrc || media.src;
     if (transitionLabel) transitionLabel.textContent = PROJECT_NAMES[project] || project;
     try {
-      window.sessionStorage.setItem("ziaver:project-transition", JSON.stringify({
+      const transitionPayload = JSON.stringify({
         image: media?.currentSrc || media?.src || "",
         label: PROJECT_NAMES[project] || project,
         timestamp: Date.now(),
-      }));
+      });
+      window.sessionStorage.setItem("zeno:project-transition", transitionPayload);
+      window.sessionStorage.setItem("ziaver:project-transition", transitionPayload);
     } catch {
       // A blocked storage area should not prevent the project from opening.
     }

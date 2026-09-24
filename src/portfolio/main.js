@@ -87,7 +87,7 @@ function applyEnglishPortfolioCopy() {
 
   setHtml("#contact-title", "MAKE SOMETHING<br>WORTH EXPERIENCING.");
   setText(".contact > p:not(.utility-label):not(:last-child)", "I am looking for content product, game, audio-visual and creative technology opportunities.");
-  setText(".site-footer span:first-child", "ZIAVER / WANG ZEYUAN");
+  setText(".site-footer span:first-child", "ZENO / WANG ZEYUAN");
   setText(".site-footer span:nth-child(2)", "CONTENT PRODUCT / CREATIVE TECHNOLOGY");
   setText(".site-footer a", "BACK TO TOP ↑");
 }
@@ -163,7 +163,7 @@ function applyChinesePortfolioCopy() {
 
   setHtml("#contact-title", "一起做出<br>值得体验的内容。");
   setText(".contact > p:not(.utility-label):not(:last-child)", "正在寻找内容产品、游戏、音画体验与创意技术方向的合作机会。");
-  setText(".site-footer span:first-child", "ZIAVER / 王泽源");
+  setText(".site-footer span:first-child", "ZENO / 王泽源");
   setText(".site-footer span:nth-child(2)", "内容产品 / 创意技术");
   setText(".site-footer a", "回到顶部 ↑");
 }
@@ -175,10 +175,10 @@ function setAllHtml(selector, values) {
 }
 
 const languageToggle = document.querySelector("[data-language-toggle]");
-const languageStorageKey = "ziaver-language";
+const languageStorageKey = "zeno-language";
 let activeLanguage = "zh";
 try {
-  activeLanguage = window.localStorage.getItem(languageStorageKey) === "en" ? "en" : "zh";
+  activeLanguage = (window.localStorage.getItem("zeno-language") || window.localStorage.getItem("ziaver-language")) === "en" ? "en" : "zh";
 } catch {
   activeLanguage = "zh";
 }

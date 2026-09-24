@@ -7,7 +7,7 @@ const bannedCopy = /AI WORKFLOW|AI ASSISTED|赋能|极致|未来已来|无限可
 
 test("profile uses the verified Shenzhen company experience order", async () => {
   const { profile } = await import("../src/portfolio/data/profile.js");
-  assert.equal(profile.identity, "王泽源 / ZIAVER");
+  assert.equal(profile.identity, "王泽源 / ZENO");
   assert.equal(profile.role, "AIGC项目设计 · 内容产品 · 创意技术");
   assert.deepEqual(profile.experience.slice(0, 3).map(({ organization }) => organization), [
     "字节跳动 / 抖音中国电商",
