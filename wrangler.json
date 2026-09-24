@@ -1,7 +1,12 @@
 {
   "name": "soft-salad-ff03",
   "compatibility_date": "2026-09-01",
+  "workers_dev": true,
   "assets": {
     "directory": "."
-  }
+  },
+  "routes": [
+    { "pattern": "zeno0.com", "custom_domain": true },
+    { "pattern": "www.zeno0.com/*", "zone_name": "zeno0.com" }
+  ]
 }

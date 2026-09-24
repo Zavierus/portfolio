@@ -85,7 +85,7 @@ def sync_resume():
     # 同时同步到纯净的网页拖拽包
     web_deploy_dir = os.path.join(PACKAGE_DIR, "portfolio-web-deploy-网页拖拽专用包")
     if os.path.exists(web_deploy_dir):
-        target_in_deploy = os.path.join(web_deploy_dir, "assets", "resume", "王泽源_Ziaver_个人主简历.pdf")
+        target_in_deploy = os.path.join(web_deploy_dir, "assets", "resume", "王泽源_Zeno_个人主简历.pdf")
         try:
             os.makedirs(os.path.dirname(target_in_deploy), exist_ok=True)
             shutil.copy2(RESUME_ASSET_PATH, target_in_deploy)
@@ -123,9 +123,10 @@ def deploy():
         print()
         print(" 🌐 在线作品集地址:")
         print("    https://soft-salad-ff03.939431931.workers.dev")
+        print("    https://zeno0.com (待绑定)")
         print()
         print(" 📥 网页简历直接下载测试:")
-        print("    https://soft-salad-ff03.939431931.workers.dev/assets/resume/王泽源_Ziaver_个人主简历.pdf")
+        print("    https://soft-salad-ff03.939431931.workers.dev/assets/resume/王泽源_Zeno_个人主简历.pdf")
         print("=" * 68)
         return True
     else:
