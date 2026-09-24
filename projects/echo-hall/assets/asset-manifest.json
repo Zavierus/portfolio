@@ -1,0 +1,94 @@
+[
+  {
+    "id": "listener-artifact",
+    "file": "models/listener-artifact-high.glb",
+    "type": "model",
+    "creator": "Ziaver / Wang Zeyuan",
+    "sourceUrl": "/scripts/build-listener-artifact.mjs",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Original Blender-authored artifact with asymmetric ceramic shell, titanium spine, tension membranes, archive core, five deterministic morph controls, and optimized high/low runtime LODs.",
+    "usage": "Primary Listener protagonist in the 95-second concept film.",
+    "critical": true,
+    "bytes": 4641448,
+    "root": "LISTENER_ARTIFACT_ROOT",
+    "morphs": [
+      "shell_open",
+      "membrane_tension",
+      "core_exposure",
+      "balance_shift",
+      "signal_sweep"
+    ],
+    "materials": [
+      "MAT_CERAMIC_SHELL",
+      "MAT_TITANIUM_SPINE",
+      "MAT_SIGNAL_MEMBRANE",
+      "MAT_ARCHIVE_CORE",
+      "MAT_ACID_SIGNAL"
+    ],
+    "lods": {
+      "high": {
+        "file": "models/listener-artifact-high.glb",
+        "bytes": 4641448,
+        "triangles": 117696
+      },
+      "low": {
+        "file": "models/listener-artifact-low.glb",
+        "bytes": 1606156,
+        "triangles": 37372
+      }
+    }
+  },
+  {
+    "id": "studio-small-09",
+    "file": "textures/studio-small-09-1k.hdr",
+    "type": "environment-light",
+    "creator": "Sergej Majboroda / Poly Haven",
+    "sourceUrl": "https://polyhaven.com/a/studio_small_09",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "modifications": "Official 1K HDR variant used as neutral image-based lighting.",
+    "usage": "Reflections and low-level illumination for the Listener artifact and megastructure.",
+    "critical": false,
+    "bytes": 1615248
+  },
+  {
+    "id": "facility-ambience",
+    "file": "audio/facility-ambience.wav",
+    "type": "audio",
+    "creator": "Ziaver / Listener project",
+    "sourceUrl": "/scripts/generate-echo-audio.mjs",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Original deterministic 55/110 Hz field tone with seeded filtered noise; reused as the deep-space field layer.",
+    "usage": "Continuous deep-field audio bed.",
+    "critical": false,
+    "bytes": 352844
+  },
+  {
+    "id": "breathing",
+    "file": "audio/breathing.wav",
+    "type": "audio",
+    "creator": "Ziaver / Listener project",
+    "sourceUrl": "/scripts/generate-echo-audio.mjs",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Original deterministic filtered-noise breath texture; repurposed as the human-memory layer.",
+    "usage": "Human memory and reconstruction audio texture.",
+    "critical": false,
+    "bytes": 176444
+  },
+  {
+    "id": "resonance-score",
+    "file": "audio/resonance-score.wav",
+    "type": "audio",
+    "creator": "Ziaver / Listener project",
+    "sourceUrl": "/scripts/generate-echo-audio.mjs",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifications": "Original deterministic pulse bed and phase-modulated shimmer; split at runtime across signal and structure buses.",
+    "usage": "Archive signal and megastructure response layers.",
+    "critical": false,
+    "bytes": 352844
+  }
+]

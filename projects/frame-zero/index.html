@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BLACKSITE | FRAME//ZERO</title>
+    <meta name="description" content="FRAME//ZERO: BLACKSITE，暴雨能源黑站中的单人战术时间射击关卡。" />
+    <link rel="icon" href="data:," />
+    <script src="../../assets/project-entry-transition.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-app-state="idle">
+    <canvas id="gameCanvas" aria-label="BLACKSITE 三维游戏画面"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <section class="loading-overlay" id="loadingOverlay" aria-live="polite">
+      <div class="loading-identity"><b>F//Z</b><span>BLACKSITE</span></div>
+      <div class="loading-status">
+        <span id="loadingStage">建立任务链路</span>
+        <div class="loading-track"><i id="loadingProgress"></i></div>
+        <p id="loadingError"></p>
+        <button id="loadingRetry" type="button" hidden>重新加载</button>
+      </div>
+    </section>
+
+    <header class="topbar">
+      <a href="../../index.html?ziaver=latest" class="back-link" aria-label="返回作品集">← <span>作品集</span></a>
+      <div class="brand"><b>FRAME//ZERO</b><small>OPERATION BLACKSITE</small></div>
+      <div class="time-state"><i id="timeDot"></i><span id="timeLabel">FRACTURE READY</span></div>
+    </header>
+
+    <section class="hud" id="hud">
+      <div class="wave-panel"><small>区域威胁</small><strong id="hostileCount">03</strong><span id="waveLabel">外部运输栈桥</span></div>
+      <div class="crosshair" id="crosshair" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+      <div class="ammo-panel"><small>FZ-09</small><div id="ammoSlots"></div><span>主武器 / 待命</span></div>
+    </section>
+
+    <section class="start-overlay" id="startOverlay">
+      <div class="intro-copy">
+        <p>BLACK SIGNAL / SHENZHEN 02:17</p>
+        <h1>BLACKSITE</h1>
+        <div class="mission-brief">暴雨切断了所有外部联系。穿过封锁线，依次唤醒三段电力，在反应堆静默前重新接通设施。</div>
+        <div class="look-settings" aria-label="视角灵敏度">
+          <span>视角速度</span>
+          <div role="group" aria-label="选择视角速度">
+            <button type="button" data-look-level="low" aria-pressed="false">低</button>
+            <button type="button" data-look-level="medium" aria-pressed="true">中</button>
+            <button type="button" data-look-level="high" aria-pressed="false">高</button>
+          </div>
+        </div>
+        <button id="startButton" type="button"><span>进入设施</span><i>BEGIN OPERATION</i></button>
+      </div>
+      <aside class="power-rail" aria-label="设施供电状态">
+        <span>设施供电</span>
+        <div data-power-stage="external"><i></i><b>外部链路</b></div>
+        <div data-power-stage="auxiliary"><i></i><b>辅助电源</b></div>
+        <div data-power-stage="reactor"><i></i><b>反应堆</b></div>
+        <div data-power-stage="extraction"><i></i><b>撤离平台</b></div>
+      </aside>
+      <div class="threat-readout"><span>气象状态</span><b>暴雨</b><i>通讯中断</i></div>
+    </section>
+
+    <div class="mobile-note" id="mobileNote">
+      <b>实时任务观赏模式</b>
+      <span>桌面设备可进入完整行动</span>
+    </div>
+
+    <section class="message-layer hidden" id="messageLayer">
+      <p id="messageKicker">SIGNAL LOST</p>
+      <h2 id="messageTitle">行动中断</h2>
+      <p id="messageBody"></p>
+      <button id="restartButton" type="button">从检查点继续</button>
+    </section>
+
+    <div class="wave-flash hidden" id="waveFlash"><span id="waveFlashLabel">ZONE 02</span></div>
+    <div class="kill-feedback" id="killFeedback"><b id="killWord">BREACH</b><span id="killMeta">TARGET SECURED</span></div>
+    <div class="combo-readout" id="comboReadout"><span>连续确认</span><b id="comboValue">×2</b></div>
+    <div class="impact-ring" id="impactRing"></div>
+    <div class="near-miss" id="nearMiss">弹道擦身</div>
+    <div class="damage-flash" id="damageFlash"></div>
+    <div class="toast" id="toast">武器状态变化</div>
+
+    <script src="./game.bundle.js"></script>
+  </body>
+</html>

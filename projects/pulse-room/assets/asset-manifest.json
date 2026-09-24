@@ -1,0 +1,82 @@
+{
+  "contractVersion": 1,
+  "project": "pulse-room",
+  "assets": [
+    {
+      "id": "signal-chrysalis",
+      "type": "model",
+      "published": true,
+      "root": "SIGNAL_CHRYSALIS_ROOT",
+      "controls": ["shell_compress", "plate_split", "nerve_sweep", "scar_idle"],
+      "source": {
+        "origin": "authored",
+        "author": "Ziaver / Wang Zeyuan",
+        "license": "CUSTOM-PERMISSIVE",
+        "path": "assets/source/pulse-room/worlds/signal-chrysalis.source.json"
+      },
+      "lods": [
+        { "level": "high", "path": "assets/runtime/pulse-room/models/signal-chrysalis-high.glb", "triangles": 99592, "bytes": 964504, "metricsStatus": "measured" },
+        { "level": "low", "path": "assets/runtime/pulse-room/models/signal-chrysalis-low.glb", "triangles": 29296, "bytes": 359476, "metricsStatus": "measured" }
+      ],
+      "textures": [],
+      "animations": ["shell_compress", "plate_split", "nerve_sweep", "scar_idle"]
+    },
+    {
+      "id": "triune-gate",
+      "type": "model",
+      "published": true,
+      "root": "TRIUNE_GATE_ROOT",
+      "controls": ["left_strike", "center_strike", "right_strike", "gate_lock", "cable_tension"],
+      "source": {
+        "origin": "authored",
+        "author": "Ziaver / Wang Zeyuan",
+        "license": "CUSTOM-PERMISSIVE",
+        "path": "assets/source/pulse-room/worlds/triune-gate.source.json"
+      },
+      "lods": [
+        { "level": "high", "path": "assets/runtime/pulse-room/models/triune-gate-high.glb", "triangles": 81768, "bytes": 2106600, "metricsStatus": "measured" },
+        { "level": "low", "path": "assets/runtime/pulse-room/models/triune-gate-low.glb", "triangles": 27452, "bytes": 764896, "metricsStatus": "measured" }
+      ],
+      "textures": [],
+      "animations": ["left_strike", "center_strike", "right_strike", "gate_lock", "cable_tension"]
+    },
+    {
+      "id": "null-cathedral",
+      "type": "model",
+      "published": true,
+      "root": "NULL_CATHEDRAL_ROOT",
+      "controls": ["shell_reveal", "void_cross", "scale_reveal", "relic_idle"],
+      "source": {
+        "origin": "authored",
+        "author": "Ziaver / Wang Zeyuan",
+        "license": "CUSTOM-PERMISSIVE",
+        "path": "assets/source/pulse-room/worlds/null-cathedral.source.json"
+      },
+      "lods": [
+        { "level": "high", "path": "assets/runtime/pulse-room/models/null-cathedral-high.glb", "triangles": 106464, "bytes": 1172344, "metricsStatus": "measured" },
+        { "level": "low", "path": "assets/runtime/pulse-room/models/null-cathedral-low.glb", "triangles": 28736, "bytes": 587216, "metricsStatus": "measured" }
+      ],
+      "textures": [],
+      "animations": ["shell_reveal", "void_cross", "scale_reveal", "relic_idle"]
+    },
+    {
+      "id": "packet-bloom",
+      "type": "model",
+      "published": true,
+      "root": "PACKET_BLOOM_ROOT",
+      "controls": ["lattice_bend", "cluster_break", "cluster_rebuild", "packet_idle"],
+      "source": {
+        "origin": "authored",
+        "author": "Ziaver / Wang Zeyuan",
+        "license": "CUSTOM-PERMISSIVE",
+        "path": "assets/source/pulse-room/worlds/packet-bloom.source.json"
+      },
+      "lods": [
+        { "level": "high", "path": "assets/runtime/pulse-room/models/packet-bloom-high.glb", "triangles": 86084, "bytes": 1196368, "metricsStatus": "measured" },
+        { "level": "low", "path": "assets/runtime/pulse-room/models/packet-bloom-low.glb", "triangles": 26668, "bytes": 511400, "metricsStatus": "measured" }
+      ],
+      "textures": [],
+      "animations": ["lattice_bend", "cluster_break", "cluster_rebuild", "packet_idle"]
+    }
+  ]
+}

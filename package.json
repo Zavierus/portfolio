@@ -1,0 +1,45 @@
+{
+  "name": "ziaver-interactive-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:3d-assets": "node scripts/validate-3d-assets.mjs",
+    "validate:portfolio-assets": "node scripts/validate-portfolio-assets.mjs",
+    "build:portfolio": "npm run validate:portfolio-assets && node scripts/build-portfolio.mjs",
+    "build:frame-zero": "node scripts/build-frame-zero.mjs",
+    "build:pulse-room": "node scripts/build-pulse-room.mjs",
+    "validate:pulse-assets": "node scripts/validate-pulse-assets.mjs",
+    "analyze:pulse-tracks": "node scripts/analyze-pulse-tracks.mjs",
+    "generate:pulse-textures": "node scripts/generate-pulse-world-textures.mjs",
+    "validate:echo-assets": "node scripts/validate-echo-assets.mjs",
+    "validate:listener-assets": "node scripts/validate-echo-assets.mjs",
+    "generate:listener-textures": "node scripts/generate-listener-artifact-textures.mjs",
+    "review:listener-artifact": "node scripts/build-listener-artifact-contact-sheet.mjs",
+    "validate:listener-model": "node scripts/validate-listener-artifact.mjs",
+    "export:listener-model": "node scripts/build-listener-artifact.mjs",
+    "build:listener": "npm run validate:listener-assets && node scripts/build-echo-hall.mjs",
+    "build:echo-run": "npm run build:listener",
+    "generate:relic-textures": "node scripts/generate-relic-textures.mjs",
+    "optimize:relic-assets": "node scripts/optimize-gltf.mjs",
+    "validate:relic-assets": "node scripts/validate-relic-assets.mjs",
+    "build:relic": "npm run validate:relic-assets && node scripts/build-relic-01.mjs",
+    "build": "npm run validate:3d-assets && npm run build:portfolio && npm run build:frame-zero && npm run build:pulse-room && npm run build:listener && npm run build:relic",
+    "test": "node --test test/*.test.js projects/frame-zero/test/*.test.js projects/pulse-room/test/*.test.js projects/echo-hall/test/*.test.js projects/relic-01/test/*.test.js",
+    "check": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "essentia.js": "^0.1.3",
+    "postprocessing": "^6.39.3",
+    "three": "^0.178.0",
+    "three-mesh-bvh": "^0.9.13",
+    "yuka": "^0.7.8"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.4.1",
+    "@gltf-transform/core": "^4.4.1",
+    "@gltf-transform/extensions": "^4.4.1",
+    "esbuild": "^0.25.0",
+    "meshoptimizer": "^1.2.0"
+  }
+}

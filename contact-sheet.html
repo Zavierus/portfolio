@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZIAVER / Portfolio Preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #071011; color: #edf3ec; font-family: Arial, "Microsoft YaHei", sans-serif; }
+    body { width: 1600px; min-height: 1000px; padding: 70px 78px; background: radial-gradient(circle at 85% 0%, rgba(68,231,255,.16), transparent 34%), #071011; }
+    .top { display: flex; justify-content: space-between; align-items: end; padding-bottom: 24px; border-bottom: 2px solid #44e7ff; }
+    .eyebrow { color: #44e7ff; font: 700 14px Consolas, monospace; letter-spacing: .16em; }
+    h1 { margin: 12px 0 0; font-size: 56px; letter-spacing: -.03em; line-height: .95; }
+    .meta { color: #9cb0a8; font: 14px/1.5 Consolas, monospace; text-align: right; }
+    .lead { max-width: 950px; color: #c9d7d0; font-size: 20px; line-height: 1.45; margin: 28px 0 36px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card { min-height: 310px; border: 1px solid rgba(237,243,236,.22); background: #0d1b1b; overflow: hidden; }
+    .card.wide { grid-column: span 2; }
+    .card img { display: block; width: 100%; height: 206px; object-fit: cover; border-bottom: 1px solid rgba(237,243,236,.16); filter: saturate(.82) contrast(1.05); }
+    .card.copy-only { padding: 25px; }
+    .card.copy-only img { height: 206px; }
+    .copy { padding: 18px 20px 20px; }
+    .code { color: #44e7ff; font: 700 14px Consolas, monospace; letter-spacing: .08em; }
+    h2 { margin: 8px 0 6px; font-size: 25px; }
+    p { margin: 0; color: #9cb0a8; font-size: 15px; line-height: 1.45; }
+    .footer { display: flex; justify-content: space-between; color: #73877f; font: 12px Consolas, monospace; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <div class="top"><div><div class="eyebrow">AIGC CONTENT PROJECT DESIGN / 2025.09—NOW</div><h1>ZIAVER / PORTFOLIO</h1></div><div class="meta">LOCAL-FIRST WEB SYSTEM<br />CONTENT · IMAGE · REALTIME</div></div>
+  <p class="lead">A personal portfolio system that turns content strategy, visual production, player insight and realtime interaction into a browsable, testable and shareable experience.</p>
+  <div class="grid">
+    <article class="card"><img src="./assets/frame-zero-hero.png" alt="FRAME//ZERO" /><div class="copy"><div class="code">01 / FRAME//ZERO</div><h2>Playable realtime combat</h2><p>Three.js · WebGL · combat loop · level regression</p></div></article>
+    <article class="card"><img src="./assets/project-media/pulse-room-hero.png" alt="PULSE ROOM" /><div class="copy"><div class="code">02 / PULSE ROOM</div><h2>Audio-driven visual player</h2><p>Web Audio · local playlist · realtime 3D worlds</p></div></article>
+    <article class="card"><img src="./assets/project-media/set-flow-preview.svg" alt="SET//FLOW" /><div class="copy"><div class="code">03 / SET//FLOW</div><h2>Live set planning tool</h2><p>Spatial planning · camera zones · reversible commands</p></div></article>
+    <article class="card"><img src="./assets/project-media/player-signal-preview.svg" alt="PLAYER SIGNAL" /><div class="copy"><div class="code">04 / PLAYER SIGNAL</div><h2>Player feedback intelligence</h2><p>Offline cases · topic clustering · evidence chain</p></div></article>
+    <article class="card wide copy-only"><div class="code">05 / VISUAL INDEX</div><h2>Photography / image / editorial</h2><p>A classified gallery for photography, graphic design and original WeChat motion posts, with preview cards and secondary project pages.</p></article>
+  </div>
+  <div class="footer"><span>WANG ZEYUAN / ZIAVER</span><span>PORTFOLIO PACKAGE · HR_START_HERE.HTML</span></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#080c18"/>
+  <g stroke="#7e8da8" stroke-opacity=".09">
+    <path d="M0 125h1600M0 250h1600M0 375h1600M0 500h1600M0 625h1600M0 750h1600M0 875h1600"/>
+    <path d="M125 0v1000M250 0v1000M375 0v1000M500 0v1000M625 0v1000M750 0v1000M875 0v1000M1000 0v1000M1125 0v1000M1250 0v1000M1375 0v1000M1500 0v1000"/>
+  </g>
+  <g fill="none" stroke="#8ea8ff" stroke-opacity=".28">
+    <path d="M355 470 590 360 755 525 990 315 1225 490"/>
+    <path d="M510 650 755 525 930 700"/>
+  </g>
+  <g>
+    <circle cx="355" cy="470" r="112" fill="#ff705c" fill-opacity=".12" stroke="#ff705c" stroke-opacity=".7"/>
+    <circle cx="590" cy="360" r="65" fill="#8ea8ff" fill-opacity=".12" stroke="#8ea8ff" stroke-opacity=".65"/>
+    <circle cx="755" cy="525" r="150" fill="#e2c86b" fill-opacity=".1" stroke="#e2c86b" stroke-opacity=".7"/>
+    <circle cx="990" cy="315" r="82" fill="#62d2bd" fill-opacity=".1" stroke="#62d2bd" stroke-opacity=".65"/>
+    <circle cx="1225" cy="490" r="105" fill="#8ea8ff" fill-opacity=".1" stroke="#8ea8ff" stroke-opacity=".6"/>
+    <circle cx="510" cy="650" r="47" fill="#62d2bd" fill-opacity=".12" stroke="#62d2bd" stroke-opacity=".55"/>
+    <circle cx="930" cy="700" r="55" fill="#ff705c" fill-opacity=".1" stroke="#ff705c" stroke-opacity=".55"/>
+  </g>
+  <g fill="#ecf0f8" font-family="Arial, sans-serif">
+    <text x="105" y="115" font-size="26" font-weight="700">PLAYER SIGNAL</text>
+    <text x="105" y="155" font-size="15" fill="#7e8da8">EVIDENCE BEFORE INTERPRETATION</text>
+    <text x="700" y="530" font-size="17" text-anchor="middle">INPUT DELAY</text>
+    <text x="305" y="475" font-size="14" text-anchor="middle">PERFORMANCE</text>
+    <text x="1180" y="495" font-size="14" text-anchor="middle">MATCHMAKING</text>
+  </g>
+  <path d="M105 860h1390" stroke="#7e8da8" stroke-opacity=".4"/>
+  <path d="M430 850v20M755 850v20M1080 850v20" stroke="#e2c86b"/>
+</svg>

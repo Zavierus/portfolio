@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=2400, height=1100, initial-scale=1" />
+  <title>ZIAVER / 王泽源 — 简历专用作品集一图流展板</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      padding: 30px;
+    }
+    .showcase-card {
+      width: 2400px;
+      height: 1100px;
+      background: #080a0b;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05);
+      position: relative;
+    }
+    
+    /* Subtle glow background */
+    .bg-glow {
+      position: absolute;
+      top: -100px;
+      right: 20%;
+      width: 800px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(217, 255, 50, 0.04) 0%, rgba(142, 255, 202, 0.03) 40%, transparent 70%);
+      pointer-events: none;
+      filter: blur(60px);
+    }
+
+    /* Window Chrome Topbar */
+    .window-bar {
+      height: 56px;
+      background: #0d1214;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      padding: 0 28px;
+      gap: 20px;
+      z-index: 10;
+    }
+    .window-dots {
+      display: flex;
+      gap: 10px;
+    }
+    .window-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #283337;
+    }
+    .window-dot.red { background: #ff5f56; }
+    .window-dot.yellow { background: #ffbd2e; }
+    .window-dot.green { background: #27c93f; }
+
+    .window-url-bar {
+      margin-left: 20px;
+      flex: 1;
+      max-width: 680px;
+      height: 34px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      font-family: "Space Mono", monospace;
+      font-size: 13px;
+      color: #8c9ba0;
+      gap: 10px;
+    }
+    .window-url-bar svg {
+      width: 14px;
+      height: 14px;
+      fill: #8c9ba0;
+    }
+    .window-badge {
+      margin-left: auto;
+      font-family: "Space Mono", monospace;
+      font-size: 12px;
+      font-weight: 700;
+      color: #d9ff32;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    /* Body Layout: Left Identity + Right Projects */
+    .card-body {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 820px 1fr;
+      padding: 56px 64px 44px;
+      gap: 60px;
+      z-index: 2;
+    }
+
+    /* Left Panel */
+    .identity-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid rgba(255, 255, 255, 0.07);
+      padding-right: 60px;
+    }
+    .identity-top .brand-sub {
+      font-family: "Space Mono", monospace;
+      font-size: 13px;
+      letter-spacing: 0.22em;
+      color: #7b8b91;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .identity-top .brand-sub::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: #d9ff32;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #d9ff32;
+    }
+    .identity-name {
+      font-size: 68px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      line-height: 1.05;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+    }
+    .identity-name small {
+      font-size: 28px;
+      color: #8c9ba0;
+      font-weight: 500;
+    }
+    .identity-role {
+      font-size: 26px;
+      font-weight: 600;
+      color: #d9ff32;
+      margin-bottom: 22px;
+      letter-spacing: 0.02em;
+    }
+    .identity-intro {
+      font-size: 18px;
+      color: #a2b1b7;
+      line-height: 1.7;
+      margin-bottom: 36px;
+      border-left: 3px solid #d9ff32;
+      padding-left: 20px;
+    }
+
+    /* Metrics 4 Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .metric-chip {
+      background: #0e1416;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 16px 20px;
+    }
+    .metric-chip .num {
+      font-family: "Space Mono", monospace;
+      font-size: 32px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .metric-chip .num span {
+      font-size: 16px;
+      color: #d9ff32;
+      margin-left: 4px;
+    }
+    .metric-chip .label {
+      font-size: 12px;
+      color: #7b8b91;
+      line-height: 1.4;
+    }
+
+    /* Bottom QR & URL bar */
+    .identity-bottom {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      background: #0d1214;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    .identity-bottom img {
+      width: 72px;
+      height: 72px;
+      border-radius: 6px;
+      background: #ffffff;
+      padding: 4px;
+    }
+    .identity-bottom-info h4 {
+      font-size: 15px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    .identity-bottom-info p {
+      font-family: "Space Mono", monospace;
+      font-size: 12px;
+      color: #8effca;
+    }
+    .identity-bottom-info span {
+      font-size: 11px;
+      color: #6d7c82;
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* Right Panel: 2x2 Project Showcase */
+    .projects-panel {
+      display: flex;
+      flex-direction: column;
+    }
+    .projects-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 24px;
+    }
+    .projects-header h3 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: #e5ecee;
+      text-transform: uppercase;
+    }
+    .projects-header span {
+      font-family: "Space Mono", monospace;
+      font-size: 12px;
+      color: #7b8b91;
+    }
+    
+    .projects-matrix {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 22px;
+      flex: 1;
+    }
+
+    .project-card {
+      background: #0d1214;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+    .project-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--card-accent, #d9ff32);
+    }
+    .card-thumb {
+      height: 220px;
+      background: #000000;
+      position: relative;
+      overflow: hidden;
+    }
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .project-card:nth-child(2) .card-thumb img {
+      object-position: 80% 20%;
+    }
+    .card-thumb-badge {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      background: rgba(8, 10, 11, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-family: "Space Mono", monospace;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--card-accent, #d9ff32);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      letter-spacing: 0.08em;
+    }
+    .card-content {
+      padding: 20px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .card-title-row h4 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+    .card-title-row span {
+      font-family: "Space Mono", monospace;
+      font-size: 11px;
+      color: var(--card-accent, #d9ff32);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: #8c9ba0;
+      line-height: 1.55;
+      margin-bottom: 14px;
+    }
+    .card-tech-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .card-tech-row span {
+      font-family: "Space Mono", monospace;
+      font-size: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 3px 8px;
+      border-radius: 3px;
+      color: #a2b1b7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="showcase-card">
+    <div class="bg-glow"></div>
+
+    <!-- Window Topbar -->
+    <header class="window-bar">
+      <div class="window-dots">
+        <div class="window-dot red"></div>
+        <div class="window-dot yellow"></div>
+        <div class="window-dot green"></div>
+      </div>
+      <div class="window-url-bar">
+        <svg viewBox="0 0 24 24"><path d="M12 2C9.243 2 7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8c0-1.103-.897-2-2-2h-1V7c0-2.757-2.243-5-5-5zm3 8H9V7c0-1.654 1.346-3 3-3s3 1.346 3 3v3z"/></svg>
+        <span>https://soft-salad-ff03.939431931.workers.dev</span>
+      </div>
+      <div class="window-badge">Interactive Portfolio · 2026 Edition</div>
+    </header>
+
+    <!-- Body -->
+    <div class="card-body">
+      <!-- Left Column: Identity & Outcomes -->
+      <aside class="identity-panel">
+        <div class="identity-top">
+          <div class="brand-sub">CONTENT SYSTEMS / REALTIME IMAGE</div>
+          <h1 class="identity-name">ZIAVER <small>王泽源</small></h1>
+          <div class="identity-role">内容产品与创意技术</div>
+          <p class="identity-intro">
+            把内容策略、视觉制作与可运行原型放在同一条工作流里。具备千万级大促操盘与原创 3D 实时原型独立交付能力。
+          </p>
+
+          <div class="metrics-grid">
+            <div class="metric-chip">
+              <div class="num">25.81<span>亿</span></div>
+              <div class="label">618 节点日均 GMV (目标达成 100.6%)</div>
+            </div>
+            <div class="metric-chip">
+              <div class="num">4.7<span>%</span></div>
+              <div class="label">核心账号稳定 CTR (行业均值约 2 倍)</div>
+            </div>
+            <div class="metric-chip">
+              <div class="num">2000<span>+</span></div>
+              <div class="label">独立商业摄影覆盖人次 (单季销破2万)</div>
+            </div>
+            <div class="metric-chip">
+              <div class="num">56<span>万</span></div>
+              <div class="label">新媒体矩阵粉丝 / 全网百万爆款</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="identity-bottom">
+          <img src="site-qr.png" alt="QR" />
+          <div class="identity-bottom-info">
+            <h4>扫码手机即刻体验作品集</h4>
+            <p>soft-salad-ff03.939431931.workers.dev</p>
+            <span>包含 4 款可交互 3D / Web 工具原型及完整视觉档案</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right Column: 4 Project Matrix -->
+      <section class="projects-panel">
+        <header class="projects-header">
+          <h3>Featured Interactive Works / 四大原创互动原型</h3>
+          <span>PORTFOLIO INDEX / 04 PROJECTS</span>
+        </header>
+
+        <div class="projects-matrix">
+          <!-- 01 FRAME//ZERO -->
+          <article class="project-card" style="--card-accent: #d9ff32;">
+            <div class="card-thumb">
+              <img src="../assets/frame-zero-hero.png" alt="FRAME//ZERO" />
+              <span class="card-thumb-badge">REALTIME / 3D FPS</span>
+            </div>
+            <div class="card-content">
+              <div>
+                <div class="card-title-row">
+                  <h4>FRAME//ZERO</h4>
+                  <span>时间随行动流动的 3D 战斗切片</span>
+                </div>
+                <p class="card-summary">
+                  移动加速、静止凝固机制；第一人称键鼠、六发手枪换弹与预测射击 AI；4 个递进战区，46 项自动化回归测试。
+                </p>
+              </div>
+              <div class="card-tech-row">
+                <span>Three.js</span>
+                <span>cannon-es</span>
+                <span>Web Audio</span>
+                <span>46 Tests Passed</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 PULSE ROOM -->
+          <article class="project-card" style="--card-accent: #8effca;">
+            <div class="card-thumb">
+              <img src="../assets/project-media/pulse-room-mineradio.png" alt="PULSE ROOM" />
+              <span class="card-thumb-badge">AUDIO / VISUAL RADIO</span>
+            </div>
+            <div class="card-content">
+              <div>
+                <div class="card-title-row">
+                  <h4>PULSE ROOM</h4>
+                  <span>本地视觉电台 · 雾气光影声场</span>
+                </div>
+                <p class="card-summary">
+                  基于 Mineradio 2.0.2 打造的沉浸式音频播放器；支持本地音频管理、响应式雾气与动态粒子声场（Four Worlds），在房间里听见一束光。
+                </p>
+              </div>
+              <div class="card-tech-row">
+                <span>Mineradio 2.0.2</span>
+                <span>Web Audio API</span>
+                <span>雾气光影声场</span>
+                <span>Four Worlds 预设</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 SET//FLOW -->
+          <article class="project-card" style="--card-accent: #d9b85d;">
+            <div class="card-thumb">
+              <img src="../assets/project-media/set-flow-3d.webp" alt="SET//FLOW" />
+              <span class="card-thumb-badge">3D TOOL / WORKSPACE</span>
+            </div>
+            <div class="card-content">
+              <div>
+                <div class="card-title-row">
+                  <h4>SET//FLOW</h4>
+                  <span>直播间空间规划与视口编排工具</span>
+                </div>
+                <p class="card-summary">
+                  将实景直播间改造经验软件化；3D 视锥投射 (Frustum) 实时预演真实拍摄机位画幅，主播动线与道具陈设数字化。
+                </p>
+              </div>
+              <div class="card-tech-row">
+                <span>WebGL 3D视锥</span>
+                <span>空间动线规划</span>
+                <span>实景直播间赋能</span>
+                <span>纯前端轻量</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 04 PLAYER SIGNAL -->
+          <article class="project-card" style="--card-accent: #8ea8ff;">
+            <div class="card-thumb">
+              <img src="../assets/project-media/player-signal-3d.webp" alt="PLAYER SIGNAL" />
+              <span class="card-thumb-badge">GAME DATA / INTELLIGENCE</span>
+            </div>
+            <div class="card-content">
+              <div>
+                <div class="card-title-row">
+                  <h4>PLAYER SIGNAL</h4>
+                  <span>Steam 真实玩家反馈情报工作台</span>
+                </div>
+                <p class="card-summary">
+                  万小时硬核玩家视角 + 数据分析；追踪评价脉冲、聚类核心玩法/数值痛点，将社区声音转化为严谨的版本迭代决策看板。
+                </p>
+              </div>
+              <div class="card-tech-row">
+                <span>Steam API 抓取</span>
+                <span>情感分析与聚类</span>
+                <span>版本归因看板</span>
+                <span>游戏产品决策</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>

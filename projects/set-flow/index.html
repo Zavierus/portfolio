@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0a0d0f" />
+    <title>SET//FLOW — 直播空间规划器</title>
+    <meta
+      name="description"
+      content="在搭建前检查直播间的空间、机位、动线与预算。SET//FLOW 是一个浏览器三维直播空间规划工具。"
+    />
+    <script src="../../assets/project-entry-transition.js"></script>
+    <link rel="stylesheet" href="./styles.css?v=2026-08-14-release" />
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">跳到工作区</a>
+
+    <header class="product-header" aria-label="产品栏">
+      <a class="back-link" href="../../index.html?ziaver=latest" aria-label="返回作品集">← Portfolio</a>
+      <div class="wordmark" translate="no">
+        <span>SET</span><i>//</i><span>FLOW</span>
+      </div>
+      <div class="build-state" data-build-state>
+        <span class="build-state__signal" aria-hidden="true"></span>
+        <span data-build-state-label>Loading workspace…</span>
+      </div>
+    </header>
+
+    <main id="workspace" class="workspace" data-set-flow-app tabindex="-1">
+      <section class="brief-rail" aria-labelledby="brief-title">
+        <p class="section-code">LIVE SET / GARMENT 01</p>
+        <h1 id="brief-title">Plan the room.<br />See the frame.</h1>
+        <p class="brief-copy">在设备进场之前，先验证空间、机位、主播动线与画面安全区。</p>
+
+        <dl class="measurements" aria-label="示例空间数据">
+          <div><dt>Room</dt><dd>3.80 × 5.60 m</dd></div>
+          <div><dt>Format</dt><dd>9:16 vertical</dd></div>
+          <div><dt>Cameras</dt><dd>02 active</dd></div>
+          <div><dt>Budget</dt><dd>¥20,000</dd></div>
+        </dl>
+
+        <div class="workspace-note">
+          <span>LOCAL WORKSPACE</span>
+          <p data-workspace-message>Restoring the latest local project…</p>
+        </div>
+      </section>
+
+      <section class="drafting-stage" aria-label="直播间施工图预览">
+        <div class="axis axis--x" aria-hidden="true"><span>0</span><span>1</span><span>2</span><span>3.8 M</span></div>
+        <div class="axis axis--y" aria-hidden="true"><span>0</span><span>2</span><span>4</span><span>5.6 M</span></div>
+        <div class="floor-plan" aria-hidden="true">
+          <span class="floor-plan__label">STUDIO A / TOP VIEW</span>
+          <span class="plan-object plan-object--backdrop">Backdrop</span>
+          <span class="plan-object plan-object--rack">Rack</span>
+          <span class="plan-object plan-object--table">Table</span>
+          <span class="plan-object plan-object--presenter">P1</span>
+          <span class="plan-object plan-object--camera-a">CAM A</span>
+          <span class="plan-object plan-object--camera-b">CAM B</span>
+          <span class="camera-cone camera-cone--a"></span>
+          <span class="camera-cone camera-cone--b"></span>
+          <span class="dimension dimension--width">3.80 m</span>
+          <span class="dimension dimension--depth">5.60 m</span>
+        </div>
+        <div class="stage-caption">
+          <span>Browser workspace</span>
+          <strong>3D editing · live issue evidence</strong>
+        </div>
+      </section>
+
+      <aside class="monitor-rail" aria-label="机位监看">
+        <figure class="monitor monitor--primary">
+          <figcaption><span>CAM A</span><b>Primary / 9:16</b></figcaption>
+          <div class="monitor__frame" aria-hidden="true">
+            <span class="safe-zone"></span>
+            <span class="monitor__subject"></span>
+            <span class="monitor__product"></span>
+            <span class="monitor__crosshair"></span>
+          </div>
+        </figure>
+        <figure class="monitor monitor--detail">
+          <figcaption><span>CAM B</span><b>Detail / 9:16</b></figcaption>
+          <div class="monitor__frame" aria-hidden="true">
+            <span class="safe-zone"></span>
+            <span class="monitor__product monitor__product--detail"></span>
+            <span class="monitor__crosshair"></span>
+          </div>
+        </figure>
+      </aside>
+
+      <section class="inspection-strip" aria-label="检查状态">
+        <div><span class="inspection-strip__label">Current stage</span><strong>Functional workspace</strong></div>
+        <div><span class="inspection-strip__label">Release check</span><strong>3D editing + live evidence</strong></div>
+        <p>工程数据、机位画面与规则证据均由当前场景实时生成。</p>
+      </section>
+    </main>
+
+    <aside class="desktop-notice" role="status">
+      <strong>SET//FLOW is a desktop planning tool.</strong>
+      <span>请在宽度至少 960px 的电脑浏览器中打开编辑工作区。</span>
+    </aside>
+
+    <noscript>SET//FLOW 需要 JavaScript 才能运行三维工作区。</noscript>
+    <script src="./app.bundle.js?v=2026-09-02-fix1"></script>
+  </body>
+</html>

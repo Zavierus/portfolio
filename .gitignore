@@ -1,0 +1,19 @@
+node_modules/
+archive/
+artifacts/
+.superpowers/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local production outputs and QA captures
+output/
+tmp/
+
+# Reproducible 3D source caches and intermediates
+assets/runtime/relic-01/fallback/*.png
+assets/source/relic-01/base/polyhaven/
+assets/source/relic-01/textures/baked/
+*.blend1
+__pycache__/
+*.pyc

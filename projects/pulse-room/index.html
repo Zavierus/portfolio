@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <meta name="color-scheme" content="dark">
+    <title>PULSE ROOM</title>
+    <script src="../../assets/project-entry-transition.js"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/local.css">
+  </head>
+  <body class="soundstage-locked" data-product="pulse-room" data-playing="false">
+    <a id="portfolio-back" class="pulse-local-action" href="../../index.html?ziaver=latest" aria-label="返回作品集">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+    </a>
+
+    <audio id="audio" preload="metadata"></audio>
+    <div id="custom-bg"><video id="custom-bg-video" muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1"></video></div>
+    <div id="album-bg"></div>
+    <div id="album-bg-next" aria-hidden="true"></div>
+    <div id="canvas-container"></div>
+    <div id="soundstage-entry">
+      <div id="splash">
+        <canvas id="splash-canvas" aria-hidden="true"></canvas>
+        <div class="splash-bg-noise"></div>
+        <div class="splash-content">
+          <div class="splash-wordmark" id="splash-wordmark" role="img" aria-label="PULSE ROOM">
+            <span class="splash-word-mine">PULSE</span>
+            <span class="splash-word-radio">ROOM</span>
+          </div>
+          <div class="splash-signal-line"></div>
+          <div class="splash-sub">local visual radio</div>
+          <button id="enter-soundstage" class="splash-enter" type="button">点击进入</button>
+          <div class="pulse-source-line">Based on Mineradio 2.0.2</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hint" aria-hidden="true"></div>
+    <div id="studio-track-spotlight" aria-live="polite" aria-label="当前播放曲目">
+      <div class="studio-spotlight-kicker"><span id="studio-spotlight-index">01</span><span>NOW IN THE ROOM</span></div>
+      <strong id="studio-spotlight-title">PULSE ROOM</strong>
+      <span id="studio-spotlight-artist">LOCAL VISUAL RADIO</span>
+    </div>
+
+    <section id="classic-home" aria-label="经典播放器主页" aria-hidden="true" inert>
+      <div class="classic-shell">
+        <header class="classic-header">
+          <div>
+            <p class="classic-eyebrow">PULSE ROOM / CLASSIC</p>
+            <h1>在房间里，听见一束光。</h1>
+          </div>
+          <div class="classic-header-actions">
+            <button id="classic-back" class="classic-back-btn" type="button" aria-label="返回声场模式">← 返回声场</button>
+            <div class="classic-status"><span class="classic-status-dot"></span><span>LOCAL MUSIC SPACE</span></div>
+          </div>
+        </header>
+
+        <nav class="classic-nav" aria-label="经典主页导航">
+          <button type="button" class="active" data-classic-nav="home">HOME</button>
+          <span class="classic-nav-rule" aria-hidden="true"></span>
+          <span class="classic-nav-note">4 LOCAL TRACKS / CC MUSIC</span>
+        </nav>
+
+        <main class="classic-main">
+          <section class="classic-hero" aria-labelledby="classic-hero-title">
+            <div class="classic-hero-glow" aria-hidden="true"></div>
+            <div class="classic-turntable-stage" aria-label="当前专辑唱片">
+              <div class="classic-turntable-aura" aria-hidden="true"></div>
+              <div id="classic-turntable-disc" class="classic-turntable-disc cover-empty" role="img" aria-label="当前专辑封面">
+                <span class="classic-turntable-groove" aria-hidden="true"></span>
+                <span class="classic-turntable-label" aria-hidden="true"></span>
+              </div>
+              <div class="classic-turntable-arm" aria-hidden="true"><span></span></div>
+              <span class="classic-turntable-caption">NOW SPINNING</span>
+            </div>
+            <div class="classic-hero-copy">
+              <p class="classic-eyebrow">NOW IN THE ROOM</p>
+              <h2 id="classic-hero-title">PULSE ROOM</h2>
+              <p id="classic-hero-artist" class="classic-hero-artist">LOCAL VISUAL RADIO</p>
+              <div class="classic-progress" aria-label="播放进度">
+                <div class="classic-progress-time" aria-hidden="true">
+                  <span id="classic-progress-current">0:00</span>
+                  <span id="classic-progress-duration">0:00</span>
+                </div>
+                <div id="classic-progress-bar" class="classic-progress-bar" role="slider" tabindex="0" aria-label="播放进度" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="0" aria-valuetext="0:00 / 0:00" aria-disabled="true">
+                  <span class="classic-progress-rail" aria-hidden="true"></span>
+                  <span id="classic-progress-fill" class="classic-progress-fill" aria-hidden="true"></span>
+                  <span id="classic-progress-thumb" class="classic-progress-thumb" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="classic-hero-caption">一台会听音乐的液态声场播放器。选择一首歌，让空间开始呼吸。</p>
+              <div class="classic-hero-actions">
+                <button id="classic-hero-play" class="classic-primary-btn" type="button"><span class="classic-play-mark" aria-hidden="true">▶</span><span>PLAY CURRENT</span></button>
+                <button id="classic-open-queue" class="classic-ghost-btn" type="button">OPEN QUEUE</button>
+              </div>
+            </div>
+            <div class="classic-hero-signal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </section>
+
+          <section id="classic-library" class="classic-library" aria-labelledby="classic-library-title">
+            <div class="classic-section-head"><div><p class="classic-eyebrow">LOCAL PICKS</p><h2 id="classic-library-title">Four currents</h2></div><span id="classic-library-count">04 TRACKS</span></div>
+            <div id="classic-track-list" class="classic-track-list" role="list"></div>
+          </section>
+
+          <aside class="classic-now-card" aria-label="当前播放">
+            <div class="classic-now-cover-wrap"><div id="classic-now-cover" class="classic-now-cover cover-empty"></div><span class="classic-now-index">NOW</span></div>
+            <div class="classic-now-copy"><p class="classic-eyebrow">CURRENTLY PLAYING</p><h2 id="classic-now-title">PULSE ROOM</h2><p id="classic-now-artist">LOCAL VISUAL RADIO</p></div>
+            <div class="classic-now-meta"><span id="classic-now-state">READY</span><span id="classic-now-time">0:00 / 0:00</span></div>
+            <div class="classic-queue-preview"><div><span class="classic-eyebrow">UP NEXT</span><strong id="classic-up-next">Select a track to begin</strong></div><button id="classic-next-btn" type="button" aria-label="播放下一首">NEXT ↗</button></div>
+          </aside>
+        </main>
+      </div>
+    </section>
+
+    <div id="top-right" role="group" aria-label="播放器操作">
+      <button id="view-mode-btn" class="view-mode-btn" type="button" aria-label="切换到经典播放器" aria-pressed="false" title="切换到经典播放器">
+        <span class="view-mode-dot" aria-hidden="true"></span><span id="view-mode-label">CLASSIC</span>
+      </button>
+      <button id="source-license" class="icon-btn" type="button" aria-label="来源与许可证" title="来源与许可证">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7h.01"></path></svg>
+      </button>
+    </div>
+
+    <button id="fx-fab" type="button" title="视觉控制台" aria-label="打开视觉控制台" aria-controls="fx-panel" aria-expanded="false">
+      <svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 7h8M16 7h4M4 17h4M12 17h8"></path>
+        <circle cx="14" cy="7" r="2"></circle><circle cx="10" cy="17" r="2"></circle>
+      </svg>
+    </button>
+
+    <aside id="fx-panel" aria-label="视觉控制台" aria-hidden="true" inert>
+      <div class="fx-head pulse-settings-head">
+        <div><div class="fx-title">PULSE ROOM / VISUALS</div><div class="fx-sub">MINERADIO LOCAL RUNTIME</div></div>
+        <button id="fx-panel-close" class="pulse-settings-icon-btn" type="button" aria-label="关闭视觉控制台" title="关闭">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+        </button>
+      </div>
+
+      <div id="fx-panel-tabs" class="pulse-settings-tabs" role="tablist" aria-label="视觉设置分类">
+        <button type="button" class="active" data-fx-tab="field" role="tab" aria-selected="true">场域</button>
+        <button type="button" data-fx-tab="space" role="tab" aria-selected="false">空间</button>
+        <button type="button" data-fx-tab="system" role="tab" aria-selected="false">系统</button>
+      </div>
+
+      <div class="fx-tab-page active" data-fx-page="field">
+        <section class="pulse-settings-group" data-settings-group="presets">
+          <div class="pulse-settings-group-head"><strong>视觉程序</strong><span>01 / 预设</span></div>
+          <div class="preset-grid" id="preset-grid"></div>
+        </section>
+
+        
+          <section class="pulse-settings-group" data-settings-group="mist-controls">
+            <div class="pulse-settings-group-head"><strong>雾气声场 / FLUID MIST</strong><span>03 / 雾气色彩与密度</span></div>
+            <div class="pulse-color-grid">
+              <label class="pulse-color-control" for="mist-primary-picker"><span>雾气主色</span><input id="mist-primary-picker" type="color" value="#159b80"><output id="mist-primary-value">#159B80</output></label>
+              <label class="pulse-color-control" for="mist-secondary-picker"><span>雾气副色</span><input id="mist-secondary-picker" type="color" value="#6de7b0"><output id="mist-secondary-value">#6DE7B0</output></label>
+            </div>
+            <div class="fx-slider"><label for="fx-mistdensity">雾气浓度 / 密度</label><input id="fx-mistdensity" type="range" min="0.2" max="2.0" step="0.05" value="1.0"><output>1.00</output></div>
+          </section>
+
+          <section class="pulse-settings-group" data-settings-group="accent-background">
+          <div class="pulse-settings-group-head"><strong>色彩 / 背景</strong><span>02 / 颜色</span></div>
+          <div class="pulse-color-grid">
+            <label class="pulse-color-control" for="ui-accent-picker"><span>界面强调色</span><input id="ui-accent-picker" type="color" value="#dcff39"><output id="ui-accent-value">#DCFF39</output></label>
+            <label class="pulse-color-control" for="visual-tint-picker"><span>粒子着色</span><input id="visual-tint-picker" type="color" value="#dcff39"><output id="visual-tint-value">#DCFF39</output></label>
+            <label class="pulse-color-control" for="bg-color-picker"><span>背景颜色</span><input id="bg-color-picker" type="color" value="#050506"><output id="bg-color-value">#050506</output></label>
+          </div>
+          <div id="visual-tint-seg" class="fx-seg pulse-settings-seg" aria-label="粒子着色来源">
+            <button type="button" data-visual-tint="auto">跟随封面</button><button type="button" data-visual-tint="custom" class="active">自定义</button>
+          </div>
+          <div class="fx-slider"><label for="fx-bgopacity">背景不透明度</label><input id="fx-bgopacity" type="range" min="0" max="1" step="0.01" value="1"><output>1.00</output></div>
+          <div id="bg-media-preview" class="bg-media-preview empty" data-kind="NONE" aria-hidden="true"></div>
+          <div class="pulse-media-actions">
+            <label class="pulse-settings-icon-btn" for="background-media-input" aria-label="载入背景图片或视频" title="载入背景图片或视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M7 9l5-5 5 5M5 20h14"></path></svg>
+            </label>
+            <input id="background-media-input" type="file" accept="image/*,video/*" hidden>
+            <button id="background-media-clear" class="pulse-settings-icon-btn" type="button" aria-label="清除背景媒体" title="清除背景媒体">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M8 7l1 13h6l1-13"></path></svg>
+            </button>
+          </div>
+        </section>
+
+        <section class="pulse-settings-group" data-settings-group="particles">
+          <div class="pulse-settings-group-head"><strong>粒子场</strong><span>03 / 运动</span></div>
+          <div class="fx-slider"><label for="fx-intensity">场密度</label><input id="fx-intensity" type="range" min="0.2" max="1.8" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-point">粒子尺寸</label><input id="fx-point" type="range" min="0.5" max="2.2" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-speed">运动速度</label><input id="fx-speed" type="range" min="0.2" max="2.5" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-twist">空间扭曲</label><input id="fx-twist" type="range" min="0" max="2.2" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-scatter">散射幅度</label><input id="fx-scatter" type="range" min="0" max="1.4" step="0.01"><output></output></div>
+        </section>
+
+        <section class="pulse-settings-group" data-settings-group="cover-depth">
+          <div class="pulse-settings-group-head"><strong>液态声场</strong><span>04 / 流动</span></div>
+          <div class="fx-slider"><label for="fx-coverres">采样密度</label><input id="fx-coverres" type="range" min="0.75" max="1.55" step="0.05"><output></output></div>
+          <div class="fx-slider"><label for="fx-depth">封面深度</label><input id="fx-depth" type="range" min="0" max="1.2" step="0.01"><output></output></div>
+        </section>
+
+        <section class="pulse-settings-group" data-settings-group="bloom-edge">
+          <div class="pulse-settings-group-head"><strong>光学收尾</strong><span>05 / 光效</span></div>
+          <div class="fx-toggle-grid">
+            <button id="t-bloom" class="fx-toggle" type="button" aria-pressed="false"><span>辉光层</span><span class="dot"></span></button>
+            <button id="t-edge" class="fx-toggle" type="button" aria-pressed="false"><span>边缘增强</span><span class="dot"></span></button>
+          </div>
+          <div class="fx-slider"><label for="fx-bloom">辉光强度</label><input id="fx-bloom" type="range" min="0" max="1.6" step="0.01"><output></output></div>
+        </section>
+      </div>
+
+      <div class="fx-tab-page" data-fx-page="space">
+        <section class="pulse-settings-group" data-settings-group="shelf">
+          <div class="pulse-settings-group-head"><strong>3D 唱片架</strong><span>06 / 选择</span></div>
+          <p class="pulse-settings-hint">决定唱片架出现的位置；点击卡片即可切换歌曲。</p>
+          <div class="pulse-settings-control-label">唱片架布局</div>
+          <div id="shelf-seg" class="fx-seg pulse-settings-seg" aria-label="唱片架布局">
+            <button type="button" data-shelf="off">隐藏</button><button type="button" data-shelf="side">侧边</button><button type="button" data-shelf="stage">舞台</button>
+          </div>
+          <div class="pulse-settings-control-label">唱片架姿态</div>
+          <div id="shelf-camera-seg" class="fx-seg pulse-settings-seg" aria-label="唱片架姿态">
+            <button type="button" data-shelf-camera="dynamic">跟随声场</button><button type="button" data-shelf-camera="static">固定角度</button>
+          </div>
+          <div class="pulse-settings-control-label">显示策略</div>
+          <div id="shelf-presence-seg" class="fx-seg pulse-settings-seg" aria-label="唱片架显示策略">
+            <button type="button" data-shelf-presence="auto">悬停出现</button><button type="button" data-shelf-presence="always">常驻显示</button>
+          </div>
+          <div class="fx-slider"><label for="fx-shelfsize">整体尺寸</label><input id="fx-shelfsize" type="range" min="0.65" max="1.45" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-shelfx">左右位置</label><input id="fx-shelfx" type="range" min="-1.2" max="1.2" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-shelfy">上下位置</label><input id="fx-shelfy" type="range" min="-0.9" max="0.9" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-shelfangle">旋转角度</label><input id="fx-shelfangle" type="range" min="-30" max="30" step="1"><output></output></div>
+          <div class="fx-slider"><label for="fx-shelfsummonopen">展开速度</label><input id="fx-shelfsummonopen" type="range" min="0.08" max="2" step="0.01"><output></output></div>
+          <div class="fx-slider"><label for="fx-shelfsummonclose">收束速度</label><input id="fx-shelfsummonclose" type="range" min="0.08" max="1.6" step="0.01"><output></output></div>
+        </section>
+      </div>
+
+      <div class="fx-tab-page" data-fx-page="system">
+        <section class="pulse-settings-group" data-settings-group="render-quality">
+          <div class="pulse-settings-group-head"><strong>渲染预算</strong><span>07 / 输出</span></div>
+          <div id="performance-quality-seg" class="fx-seg pulse-settings-seg" aria-label="渲染质量">
+            <button type="button" data-performance-quality="eco">省电</button><button type="button" data-performance-quality="balanced">均衡</button><button type="button" data-performance-quality="high">高质</button><button type="button" data-performance-quality="ultra">极致</button>
+          </div>
+          <div id="foreground-fps-seg" class="fx-seg pulse-settings-seg pulse-settings-seg-wrap" aria-label="前台帧率">
+            <button type="button" data-foreground-fps="vsync">跟随显示器</button><button type="button" data-foreground-fps="60">60 帧</button><button type="button" data-foreground-fps="90">90 帧</button><button type="button" data-foreground-fps="120">120 帧</button><button type="button" data-foreground-fps="adaptive">自动</button>
+          </div>
+        </section>
+
+        <section class="pulse-settings-group" data-settings-group="immersive">
+          <div class="pulse-settings-group-head"><strong>沉浸画面</strong><span id="immersive-settings-status">就绪</span></div>
+          <button id="immersive-settings-btn" class="pulse-immersive-command" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"></path><circle cx="12" cy="12" r="2.2"></circle></svg>
+            <span>进入沉浸画面</span>
+          </button>
+        </section>
+
+        <div class="fx-actions pulse-settings-reset"><button class="fx-mini-btn" type="button" data-action="reset-fx">恢复默认视觉</button></div>
+      </div>
+    </aside>
+
+    <aside id="playlist-panel" aria-label="播放队列" aria-hidden="true" inert>
+      <div class="playlist-panel-sticky">
+        <div class="queue-head">
+          <div><div class="fx-title">播放队列</div><div class="fx-sub">LOCAL QUEUE</div></div>
+          <button id="playlist-pin-btn" class="fx-mini-btn ghost" type="button" aria-label="固定队列" aria-pressed="false">PIN</button>
+        </div>
+        <div class="panel-tabs"><button id="tab-queue" class="panel-tab active" type="button">当前队列</button></div>
+      </div>
+      <div id="queue-pane">
+        <div class="queue-toolbar"><div id="play-mode-chip" class="queue-chip">顺序播放</div></div>
+        <div id="queue-list" class="queue-list"></div>
+      </div>
+    </aside>
+
+    <div id="thumb-wrap">
+      <img id="thumb-cover" src="" alt="当前封面">
+      <div id="thumb-info"><div id="thumb-title"></div><div id="thumb-artist"></div></div>
+    </div>
+
+    <svg id="control-glass-svg" class="control-glass-filter-svg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="mineradio-control-glass-filter" color-interpolation-filters="sRGB" x="-12%" y="-28%" width="124%" height="156%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.012 0.08" numOctaves="2" seed="7" result="noise"></feTurbulence>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="B"></feDisplacementMap>
+        </filter>
+      </defs>
+    </svg>
+
+    <button id="bottom-handle" type="button" aria-label="展开播放器" aria-controls="bottom-bar" aria-expanded="false"><span></span></button>
+    <div id="bottom-bar">
+      <div id="mini-queue-popover" class="mini-queue-popover" aria-hidden="true" inert>
+        <div class="mini-queue-head"><div><div class="mini-queue-title">当前队列</div><div id="mini-queue-count" class="mini-queue-count">0 首</div></div></div>
+        <div id="mini-queue-list" class="mini-queue-list"></div>
+      </div>
+      <div id="progress-bar" role="slider" tabindex="0" aria-label="播放进度" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="0">
+        <div id="progress-fill"></div><div id="progress-thumb" aria-hidden="true"></div>
+      </div>
+      <div id="controls">
+        <div class="control-cluster actions">
+          <div class="control-track">
+            <div id="control-cover" class="control-cover cover-empty" role="img" aria-label="当前专辑封面"></div>
+            <div class="control-meta">
+              <div id="control-title" class="control-title"><span id="control-title-text" class="control-title-text">PULSE ROOM</span><span id="control-title-badges" class="control-title-badges"></span></div>
+              <div id="control-artist" class="control-artist">LOCAL VISUAL RADIO</div>
+            </div>
+          </div>
+        </div>
+        <div class="control-cluster transport">
+          <button id="play-mode-btn" class="ctrl-btn" type="button" aria-label="切换播放模式" aria-pressed="false">
+            <svg id="play-mode-icon" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 22l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+          </button>
+          <button id="prev-btn" class="ctrl-btn" type="button" aria-label="上一首"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"></path></svg></button>
+          <button id="play-btn" class="ctrl-btn" type="button" aria-label="播放"><svg id="play-icon" width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></button>
+          <button id="next-btn" class="ctrl-btn" type="button" aria-label="下一首"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"></path></svg></button>
+          <button id="mini-queue-btn" class="ctrl-btn" type="button" aria-label="打开当前队列" aria-controls="mini-queue-popover" aria-expanded="false"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"></path></svg></button>
+        </div>
+        <div class="control-cluster modes">
+          <div id="volume-control" class="volume-control">
+            <button id="volume-btn" class="ctrl-btn" type="button" aria-label="音量"><svg id="volume-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15 9.5a4 4 0 0 1 0 5"></path></svg></button>
+            <div class="volume-popover"><div class="volume-main-row"><input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.82" aria-label="音量"><span id="volume-value">82%</span></div></div>
+          </div>
+          <button id="immersive-btn" class="ctrl-btn" type="button" aria-label="沉浸模式" aria-pressed="false"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"></path><circle cx="12" cy="12" r="2.2"></circle></svg></button>
+          <div id="time-display">0:00 / 0:00</div>
+        </div>
+      </div>
+    </div>
+
+    <input type="file" id="file-input" accept=".mp3,.flac,.wav,.ogg,.m4a,.aac,.opus,audio/*" hidden>
+    <input type="file" id="folder-input" accept=".mp3,.flac,.wav,.ogg,.m4a,.aac,.opus,audio/*" webkitdirectory directory multiple hidden>
+    <div id="drop-overlay"><div class="drop-text">拖入音乐文件</div></div>
+    <div id="loading-overlay"><div class="spinner"></div></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div id="status-toast" class="status-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <dialog id="source-license-dialog" class="source-dialog" aria-labelledby="source-dialog-title">
+      <form method="dialog">
+        <div class="dialog-heading"><p>SOURCE / LICENSE</p><button class="dialog-close" value="close" aria-label="关闭">×</button></div>
+        <h2 id="source-dialog-title">PULSE ROOM</h2>
+        <p>Based on Mineradio 2.0.2. The browser runtime is distributed under GPL-3.0-only.</p>
+        <nav>
+          <a href="./NOTICE.md" target="_blank" rel="noreferrer">Notices</a>
+          <a href="./SOURCE.md" target="_blank" rel="noreferrer">Corresponding source</a>
+          <a href="./assets/music/ATTRIBUTIONS.md" target="_blank" rel="noreferrer">Music attribution</a>
+        </nav>
+      </form>
+    </dialog>
+
+    <div id="pulse-legacy-adapter" hidden aria-hidden="true">
+      <h1 id="entry-title">PULSE ROOM</h1><p id="entry-description"></p>
+      <button id="track-list-toggle" type="button" aria-expanded="false"></button>
+      <div id="track-title"></div><div id="track-artist"></div><div id="play-state"></div>
+      <div id="shelf"></div>
+      <div id="track-drawer"><button id="track-list-close" type="button"></button><ol id="track-list">
+        <li><button id="kai-engel-anxiety" data-track-id="kai-engel-anxiety" type="button"></button></li>
+        <li><button id="epsilon-not-other-side-of-the-wave" data-track-id="epsilon-not-other-side-of-the-wave" type="button"></button></li>
+        <li><button id="graham-bole-kirigami" data-track-id="graham-bole-kirigami" type="button"></button></li>
+        <li><button id="revolution-void-effects-of-elevation" data-track-id="revolution-void-effects-of-elevation" type="button"></button></li>
+      </ol></div>
+      <div id="transport"><button id="previous-button" type="button"></button><button id="play-button" type="button"></button><button id="next-button" type="button"></button><span id="current-time"></span><span id="duration"></span><div id="progress-bar-legacy"></div><input id="progress" type="range" min="0" max="1000" value="0"><input id="volume" type="range" min="0" max="1" step="0.01" value="0.82"><button id="loop-button" type="button"></button></div>
+    </div>
+
+    <script src="./assets/vendor/music-tempo.min.js"></script>
+    <script src="./assets/vendor/gsap.min.js"></script>
+    <script src="./runtime-bootstrap.bundle.js"></script>
+    <script src="./app.bundle.js"></script>
+  </body>
+</html>

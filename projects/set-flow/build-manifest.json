@@ -1,0 +1,8 @@
+{
+  "product": "SET//FLOW",
+  "sourceEntry": "projects/set-flow/src/main.js",
+  "output": "projects/set-flow/app.bundle.js",
+  "bytes": 640009,
+  "builtAt": "2026-08-29T00:07:23.402Z",
+  "buildDurationMs": 99.03
+}

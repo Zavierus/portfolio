@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="THE LISTENER / 倾听者：一段关于人类最后档案与未知宇宙巨构的 95 秒实时 3D 概念短片。" />
+    <meta name="theme-color" content="#070808" />
+    <title>THE LISTENER / 倾听者</title>
+    <link rel="icon" href="data:," />
+    <script src="../../assets/project-entry-transition.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-film-phase="idle" data-playing="false" data-muted="false">
+    <canvas id="filmCanvas" aria-label="THE LISTENER 实时三维概念影片"></canvas>
+    <div class="frame-cuts" aria-hidden="true"><i></i><i></i><b></b></div>
+
+    <header class="film-header">
+      <a class="back-link" href="../../index.html?ziaver=latest" aria-label="返回作品集">← <span>ZIAVER</span></a>
+      <div class="film-mark">
+        <strong>THE LISTENER</strong>
+        <span>HUMAN ARCHIVE / 01:35</span>
+      </div>
+      <button class="info-button" id="creditsButton" type="button" aria-label="查看素材来源" title="素材来源">i</button>
+    </header>
+
+    <main class="film-overlay">
+      <section class="title-lockup" id="filmIntro" aria-labelledby="filmTitle">
+        <p>REAL-TIME FILM / HUMAN ARCHIVE</p>
+        <h1 id="filmTitle"><span>THE</span><span>LISTENER</span></h1>
+        <p class="film-logline">一件遗物抵达未知巨构。它携带的不是问候，而是已经灭绝的人类。</p>
+        <button id="playButton" class="play-button" type="button"><b aria-hidden="true">▶</b><span>播放影片</span></button>
+      </section>
+
+      <div class="film-controls" id="filmControls" aria-label="影片控制" hidden>
+        <div class="film-readout"><span id="chapterLabel">问候</span><b id="filmTime">00:00</b></div>
+        <button id="soundButton" type="button" aria-label="关闭声音" title="关闭声音">●</button>
+        <button id="exitButton" type="button" aria-label="退出影片" title="退出影片">×</button>
+      </div>
+
+      <section class="film-end" id="filmEnd" hidden>
+        <p>ARCHIVE RESPONSE / COMPLETE</p>
+        <h2>第一次呼吸。</h2>
+        <div>
+          <button id="replayButton" type="button"><span aria-hidden="true">↻</span> 重播</button>
+          <a href="../../index.html?ziaver=latest">返回作品集</a>
+        </div>
+      </section>
+    </main>
+
+    <section class="film-loader" id="filmLoader" aria-label="影片载入进度">
+      <div><span>HUMAN ARCHIVE</span><b id="filmStatus">读取人类档案</b></div>
+      <div class="loader-track"><i id="loadProgress"></i></div>
+      <span id="loadProgressValue">0%</span>
+    </section>
+
+    <section class="film-error" id="filmError" role="alert" hidden>
+      <span>SYSTEM HOLD</span>
+      <h2>影片未能启动</h2>
+      <p id="filmErrorMessage"></p>
+      <div><button id="retryButton" type="button">重试</button><a href="../../index.html?ziaver=latest">返回作品集</a></div>
+    </section>
+
+    <dialog class="credits-dialog" id="creditsDialog">
+      <form method="dialog">
+        <header><span>ASSET RECORD</span><button value="cancel" aria-label="关闭">×</button></header>
+        <h2>制作记录</h2>
+        <p>主角、巨构、张力膜与记忆重建均为项目内实时生成的原创三维结构。</p>
+        <p>环境光：Sergej Majboroda / Poly Haven，Studio Small 09，CC0。</p>
+        <p>深空、信号、结构与记忆音轨使用项目内确定性合成素材。</p>
+        <a href="./assets/ATTRIBUTIONS.md" target="_blank" rel="noreferrer">查看完整记录 ↗</a>
+      </form>
+    </dialog>
+
+    <script src="./app.bundle.js"></script>
+  </body>
+</html>

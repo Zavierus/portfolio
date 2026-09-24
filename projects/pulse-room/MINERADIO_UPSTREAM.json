@@ -1,0 +1,544 @@
+{
+  "repository": "https://github.com/XxHuberrr/Mineradio",
+  "version": "2.0.2",
+  "commit": "4abaa19",
+  "license": "GPL-3.0-only",
+  "frontendRoot": "public",
+  "files": [
+    {
+      "upstreamPath": "public/js/modules/00-state/00-core-stores.js",
+      "target": "00-state/00-core-stores.js",
+      "upstreamSha256": "0a0110e1fc46e5bb26b7fbcc8af147c9346f8f15a9147b432b1a06b8bd8a4b50",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced global state to local playback, queue, and visual contracts and retained only pure range and quality normalization helpers."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/01-perf-render-state.js",
+      "target": "00-state/01-perf-render-state.js",
+      "upstreamSha256": "08936ea2758ffcc12f7b492994d1d7f9536c35282c04e309e6a1b460951e9b3c",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced render state and added static-browser power guards."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/02-preferences-ui-modes.js",
+      "target": "00-state/02-preferences-ui-modes.js",
+      "upstreamSha256": "6d2a635886759cc8ad4c7fda560e3c0230387d9ed41e1e1cf9db73406728aeab",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced preferences to local volume, fade, and shell settings."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/03-beat-dj-state.js",
+      "target": "00-state/03-beat-dj-state.js",
+      "upstreamSha256": "fee8fd4e0b3ee129eaf158d5754f4ecf8094feef107140bc25601b0cc711fcfc",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/04-fx-defaults.js",
+      "target": "00-state/04-fx-defaults.js",
+      "upstreamSha256": "8ea8d977cfe4d4b1413d9d357a70818edded97f0f6366cbfd4cc9fdc6e7fc770",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Applied dense PULSE visual defaults with active foreground and bloom layers."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/05-packaged-fx-archive.js",
+      "target": "00-state/05-packaged-fx-archive.js",
+      "upstreamSha256": "d154a7f0cae77058241348fb91faf82e5b6f42095f14d7c68ab2293b4bdca618",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained the packaged visual defaults for the browser-only settings archive."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/06-fx-runtime-layout.js",
+      "target": "00-state/06-fx-runtime-layout.js",
+      "upstreamSha256": "8bf3955a69c9cb2f059c7259d22dbc3d94fb30641d2b860c54a2c0124c2fadd4",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Initialized the static soundstage from PULSE defaults without legacy lyric layout."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/07-ui-playback-runtime.js",
+      "target": "00-state/07-ui-playback-runtime.js",
+      "upstreamSha256": "64a459ce81aebb3d6704ba4c351d26ec2a731f9efbf20e2e6f63ae852b49b55f",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced UI runtime state to local playback and idle controls."
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/09-performance-probe.js",
+      "target": "00-state/09-performance-probe.js",
+      "upstreamSha256": "ecf4066141c76529c012c0ad50ca377762a1ea9b0cbfd131a690adf3a9f5fe22",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/js/modules/00-state/10-frame-scheduler.js",
+      "target": "00-state/10-frame-scheduler.js",
+      "upstreamSha256": "87b7c72ac4a17f826e9daaf879e516ce359995886e37c2fa4d79d075cafa741f",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/js/modules/01-scene/00-renderer-quality.js",
+      "target": "01-scene/00-renderer-quality.js",
+      "upstreamSha256": "523d25f65d874ed55290bbd52ae8cb1cc6a966ec28d6d3d9835067b70babadf8",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Attached the PULSE world bridge to Mineradio's single renderer, scene, camera, and viewport, and removed keyboard focus from the decorative canvas."
+    },
+    {
+      "upstreamPath": "public/js/modules/01-scene/01-orbit-free-camera.js",
+      "target": "01-scene/01-orbit-free-camera.js",
+      "upstreamSha256": "60608d9fa9912e6be6dc08d0af98e56e8b54d488de6b41e859f6dfc19dd5743c",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Removed the retired sculptural preset camera branches while preserving neutral orbit and reset behavior."
+    },
+    {
+      "upstreamPath": "public/js/modules/01-scene/02-beat-camera-runtime.js",
+      "target": "01-scene/02-beat-camera-runtime.js",
+      "upstreamSha256": "ff573a026361239d90a403ddbf094f6a0e519c3474c8f50014fdada495a2fb7b",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Clamped beat-camera impulses and disabled rhythmic camera events under reduced motion."
+    },
+    {
+      "upstreamPath": "public/js/modules/01-scene/03-focus-cinema-camera.js",
+      "target": "01-scene/03-focus-cinema-camera.js",
+      "upstreamSha256": "7cd994887229623df325f687cb7a6da193465dd9f748de1db553eee703420d92",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Preserved slow cinema drift with reduced-motion clamps and a neutral compact shelf camera."
+    },
+    {
+      "upstreamPath": "public/js/modules/01-scene/04-bottom-controls-cursor.js",
+      "target": "01-scene/04-bottom-controls-cursor.js",
+      "upstreamSha256": "5f20a2d415db89bbd63daa84f85b64aa33863dfdb6b4dc6ac921195452f19389",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Adapted the pinned module to the service-free local browser runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/00-pointer-cover-particles.js",
+      "target": "02-visual/00-pointer-cover-particles.js",
+      "upstreamSha256": "b39d458a851ed90a84daf1e8a367bf101f4c5b4f948ca4cc4fb8519e9d0387e1",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-08-02",
+      "modificationSummary": "Replaced cover-shaped geometry with deterministic spectral ribbons under the single four-layer music-space root."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/01-float-skull-backcover.js",
+      "target": "02-visual/01-float-skull-backcover.js",
+      "upstreamSha256": "b7f28a6013ae26be1b7eb8bf5e131330e4eeb152ea5a454d521939e5b7bfdbdb",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-08-02",
+      "modificationSummary": "Replaced sculptural and block-like layers with deterministic drifting flow and a bounded reusable glint ring buffer."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/03-lyrics-star-river.js",
+      "target": "02-visual/03-background-star-river.js",
+      "upstreamSha256": "54bf0c0a97c96e149da51681144eac73b0da8334573a010e962bebe165200544",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-08-02",
+      "modificationSummary": "Replaced the inherited star river with deterministic spatial haze distributed through the shared deep field."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/04-visual-settings-persistence.js",
+      "target": "02-visual/04-visual-settings-persistence.js",
+      "upstreamSha256": "233baa13ed79bf1b68740df0af9db345163915256803ae3703e59192584239c3",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained browser visual-state normalization and local persistence while removing desktop storage dependencies."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/06-custom-background-colorlab.js",
+      "target": "02-visual/06-custom-background-colorlab.js",
+      "upstreamSha256": "906162a1fdfdf2f1712951aed85789cb29ba55992cebc507a5e3570973731c12",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Adapted the pinned module to the service-free local browser runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/02-visual/15-ripples-cover-depth.js",
+      "target": "02-visual/15-ripples-cover-depth.js",
+      "upstreamSha256": "58862e8d906ff7a33a9e9a58552992449ddf798f4a326216f87dce749acac5e9",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-08-02",
+      "modificationSummary": "Removed cover depth and ripple readback and added the shared analysis mapping, continuous handoff, reveal, and disposal runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/03-beat/00-tempo-worker-cache-prefetch.js",
+      "target": "03-beat/00-tempo-worker-cache-prefetch.js",
+      "upstreamSha256": "113f6d8a6db8ff091224fb40697bd1c1fddbc79078acf50e4e58072d2822b5d0",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/js/modules/03-beat/01-audio-beat-analysis.js",
+      "target": "03-beat/01-audio-beat-analysis.js",
+      "upstreamSha256": "5c8ebfe1e140b8d2da89c5717935d2ebaebfc132d18fca70d78a838f41c7178e",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/js/modules/03-beat/04-beat-map-runtime.js",
+      "target": "03-beat/04-beat-map-runtime.js",
+      "upstreamSha256": "3bbd6006e0f78557bc605c37c538465d846333acb7f4c0967e2000dd4ab7a264",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Consumed deduplicated offline camera and particle events from the normalized PULSE analysis frame."
+    },
+    {
+      "upstreamPath": "public/js/modules/03-beat/05-cover-loading-crop.js",
+      "target": "03-beat/05-cover-loading-crop.js",
+      "upstreamSha256": "f665b138024d04045f3dcdc5495381e0e0b2d9dee15a4c0983fd7c783685f04c",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-08-02",
+      "modificationSummary": "Kept covers metadata-only, restored stale-load ownership, and moved the retained DOM loading overlay helpers out of the deleted cover-depth runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/03-beat/06-sonic-audio-monitor.js",
+      "target": "03-beat/06-sonic-audio-monitor.js",
+      "upstreamSha256": "3818caffc1e0a32410777ce54fc3831594f95ba826f85ec3be502530a54762d0",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained analyzer-driven sonic monitoring with optional browser-only diagnostic controls."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/00-layout-hover.js",
+      "target": "04-shelf/00-layout-hover.js",
+      "upstreamSha256": "0bfd731d786dabf139ce5cf89d8a266ec4313ad1575c7cc9dd12df66afc2f79d",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Removed secondary collection focus behavior while retaining the compact spatial shelf reveal."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/01-manager-core.js",
+      "target": "04-shelf/01-manager-core.js",
+      "upstreamSha256": "ca9de5d1d6353195255be2eafe22141c9c7b3144bedf850b4ddc33a5f5890fc4",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Bound the retained spatial cards to exactly four local catalog records and one shared selected track ID and exposed a catalog-only browser-QA selection hook."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/02-rebuild-panel-sync.js",
+      "target": "04-shelf/02-rebuild-panel-sync.js",
+      "upstreamSha256": "8524550bdbc0579032e8c295595b1dc87eeb2cbe9d1c07864a6030d61fe576fb",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Added race-safe catalog selection, synchronized accessible list state, inert hidden-drawer focus management, and mobile bottom-sheet focus restoration."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/03-content-list-manager.js",
+      "target": "04-shelf/03-content-list-manager.js",
+      "upstreamSha256": "a6de666f1e1191dd0dca6767abd18abf649ee00443761e033e199f370e6141d1",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Removed the service-backed secondary content level while preserving an inert shelf lifecycle contract."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/04-cover-api-helpers.js",
+      "target": "04-shelf/04-cover-api-helpers.js",
+      "upstreamSha256": "ee2bcc67af361bebf8e7cc827309a85994e98c1265cd73185569a5f06f32524d",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced cover loading to deterministic inline PULSE world covers with no remote provider path."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/05-card-interactions.js",
+      "target": "04-shelf/05-card-interactions.js",
+      "upstreamSha256": "c3c57c2a214b2c9c8f5e68129de506da01330a88bbacd24d6571f9ed4aa90ec4",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced pointer and wheel interactions to four local catalog cards and shared track selection."
+    },
+    {
+      "upstreamPath": "public/js/modules/04-shelf/06-keyboard-camera-events.js",
+      "target": "04-shelf/06-keyboard-camera-events.js",
+      "upstreamSha256": "205f5079f710d8dd90d97405ad2fc9f0b7a75447ad7328090ed06653d0fe171c",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Adapted the pinned module to the service-free local browser runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/01-cover-custom-map.js",
+      "target": "05-playback/01-cover-custom-map.js",
+      "upstreamSha256": "c02c0a45ac98c99602078ff69c135753a4c70aaae5bbfaa0e9fb5b8c1e489240",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Adapted the pinned module to the service-free local browser runtime."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/08-audio-graph-controls.js",
+      "target": "05-playback/08-audio-graph-controls.js",
+      "upstreamSha256": "12ff46c351f140d5dd4e3063524b4b0ea7fa94f180ef67d7aaa275feee348d73",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Kept the Mineradio audio graph and fades while routing volume and replacement media ownership through PULSE and removing DJ AutoMix coupling."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/09-queue-snapshot-autoplay.js",
+      "target": "05-playback/09-queue-snapshot-autoplay.js",
+      "upstreamSha256": "a556e608ff08dc9aa024680d14704d9030eba29ddc446ac51cf439cc777a24e4",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Restricted queue persistence and restore to the local PULSE catalog and unavailable local-file placeholders."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/10-queue-actions.js",
+      "target": "05-playback/10-queue-actions.js",
+      "upstreamSha256": "4572302d3f00c9b75950d99895616a58ce18da0198032cddb05ac878973207e8",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced queue actions to built-in and imported local tracks without provider navigation."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/12-playback-switch-core.js",
+      "target": "05-playback/12-playback-switch-core.js",
+      "upstreamSha256": "6c52870931bbbcedf867fe940fb2e97efdffced29179d5aae50e6a1066299de8",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Kept switch-state and resume helpers while replacing provider errors with local playback outcomes."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/13-playback-start-audio.js",
+      "target": "05-playback/13-playback-start-audio.js",
+      "upstreamSha256": "413fe1add136f62393dfe3aefcf67035a4327eb78daa5327c7cd0c674ae3153b",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Added race-safe Blob playback, authored-world selection, serial-selected offline analysis, track-specific cover-readable particle programs, and the upstream particle alpha reveal after a winning playback load."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/14-player-controls.js",
+      "target": "05-playback/14-player-controls.js",
+      "upstreamSha256": "20475e7b99b4eadceed2a57a55e0fb18245a238b1ef0196a7d12ec1e68ebcee3",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced playback to accessible local transport controls with queued toggles and removed provider-specific and DJ AutoMix recovery branches."
+    },
+    {
+      "upstreamPath": "public/js/modules/05-playback/15-control-glass-animations.js",
+      "target": "05-playback/15-control-glass-animations.js",
+      "upstreamSha256": "f77446031019d32f9b0dd0c397c0cf0eff1335e5a0ba5c9bb0776190e95fd0e4",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Replaced legacy glass animations with reduced-motion-aware transport feedback."
+    },
+    {
+      "upstreamPath": "public/js/modules/06-lyrics/04-progress-seek.js",
+      "target": "05-playback/16-progress-seek.js",
+      "upstreamSha256": "36c90da66cc790eccb0117132026dfe92d77f8ec5acf886d28c149edd154d93a",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Rehomed the seek state machine, removed DJ AutoMix hooks, and reset authored-world and analysis event state on committed seeks."
+    },
+    {
+      "upstreamPath": "public/js/modules/06-lyrics/05-upload-dragdrop.js",
+      "target": "05-playback/17-local-upload.js",
+      "upstreamSha256": "578393940b00ee8cb557d2458127910290aac15197aafd8ee65ad1d9a7d49e16",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced uploads to validated device-local audio routed through SIGNAL FIELD."
+    },
+    {
+      "upstreamPath": "public/js/modules/06-lyrics/01-playlist-panel-shell.js",
+      "target": "05-playback/18-playlist-panel-shell.js",
+      "upstreamSha256": "ccb82e7b3c5f5f2ed4a79ca8549b67cb67d56c622bff9189e36a80fd96c17027",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained the queue panel shell and removed provider playlist and podcast surfaces."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/00-preset-archive-data.js",
+      "target": "07-fx/00-preset-archive-data.js",
+      "upstreamSha256": "4ef98319b3c18e969b20738e80a6ada95b847c2e35d3605b07e9d120fc5f82e5",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained local visual preset archive data without remote sharing services."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/02-accent-background-controls.js",
+      "target": "07-fx/02-accent-background-controls.js",
+      "upstreamSha256": "7307da489528dd5ff1744040d626d6046208b8c2d017b424b65abbc706e21818",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained local accent and background media controls without desktop bridges."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/03-cover-picker-fonts.js",
+      "target": "07-fx/03-cover-picker.js",
+      "upstreamSha256": "591a7f9f3f70bc854b9533748834a6771d44cf27165a4e5b75cca3b9f98d91fb",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained the local cover picker and removed font-service behavior."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/04-preset-grid-uniforms.js",
+      "target": "07-fx/04-preset-grid-uniforms.js",
+      "upstreamSha256": "ea63b4bf74d5e17310091d80f262d7991514ab054fceacd1b5bbf908ae7c595d",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained Mineradio preset-grid rendering and visual uniform synchronization."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/05-fx-panel-performance.js",
+      "target": "07-fx/05-fx-panel-performance.js",
+      "upstreamSha256": "51ec1774f0e8b1925ea1a8ff32292fb75ae2a6e6e3e4a36ab1a24e100ce1ccd4",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained browser renderer performance controls and removed desktop-only groups."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/06-hotkeys.js",
+      "target": "07-fx/06-hotkeys.js",
+      "upstreamSha256": "4236935bbfde61b452aa05fb861611686a2b576937018a4508c5185a9c824ba1",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained browser-local playback and visual hotkeys without global OS registration."
+    },
+    {
+      "upstreamPath": "public/js/modules/07-fx/07-bindings-shelf-immersive.js",
+      "target": "07-fx/07-bindings-shelf-immersive.js",
+      "upstreamSha256": "981c0241da28be830f0c0c61b62067d75c84f3caea6af9bb52e7d9145c5a9453",
+      "importDate": "2026-07-30",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Retained local visual, shelf, and immersive bindings with optional DOM guards."
+    },
+    {
+      "upstreamPath": "public/js/modules/09-idle-toast-libraries.js",
+      "target": "09-idle-toast-libraries.js",
+      "upstreamSha256": "d1b7e5dda23dce47c40f1f65a254d27a1b6c137e4e460aaecb45d45c7dd58799",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced idle chrome and added non-blocking runtime recovery actions with focus preservation."
+    },
+    {
+      "upstreamPath": "public/js/modules/10-shell/00-gesture-control.js",
+      "target": "10-shell/00-gesture-control.js",
+      "upstreamSha256": "036ee6a91b4d52a2c105d561d728613eed4a2c6d4eee7257519ad9fae8d03603",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Replaced camera gestures with accessible audio-entry handling."
+    },
+    {
+      "upstreamPath": "public/js/modules/10-shell/01-viewport-resize-shortcuts.js",
+      "target": "10-shell/01-viewport-resize-shortcuts.js",
+      "upstreamSha256": "13e67dfa3b02ece5eec711a5211348ada7bb3f9a696e874608b9b40d225c369e",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced shortcuts to viewport, Escape, and Space shell behavior and synchronized world-composer resize."
+    },
+    {
+      "upstreamPath": "public/js/modules/10-shell/02-peek-panels-upload.js",
+      "target": "10-shell/02-peek-panels-upload.js",
+      "upstreamSha256": "2604668c65a3e4676871e4576fd614862d3739bf5b69e6a741378a4c80d0e4f6",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced panel behavior to local import and source dialog controls."
+    },
+    {
+      "upstreamPath": "public/js/modules/10-shell/03-splash.js",
+      "target": "10-shell/03-splash.js",
+      "upstreamSha256": "b6f5fcd5a611a565876a192c0687d44d5b5bce46238fe4328759112c39a7d06a",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced splash behavior to the PULSE soundstage entry."
+    },
+    {
+      "upstreamPath": "public/js/modules/10-shell/05-startup-bindings.js",
+      "target": "10-shell/05-startup-bindings.js",
+      "upstreamSha256": "b4c5cef56e8c3482b11a77615a75bbcec073c13b2453a8e3086d218fef47ae82",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Reduced startup bindings to local audio and shell initialization."
+    },
+    {
+      "upstreamPath": "public/js/modules/11-main-loop.js",
+      "target": "11-main-loop.js",
+      "upstreamSha256": "5f08580764d13cee4a9710d0959e67e32c66edb75a2b28ada616e79a9cc4c7f2",
+      "importDate": "2026-07-28",
+      "modified": true,
+      "modifiedAt": "2026-07-30",
+      "modificationSummary": "Sampled analysis once per frame, drove dense particle layers and worlds, and exposed live particle counts, alpha, visibility, and committed cover identity."
+    }
+  ],
+  "vendors": [
+    {
+      "upstreamPath": "public/vendor/gsap.min.js",
+      "target": "assets/vendor/gsap.min.js",
+      "upstreamSha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/vendor/music-tempo.min.js",
+      "target": "assets/vendor/music-tempo.min.js",
+      "upstreamSha256": "2927859a8e81e8874a95dc7af3a2a06fedd306826f774b7378e26ad5fa9cbd76",
+      "importDate": "2026-07-28",
+      "modified": false
+    },
+    {
+      "upstreamPath": "public/vendor/music-tempo.LICENCE",
+      "target": "assets/vendor/music-tempo.LICENSE",
+      "upstreamSha256": "12b4e069f64ae9a2660c1f5fe788e548487ec8385960bda0a0bfe177c95348cf",
+      "importDate": "2026-07-28",
+      "modified": false
+    }
+  ]
+}

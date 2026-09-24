@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080c18" />
+    <title>PLAYER SIGNAL — 玩家反馈情报系统</title>
+    <meta name="description" content="从公开 Steam 评论中发现正在增长的玩家问题，并保留每条结论的原始证据。" />
+    <script src="../../assets/project-entry-transition.js"></script>
+    <link rel="stylesheet" href="./styles.css?v=2026-08-29-3d-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#player-signal-root">跳到分析工作区</a>
+    <div id="player-signal-root"></div>
+    <aside class="desktop-notice" role="status">
+      <strong>PLAYER SIGNAL is a desktop analysis workspace.</strong>
+      <span>请在宽度至少 960px 的电脑浏览器中打开完整工作区。</span>
+    </aside>
+    <noscript>PLAYER SIGNAL 需要 JavaScript 才能读取匿名评论并运行分析。</noscript>
+    <script>
+      (() => {
+        let reviewLanguage = "schinese";
+        let offlineCaseId = new URL(window.location.href).searchParams.get("case");
+        let offlineCatalogPromise;
+        const readOfflineCatalog = () => offlineCatalogPromise ??= nativeFetch("./data/offline-cases.json").then((response) => response.json());
+        const jsonResponse = (body) => new Response(JSON.stringify(body), { status: 200, headers: { "content-type": "application/json; charset=utf-8" } });
+        const nativeFetch = window.fetch.bind(window);
+        window.fetch = async (input, init) => {
+          const requestUrl = new URL(input instanceof Request ? input.url : String(input), window.location.href);
+          if (offlineCaseId && requestUrl.pathname.endsWith("/data/demo-game.json")) {
+            const catalog = await readOfflineCatalog();
+            const selected = catalog.cases.find((item) => item.id === offlineCaseId);
+            if (selected) return jsonResponse({ game: { ...selected.game, source: selected.source } });
+          }
+          if (offlineCaseId && requestUrl.pathname.endsWith("/data/demo-reviews.json")) {
+            const catalog = await readOfflineCatalog();
+            const selected = catalog.cases.find((item) => item.id === offlineCaseId);
+            if (selected) return jsonResponse({ language: "english", requestedPages: 1, source: selected.source, reviews: selected.reviews, exclusionCounts: {} });
+          }
+          if (offlineCaseId && requestUrl.pathname.endsWith("/data/demo-versions.json")) return jsonResponse({ versions: [{ id: "case-snapshot-1.0.0", name: "1.0.0 · 离线快照", releasedAt: "2026-06-01T00:00:00.000Z", sourceUrl: "https://store.steampowered.com/" }] });
+          if (requestUrl.pathname === "/api/reviews") requestUrl.searchParams.set("language", reviewLanguage);
+          return nativeFetch(requestUrl, init).then(async (response) => {
+            if (requestUrl.pathname !== "/api/reviews" || reviewLanguage === "english" || !response.ok) return response;
+            const body = await response.json();
+            body.reviews = (body.reviews ?? []).map((review) => ({ ...review, language: "english" }));
+            return new Response(JSON.stringify(body), { status: response.status, headers: response.headers });
+          });
+        };
+        window.addEventListener("player-signal:ready", () => {
+          const picker = document.querySelector("[data-offline-case-picker]");
+          if (picker) {
+            picker.value = offlineCaseId || "";
+            picker.addEventListener("change", () => {
+              const url = new URL(window.location.href);
+              if (picker.value) url.searchParams.set("case", picker.value);
+              else url.searchParams.delete("case");
+              window.location.href = url.href;
+            });
+          }
+          const langSelect = document.querySelector("[data-review-language]");
+          if (langSelect) {
+            langSelect.addEventListener("change", () => {
+              reviewLanguage = langSelect.value;
+            });
+          }
+        });
+      })();
+    </script>
+    <script src="./app.bundle.js?v=2026-09-02-fix1"></script>
+  </body>
+</html>

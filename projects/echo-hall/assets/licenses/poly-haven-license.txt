@@ -1,0 +1,12 @@
+Poly Haven asset license evidence
+Retrieved: 2026-07-21
+Source: https://polyhaven.com/license
+
+Poly Haven states that all assets on the site are licensed as CC0. The official
+license page explicitly permits use for any purpose, including commercial work;
+does not require credit; and permits redistribution, sharing, and inclusion in a
+product for sale. Site branding, thumbnails, user renders, text, and metadata are
+not included in that asset grant.
+
+The selected file is the official 1K HDR variant of Studio Small 09. This local
+record accompanies the CC0 1.0 legal code in cc0-1.0-legalcode.txt.

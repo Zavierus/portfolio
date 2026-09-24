@@ -1,0 +1,551 @@
+{
+  "contractVersion": 2,
+  "preparedAt": "2026-08-02",
+  "normalization": {
+    "integratedLufs": -14,
+    "truePeakDb": -1,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitRateKbps": 192,
+    "processingTruePeakDb": -1.5
+  },
+  "tracks": [
+    {
+      "id": "kai-engel-anxiety",
+      "title": "Anxiety",
+      "artist": "Kai Engel",
+      "composer": "Kai Engel",
+      "catalogRole": "atmospheric-trip-hop",
+      "duration": 165.892,
+      "bpm": 120.02,
+      "bpmSource": "essentia-rhythm-extractor-2013",
+      "cover": {
+        "path": "projects/pulse-room/assets/covers/kai-engel-anxiety.png",
+        "url": "./assets/covers/kai-engel-anxiety.png",
+        "bytes": 155878,
+        "sha256": "485c0c0af493070c6c1ad0d395420df57b694d1a93fb7219f79b87099678dbfd",
+        "width": 1600,
+        "height": 1600
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "Anxiety by Kai Engel, licensed under CC BY 4.0.",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Kai_Engel_-_02_-_Anxiety.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kai_Engel_-_02_-_Anxiety.ogg",
+        "resolvedDownload": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kai_Engel_-_02_-_Anxiety.ogg",
+        "originalFilename": "Kai_Engel_-_02_-_Anxiety.ogg",
+        "performer": "Kai Engel",
+        "localPath": "assets/source/pulse-room/music/original/kai-engel-anxiety-original.ogg",
+        "downloadedAt": "2026-08-02",
+        "contentType": "audio/ogg",
+        "bytes": 3490101,
+        "sha256": "a4ed80c49af5bf37b866260a73f61ca7431c3cfcdb4a0ea93940ffd3c6d5e4a3",
+        "identityVerified": true,
+        "identityBasis": "Commons reviewer Sennecaster verified CC BY 4.0 on 2026-02-12; selected after Seeker was rejected because its embedded CC BY-NC-ND metadata conflicts with the unreviewed page claim"
+      },
+      "transformations": [
+        {
+          "operation": "edge-silence-check",
+          "detector": "FFmpeg silencedetect noise=-60dB duration=2s",
+          "detected": [],
+          "trimStart": 0,
+          "trimEnd": 165.892,
+          "applied": false
+        },
+        {
+          "operation": "loudness-normalize",
+          "method": "FFmpeg loudnorm two-pass EBU R128",
+          "targetIntegratedLufs": -14,
+          "processingIntegratedLufs": -14,
+          "measuredSourceIntegratedLufs": -13.9
+        },
+        {
+          "operation": "true-peak-limit",
+          "method": "FFmpeg loudnorm true-peak constraint",
+          "publishedMaximumTruePeakDb": -1,
+          "processingTruePeakDb": -1.5
+        },
+        {
+          "operation": "transcode-and-tag",
+          "codec": "libmp3lame",
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitRateKbps": 192,
+          "metadata": [
+            "title",
+            "artist",
+            "composer",
+            "album",
+            "copyright",
+            "comment"
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "projects/pulse-room/assets/music/runtime/kai-engel-anxiety.mp3",
+        "url": "./assets/music/runtime/kai-engel-anxiety.mp3",
+        "bytes": 3983766,
+        "sha256": "54ba0a11a9afd8c93f5ff51113bec93134e63ec8a498157de158b8aac6a773ac",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitRateKbps": 192,
+        "integratedLufs": -14.15,
+        "truePeakDb": -1.4,
+        "metadata": {
+          "title": "Anxiety",
+          "artist": "Kai Engel",
+          "composer": "Kai Engel",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Kai_Engel_-_02_-_Anxiety.ogg",
+          "changes": "No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "comment": "Attribution: Anxiety by Kai Engel, licensed under CC BY 4.0. License: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Source: https://commons.wikimedia.org/wiki/File:Kai_Engel_-_02_-_Anxiety.ogg. PULSE ROOM technical changes: No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "verifiedWith": "FFprobe format tags"
+        },
+        "codec": "mp3",
+        "qa": {
+          "integrity": "pass",
+          "fullDecode": true,
+          "clipping": "pass",
+          "edgeSilence": "pass",
+          "channelBalance": "pass",
+          "durationIntegrity": "pass",
+          "sourceDurationSeconds": 165.892,
+          "expectedDurationSeconds": 165.892,
+          "runtimeDurationSeconds": 165.892,
+          "durationDifferenceSeconds": 0,
+          "silenceThresholdDb": -60,
+          "silenceMinimumSeconds": 2,
+          "interiorSilenceIntervals": [],
+          "leftMeanDb": -16.9,
+          "rightMeanDb": -16.2,
+          "channelDifferenceDb": 0.7,
+          "measuredIntegratedLufs": -14.15,
+          "measuredTruePeakDb": -1.4
+        }
+      },
+      "analysis": {
+        "path": "projects/pulse-room/assets/music/analysis/kai-engel-anxiety.json",
+        "url": "./assets/music/analysis/kai-engel-anxiety.json",
+        "bytes": 149886,
+        "sha256": "31a17f85be759473936c099fbafcaac0e2c0faa1cd2581083d4675cf2cce9d02",
+        "contractVersion": 2,
+        "generatedAt": "2026-08-02",
+        "beatCount": 322,
+        "barCount": 81,
+        "sectionCount": 6,
+        "cameraEventCount": 6,
+        "particleEventCount": 126
+      }
+    },
+    {
+      "id": "epsilon-not-other-side-of-the-wave",
+      "title": "other side of the wave",
+      "artist": "epsilon not",
+      "composer": "epsilon not",
+      "catalogRole": "atmospheric-trip-hop",
+      "duration": 279.687,
+      "bpm": 128.065,
+      "bpmSource": "essentia-rhythm-extractor-2013",
+      "cover": {
+        "path": "projects/pulse-room/assets/covers/epsilon-not-other-side-of-the-wave.png",
+        "url": "./assets/covers/epsilon-not-other-side-of-the-wave.png",
+        "bytes": 156376,
+        "sha256": "492d6de01c63c1bbd8284e4769f9fe3f9a67fb61d88d6dd8fd9a2ba4c70cf247",
+        "width": 1600,
+        "height": 1600
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "other side of the wave by epsilon not, licensed under CC BY 4.0.",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Epsilon_not_-_01_-_other_side_of_the_wave.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Epsilon_not_-_01_-_other_side_of_the_wave.ogg",
+        "resolvedDownload": "https://upload.wikimedia.org/wikipedia/commons/9/99/Epsilon_not_-_01_-_other_side_of_the_wave.ogg",
+        "originalFilename": "Epsilon_not_-_01_-_other_side_of_the_wave.ogg",
+        "performer": "epsilon not",
+        "localPath": "assets/source/pulse-room/music/original/epsilon-not-other-side-of-the-wave-original.ogg",
+        "downloadedAt": "2026-08-02",
+        "contentType": "audio/ogg",
+        "bytes": 6148463,
+        "sha256": "2108c54d36b525aff27ce0177a61ecd6011505c82c9e20df5981e87784a2ea82",
+        "identityVerified": true,
+        "identityBasis": "Exact Commons page, artist, CC BY 4.0 claim, matching embedded license, filename, duration, byte count, and SHA-256 verified on 2026-08-02"
+      },
+      "transformations": [
+        {
+          "operation": "edge-silence-check",
+          "detector": "FFmpeg silencedetect noise=-60dB duration=2s",
+          "detected": [
+            {
+              "start": 279.637,
+              "end": 282.912,
+              "duration": 3.275
+            }
+          ],
+          "trimStart": 0,
+          "trimEnd": 279.687,
+          "applied": true
+        },
+        {
+          "operation": "loudness-normalize",
+          "method": "FFmpeg loudnorm two-pass EBU R128",
+          "targetIntegratedLufs": -14,
+          "processingIntegratedLufs": -14,
+          "measuredSourceIntegratedLufs": -8.23
+        },
+        {
+          "operation": "true-peak-limit",
+          "method": "FFmpeg loudnorm true-peak constraint",
+          "publishedMaximumTruePeakDb": -1,
+          "processingTruePeakDb": -1.5
+        },
+        {
+          "operation": "transcode-and-tag",
+          "codec": "libmp3lame",
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitRateKbps": 192,
+          "metadata": [
+            "title",
+            "artist",
+            "composer",
+            "album",
+            "copyright",
+            "comment"
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "projects/pulse-room/assets/music/runtime/epsilon-not-other-side-of-the-wave.mp3",
+        "url": "./assets/music/runtime/epsilon-not-other-side-of-the-wave.mp3",
+        "bytes": 6714661,
+        "sha256": "509dbd1c9b96f93a2cd5c36f2aeaad30c26bde509e2d3de0fadb3f5fec26a3f1",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitRateKbps": 192,
+        "integratedLufs": -14.26,
+        "truePeakDb": -5.11,
+        "metadata": {
+          "title": "other side of the wave",
+          "artist": "epsilon not",
+          "composer": "epsilon not",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Epsilon_not_-_01_-_other_side_of_the_wave.ogg",
+          "changes": "objectively detected invalid edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "comment": "Attribution: other side of the wave by epsilon not, licensed under CC BY 4.0. License: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Source: https://commons.wikimedia.org/wiki/File:Epsilon_not_-_01_-_other_side_of_the_wave.ogg. PULSE ROOM technical changes: objectively detected invalid edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "verifiedWith": "FFprobe format tags"
+        },
+        "codec": "mp3",
+        "qa": {
+          "integrity": "pass",
+          "fullDecode": true,
+          "clipping": "pass",
+          "edgeSilence": "pass",
+          "channelBalance": "pass",
+          "durationIntegrity": "pass",
+          "sourceDurationSeconds": 282.912,
+          "expectedDurationSeconds": 279.687,
+          "runtimeDurationSeconds": 279.687,
+          "durationDifferenceSeconds": 0,
+          "silenceThresholdDb": -60,
+          "silenceMinimumSeconds": 2,
+          "interiorSilenceIntervals": [],
+          "leftMeanDb": -16.4,
+          "rightMeanDb": -16.5,
+          "channelDifferenceDb": 0.1,
+          "measuredIntegratedLufs": -14.26,
+          "measuredTruePeakDb": -5.11
+        }
+      },
+      "analysis": {
+        "path": "projects/pulse-room/assets/music/analysis/epsilon-not-other-side-of-the-wave.json",
+        "url": "./assets/music/analysis/epsilon-not-other-side-of-the-wave.json",
+        "bytes": 270026,
+        "sha256": "4812cbd320d6edf9620c018504b68141fa9e5f587e25dc0cfb661d6571a824e2",
+        "contractVersion": 2,
+        "generatedAt": "2026-08-02",
+        "beatCount": 596,
+        "barCount": 149,
+        "sectionCount": 10,
+        "cameraEventCount": 10,
+        "particleEventCount": 342
+      }
+    },
+    {
+      "id": "graham-bole-kirigami",
+      "title": "Kirigami",
+      "artist": "Graham Bole",
+      "composer": "Graham Bole",
+      "catalogRole": "industrial-breakbeat",
+      "duration": 209.576,
+      "bpm": 139.819,
+      "bpmSource": "essentia-rhythm-extractor-2013",
+      "cover": {
+        "path": "projects/pulse-room/assets/covers/graham-bole-kirigami.png",
+        "url": "./assets/covers/graham-bole-kirigami.png",
+        "bytes": 158259,
+        "sha256": "2639431c5216f2365b8ca2af563091489fce730036544464b3cc27914f31c0b7",
+        "width": 1600,
+        "height": 1600
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "Kirigami by Graham Bole, licensed under CC BY 4.0.",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Graham_Bole_-_Kirigami.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Graham_Bole_-_Kirigami.ogg",
+        "resolvedDownload": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Graham_Bole_-_Kirigami.ogg",
+        "originalFilename": "Graham_Bole_-_Kirigami.ogg",
+        "performer": "Graham Bole",
+        "localPath": "assets/source/pulse-room/music/original/graham-bole-kirigami-original.ogg",
+        "downloadedAt": "2026-08-02",
+        "contentType": "audio/ogg",
+        "bytes": 5334047,
+        "sha256": "4527397ae79c2c9b92abfffd12bdbc7f841820f523276d94b361209887b5912c",
+        "identityVerified": true,
+        "identityBasis": "Commons reviewer MGA73 verified CC BY 4.0 on 2020-03-19; selected after Hoenikker failed the harsh-mastering gate at -6.11 LUFS and 1.10 dB LRA"
+      },
+      "transformations": [
+        {
+          "operation": "edge-silence-check",
+          "detector": "FFmpeg silencedetect noise=-60dB duration=2s",
+          "detected": [],
+          "trimStart": 0,
+          "trimEnd": 209.576,
+          "applied": false
+        },
+        {
+          "operation": "loudness-normalize",
+          "method": "FFmpeg loudnorm two-pass EBU R128",
+          "targetIntegratedLufs": -14,
+          "processingIntegratedLufs": -14,
+          "measuredSourceIntegratedLufs": -13
+        },
+        {
+          "operation": "true-peak-limit",
+          "method": "FFmpeg loudnorm true-peak constraint",
+          "publishedMaximumTruePeakDb": -1,
+          "processingTruePeakDb": -1.5
+        },
+        {
+          "operation": "transcode-and-tag",
+          "codec": "libmp3lame",
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitRateKbps": 192,
+          "metadata": [
+            "title",
+            "artist",
+            "composer",
+            "album",
+            "copyright",
+            "comment"
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "projects/pulse-room/assets/music/runtime/graham-bole-kirigami.mp3",
+        "url": "./assets/music/runtime/graham-bole-kirigami.mp3",
+        "bytes": 5032092,
+        "sha256": "2cad7f77eff2cdbe5ec15acec6209291085a9202301e99664d27260996415230",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitRateKbps": 192,
+        "integratedLufs": -13.95,
+        "truePeakDb": -1.21,
+        "metadata": {
+          "title": "Kirigami",
+          "artist": "Graham Bole",
+          "composer": "Graham Bole",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Graham_Bole_-_Kirigami.ogg",
+          "changes": "No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "comment": "Attribution: Kirigami by Graham Bole, licensed under CC BY 4.0. License: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Source: https://commons.wikimedia.org/wiki/File:Graham_Bole_-_Kirigami.ogg. PULSE ROOM technical changes: No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "verifiedWith": "FFprobe format tags"
+        },
+        "codec": "mp3",
+        "qa": {
+          "integrity": "pass",
+          "fullDecode": true,
+          "clipping": "pass",
+          "edgeSilence": "pass",
+          "channelBalance": "pass",
+          "durationIntegrity": "pass",
+          "sourceDurationSeconds": 209.576,
+          "expectedDurationSeconds": 209.576,
+          "runtimeDurationSeconds": 209.576,
+          "durationDifferenceSeconds": 0,
+          "silenceThresholdDb": -60,
+          "silenceMinimumSeconds": 2,
+          "interiorSilenceIntervals": [],
+          "leftMeanDb": -16.3,
+          "rightMeanDb": -16.4,
+          "channelDifferenceDb": 0.1,
+          "measuredIntegratedLufs": -13.95,
+          "measuredTruePeakDb": -1.21
+        }
+      },
+      "analysis": {
+        "path": "projects/pulse-room/assets/music/analysis/graham-bole-kirigami.json",
+        "url": "./assets/music/analysis/graham-bole-kirigami.json",
+        "bytes": 190991,
+        "sha256": "03209c8c8ebcb542cd475fec0e470afdd9590c2c923c13fcd90d24fb811aec7b",
+        "contractVersion": 2,
+        "generatedAt": "2026-08-02",
+        "beatCount": 487,
+        "barCount": 122,
+        "sectionCount": 8,
+        "cameraEventCount": 8,
+        "particleEventCount": 129
+      }
+    },
+    {
+      "id": "revolution-void-effects-of-elevation",
+      "title": "Effects of Elevation (Citizen)",
+      "artist": "Revolution Void",
+      "composer": "Revolution Void",
+      "catalogRole": "industrial-breakbeat",
+      "duration": 443.742,
+      "bpm": 131.976,
+      "bpmSource": "essentia-rhythm-extractor-2013",
+      "cover": {
+        "path": "projects/pulse-room/assets/covers/revolution-void-effects-of-elevation.png",
+        "url": "./assets/covers/revolution-void-effects-of-elevation.png",
+        "bytes": 156810,
+        "sha256": "f998a8d0b3ef6aec5cf7aa036c32c24fabfb03f530b76ce2909d0a9a501bb73d",
+        "width": 1600,
+        "height": 1600
+      },
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "Creative Commons Attribution 3.0 Unported",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      "attribution": "Effects of Elevation (Citizen) by Revolution Void, licensed under CC BY 3.0.",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg",
+        "resolvedDownload": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg",
+        "originalFilename": "Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg",
+        "performer": "Revolution Void",
+        "localPath": "assets/source/pulse-room/music/original/revolution-void-effects-of-elevation-original.ogg",
+        "downloadedAt": "2026-08-02",
+        "contentType": "audio/ogg",
+        "bytes": 9551288,
+        "sha256": "09750fc3fa28eb0b40bb070edffe4dc606f5171e08244df2021dbbd6b12e98e4",
+        "identityVerified": true,
+        "identityBasis": "Exact Commons page, artist, CC BY 3.0 claim, matching embedded license, filename, duration, byte count, and SHA-256 verified on 2026-08-02"
+      },
+      "transformations": [
+        {
+          "operation": "edge-silence-check",
+          "detector": "FFmpeg silencedetect noise=-60dB duration=2s",
+          "detected": [],
+          "trimStart": 0,
+          "trimEnd": 443.742,
+          "applied": false
+        },
+        {
+          "operation": "loudness-normalize",
+          "method": "FFmpeg loudnorm two-pass EBU R128",
+          "targetIntegratedLufs": -14,
+          "processingIntegratedLufs": -14,
+          "measuredSourceIntegratedLufs": -10.23
+        },
+        {
+          "operation": "true-peak-limit",
+          "method": "FFmpeg loudnorm true-peak constraint",
+          "publishedMaximumTruePeakDb": -1,
+          "processingTruePeakDb": -1.5
+        },
+        {
+          "operation": "transcode-and-tag",
+          "codec": "libmp3lame",
+          "sampleRate": 48000,
+          "channels": 2,
+          "bitRateKbps": 192,
+          "metadata": [
+            "title",
+            "artist",
+            "composer",
+            "album",
+            "copyright",
+            "comment"
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "projects/pulse-room/assets/music/runtime/revolution-void-effects-of-elevation.mp3",
+        "url": "./assets/music/runtime/revolution-void-effects-of-elevation.mp3",
+        "bytes": 10652199,
+        "sha256": "7749c68dfd621d71d6cdeddf7cfe5e13a1c0f1224041bf0a786148a0bda97c16",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitRateKbps": 192,
+        "integratedLufs": -14.26,
+        "truePeakDb": -2.98,
+        "metadata": {
+          "title": "Effects of Elevation (Citizen)",
+          "artist": "Revolution Void",
+          "composer": "Revolution Void",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg",
+          "changes": "No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "comment": "Attribution: Effects of Elevation (Citizen) by Revolution Void, licensed under CC BY 3.0. License: Creative Commons Attribution 3.0 Unported (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:Revolution_Void_-_02_-_Effects_of_Elevation_Citizen.ogg. PULSE ROOM technical changes: No edge silence was trimmed; loudness-normalized; true-peak limited; resampled to 48 kHz stereo; transcoded to 192 kbps MP3; attribution metadata added. No musical changes.",
+          "verifiedWith": "FFprobe format tags"
+        },
+        "codec": "mp3",
+        "qa": {
+          "integrity": "pass",
+          "fullDecode": true,
+          "clipping": "pass",
+          "edgeSilence": "pass",
+          "channelBalance": "pass",
+          "durationIntegrity": "pass",
+          "sourceDurationSeconds": 443.742,
+          "expectedDurationSeconds": 443.742,
+          "runtimeDurationSeconds": 443.742,
+          "durationDifferenceSeconds": 0,
+          "silenceThresholdDb": -60,
+          "silenceMinimumSeconds": 2,
+          "interiorSilenceIntervals": [],
+          "leftMeanDb": -16.4,
+          "rightMeanDb": -15.4,
+          "channelDifferenceDb": 1,
+          "measuredIntegratedLufs": -14.26,
+          "measuredTruePeakDb": -2.98
+        }
+      },
+      "analysis": {
+        "path": "projects/pulse-room/assets/music/analysis/revolution-void-effects-of-elevation.json",
+        "url": "./assets/music/analysis/revolution-void-effects-of-elevation.json",
+        "bytes": 437831,
+        "sha256": "cdbbe9f74f75caa348a8b0ae1bbd8e1399b853328c262198491fffb50cb68eb6",
+        "contractVersion": 2,
+        "generatedAt": "2026-08-02",
+        "beatCount": 976,
+        "barCount": 244,
+        "sectionCount": 16,
+        "cameraEventCount": 16,
+        "particleEventCount": 610
+      }
+    }
+  ],
+  "acquiredAt": "2026-08-02",
+  "tooling": {
+    "ffmpeg": "ffmpeg version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "analyzedAt": "2026-08-02",
+  "coversGeneratedAt": "2026-08-02"
+}

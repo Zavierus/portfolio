@@ -1,0 +1,8039 @@
+{
+  "trackId": "kai-engel-anxiety",
+  "catalogContractVersion": 2,
+  "generatedAt": "2026-08-02",
+  "contractVersion": 2,
+  "duration": 165.892,
+  "sampleRate": 44100,
+  "bpm": 120.02,
+  "bpmConfidence": 1.0227,
+  "bpmSource": "essentia-rhythm-extractor-2013",
+  "beatOffset": 0.5108,
+  "beats": [
+    0.5108,
+    1.0217,
+    1.5325,
+    2.0317,
+    2.531,
+    3.0302,
+    3.5294,
+    4.0287,
+    4.5279,
+    5.0271,
+    5.5263,
+    6.0256,
+    6.5248,
+    7.024,
+    7.5349,
+    8.0341,
+    8.5333,
+    9.0326,
+    9.5318,
+    10.031,
+    10.5302,
+    11.0411,
+    11.5287,
+    12.0279,
+    12.5272,
+    13.0264,
+    13.5256,
+    14.0249,
+    14.5241,
+    15.0233,
+    15.5225,
+    16.0218,
+    16.521,
+    16.997,
+    17.5195,
+    18.0303,
+    18.5295,
+    19.052,
+    19.5396,
+    20.0388,
+    20.538,
+    21.0373,
+    21.5365,
+    22.0357,
+    22.535,
+    23.0458,
+    23.5334,
+    24.0327,
+    24.5319,
+    25.0311,
+    25.5303,
+    26.0296,
+    26.5288,
+    27.0396,
+    27.5273,
+    28.0265,
+    28.5257,
+    29.0366,
+    29.5358,
+    30.035,
+    30.5342,
+    31.0451,
+    31.5327,
+    32.0319,
+    32.5312,
+    33.042,
+    33.5412,
+    34.0405,
+    34.5397,
+    35.0505,
+    35.5381,
+    36.0374,
+    36.5366,
+    37.0358,
+    37.5351,
+    38.0343,
+    38.5335,
+    39.0444,
+    39.532,
+    40.0312,
+    40.5304,
+    41.0297,
+    41.5289,
+    42.0281,
+    42.539,
+    43.0382,
+    43.5258,
+    44.025,
+    44.5359,
+    45.0467,
+    45.5343,
+    46.0336,
+    46.5328,
+    47.0436,
+    47.5312,
+    48.0305,
+    48.5297,
+    49.0289,
+    49.5398,
+    50.039,
+    50.5382,
+    51.0491,
+    51.5367,
+    52.0359,
+    52.5351,
+    53.0344,
+    53.5336,
+    54.0328,
+    54.5321,
+    55.0429,
+    55.5305,
+    56.0298,
+    56.529,
+    57.0398,
+    57.539,
+    58.0383,
+    58.5375,
+    59.0483,
+    59.536,
+    60.0352,
+    60.5344,
+    61.0453,
+    61.5329,
+    62.0321,
+    62.5313,
+    63.0422,
+    63.5414,
+    64.0406,
+    64.5399,
+    65.0391,
+    65.5383,
+    66.0376,
+    66.5484,
+    67.0476,
+    67.5352,
+    68.0345,
+    68.5337,
+    69.0445,
+    69.5322,
+    70.0314,
+    70.5306,
+    71.0298,
+    71.5291,
+    72.0283,
+    72.5391,
+    73.0384,
+    73.5376,
+    74.0368,
+    74.5361,
+    75.0353,
+    75.5345,
+    76.0337,
+    76.533,
+    77.0438,
+    77.5314,
+    78.0307,
+    78.5299,
+    79.0407,
+    79.54,
+    80.0392,
+    80.5384,
+    81.0376,
+    81.5369,
+    82.0361,
+    82.5353,
+    83.0462,
+    83.5454,
+    84.0446,
+    84.5322,
+    85.0431,
+    85.5423,
+    86.0415,
+    86.5408,
+    87.0516,
+    87.5392,
+    88.0385,
+    88.5377,
+    89.0369,
+    89.5361,
+    90.0354,
+    90.5346,
+    91.0454,
+    91.5331,
+    92.0323,
+    92.5315,
+    93.0424,
+    93.53,
+    94.0292,
+    94.5284,
+    95.0393,
+    95.5385,
+    96.0377,
+    96.537,
+    97.0478,
+    97.547,
+    98.0463,
+    98.5455,
+    99.0447,
+    99.5323,
+    100.0316,
+    100.5308,
+    101.0416,
+    101.5409,
+    102.0401,
+    102.5393,
+    103.0502,
+    103.5378,
+    104.037,
+    104.5362,
+    105.0355,
+    105.5347,
+    106.0339,
+    106.5331,
+    107.044,
+    107.5316,
+    108.0308,
+    108.5301,
+    109.0525,
+    109.5401,
+    110.0278,
+    110.527,
+    111.0378,
+    111.537,
+    112.0363,
+    112.5355,
+    113.0347,
+    113.534,
+    114.0332,
+    114.5324,
+    115.0433,
+    115.5309,
+    116.0301,
+    116.5293,
+    117.0286,
+    117.5278,
+    118.027,
+    118.5263,
+    119.0371,
+    119.5363,
+    120.0356,
+    120.5348,
+    121.034,
+    121.5449,
+    122.0325,
+    122.5317,
+    123.0425,
+    123.5418,
+    124.0294,
+    124.5286,
+    125.0278,
+    125.5271,
+    126.0263,
+    126.5255,
+    127.0248,
+    127.524,
+    128.0348,
+    128.5341,
+    129.0333,
+    129.5325,
+    130.0317,
+    130.531,
+    131.0418,
+    131.5294,
+    132.0287,
+    132.5279,
+    133.0271,
+    133.5264,
+    134.0256,
+    134.5248,
+    135.024,
+    135.5349,
+    136.0341,
+    136.5333,
+    137.0326,
+    137.5318,
+    138.031,
+    138.5302,
+    139.0411,
+    139.5287,
+    140.0279,
+    140.5272,
+    141.0264,
+    141.5256,
+    142.0365,
+    142.5357,
+    143.0465,
+    143.5458,
+    144.0566,
+    144.5442,
+    145.0434,
+    145.5427,
+    146.0419,
+    146.5411,
+    147.052,
+    147.6673,
+    148.2826,
+    148.956,
+    149.6178,
+    150.2795,
+    150.9413,
+    151.6147,
+    152.2765,
+    152.9498,
+    153.6116,
+    154.2734,
+    154.9468,
+    155.6085,
+    156.2703,
+    156.9437,
+    157.6171,
+    158.2788,
+    158.9522,
+    159.6256,
+    160.299,
+    160.9607,
+    161.6225,
+    162.2843,
+    162.946,
+    163.6078,
+    164.2696,
+    164.9197,
+    165.5815
+  ],
+  "sections": [
+    {
+      "id": "intro-1",
+      "start": 0,
+      "end": 31.995,
+      "energy": 0.4499
+    },
+    {
+      "id": "peak-2",
+      "start": 31.995,
+      "end": 63.989,
+      "energy": 0.6333
+    },
+    {
+      "id": "peak-3",
+      "start": 63.989,
+      "end": 95.984,
+      "energy": 0.6243
+    },
+    {
+      "id": "body-4",
+      "start": 95.984,
+      "end": 127.978,
+      "energy": 0.5402
+    },
+    {
+      "id": "break-5",
+      "start": 127.978,
+      "end": 159.973,
+      "energy": 0.3063
+    },
+    {
+      "id": "release-6",
+      "start": 159.973,
+      "end": 165.892,
+      "energy": 0.0034
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "energy": 0.1499,
+      "low": 0.7817,
+      "mid": 0.1808,
+      "high": 0.0375,
+      "onset": 0.1891,
+      "spectralCentroid": 0.0372
+    },
+    {
+      "time": 0.25,
+      "energy": 0.4774,
+      "low": 0.9569,
+      "mid": 0.0429,
+      "high": 0.0003,
+      "onset": 0.5059,
+      "spectralCentroid": 0.0094
+    },
+    {
+      "time": 0.5,
+      "energy": 1,
+      "low": 0.9672,
+      "mid": 0.0319,
+      "high": 0.0009,
+      "onset": 0.8823,
+      "spectralCentroid": 0.0092
+    },
+    {
+      "time": 0.75,
+      "energy": 0.5659,
+      "low": 0.9431,
+      "mid": 0.0568,
+      "high": 0.0001,
+      "onset": 0.7151,
+      "spectralCentroid": 0.01
+    },
+    {
+      "time": 1,
+      "energy": 1,
+      "low": 0.978,
+      "mid": 0.0217,
+      "high": 0.0004,
+      "onset": 1,
+      "spectralCentroid": 0.0084
+    },
+    {
+      "time": 1.25,
+      "energy": 0.3327,
+      "low": 0.7499,
+      "mid": 0.2495,
+      "high": 0.0006,
+      "onset": 1,
+      "spectralCentroid": 0.0199
+    },
+    {
+      "time": 1.5,
+      "energy": 0.4463,
+      "low": 0.8347,
+      "mid": 0.1603,
+      "high": 0.005,
+      "onset": 0.26,
+      "spectralCentroid": 0.0179
+    },
+    {
+      "time": 1.75,
+      "energy": 0.4933,
+      "low": 0.8527,
+      "mid": 0.1472,
+      "high": 0.0001,
+      "onset": 0.1858,
+      "spectralCentroid": 0.0145
+    },
+    {
+      "time": 2,
+      "energy": 0.5543,
+      "low": 0.9365,
+      "mid": 0.0615,
+      "high": 0.002,
+      "onset": 0.2971,
+      "spectralCentroid": 0.0113
+    },
+    {
+      "time": 2.25,
+      "energy": 0.4233,
+      "low": 0.9749,
+      "mid": 0.0247,
+      "high": 0.0003,
+      "onset": 0.2068,
+      "spectralCentroid": 0.0085
+    },
+    {
+      "time": 2.5,
+      "energy": 0.3832,
+      "low": 0.8886,
+      "mid": 0.1054,
+      "high": 0.0061,
+      "onset": 0.2326,
+      "spectralCentroid": 0.0157
+    },
+    {
+      "time": 2.75,
+      "energy": 0.2341,
+      "low": 0.5474,
+      "mid": 0.4509,
+      "high": 0.0017,
+      "onset": 0.3145,
+      "spectralCentroid": 0.0306
+    },
+    {
+      "time": 3,
+      "energy": 0.5726,
+      "low": 0.8956,
+      "mid": 0.0953,
+      "high": 0.0091,
+      "onset": 0.5317,
+      "spectralCentroid": 0.0169
+    },
+    {
+      "time": 3.25,
+      "energy": 0.3672,
+      "low": 0.8289,
+      "mid": 0.1604,
+      "high": 0.0107,
+      "onset": 0.3615,
+      "spectralCentroid": 0.0211
+    },
+    {
+      "time": 3.5,
+      "energy": 0.3621,
+      "low": 0.8834,
+      "mid": 0.1054,
+      "high": 0.0112,
+      "onset": 0.123,
+      "spectralCentroid": 0.0186
+    },
+    {
+      "time": 3.75,
+      "energy": 0.2867,
+      "low": 0.8854,
+      "mid": 0.1099,
+      "high": 0.0048,
+      "onset": 0.1701,
+      "spectralCentroid": 0.0153
+    },
+    {
+      "time": 4,
+      "energy": 0.5172,
+      "low": 0.9815,
+      "mid": 0.0158,
+      "high": 0.0027,
+      "onset": 0.5095,
+      "spectralCentroid": 0.0094
+    },
+    {
+      "time": 4.25,
+      "energy": 0.0642,
+      "low": 0.8006,
+      "mid": 0.1645,
+      "high": 0.0349,
+      "onset": 0.5803,
+      "spectralCentroid": 0.0349
+    },
+    {
+      "time": 4.5,
+      "energy": 0.1908,
+      "low": 0.8662,
+      "mid": 0.1035,
+      "high": 0.0303,
+      "onset": 0.1702,
+      "spectralCentroid": 0.0292
+    },
+    {
+      "time": 4.75,
+      "energy": 0.106,
+      "low": 0.975,
+      "mid": 0.0202,
+      "high": 0.0049,
+      "onset": 0.1351,
+      "spectralCentroid": 0.0108
+    },
+    {
+      "time": 5,
+      "energy": 0.3227,
+      "low": 0.9424,
+      "mid": 0.0501,
+      "high": 0.0075,
+      "onset": 0.2849,
+      "spectralCentroid": 0.0138
+    },
+    {
+      "time": 5.25,
+      "energy": 0.0451,
+      "low": 0.8563,
+      "mid": 0.1114,
+      "high": 0.0324,
+      "onset": 0.3532,
+      "spectralCentroid": 0.0308
+    },
+    {
+      "time": 5.5,
+      "energy": 0.0843,
+      "low": 0.3281,
+      "mid": 0.4974,
+      "high": 0.1745,
+      "onset": 0.0781,
+      "spectralCentroid": 0.1298
+    },
+    {
+      "time": 5.75,
+      "energy": 0.0538,
+      "low": 0.9137,
+      "mid": 0.0736,
+      "high": 0.0127,
+      "onset": 0.0826,
+      "spectralCentroid": 0.0179
+    },
+    {
+      "time": 6,
+      "energy": 0.1138,
+      "low": 0.6967,
+      "mid": 0.2268,
+      "high": 0.0765,
+      "onset": 0.0885,
+      "spectralCentroid": 0.0613
+    },
+    {
+      "time": 6.25,
+      "energy": 0.0375,
+      "low": 0.8072,
+      "mid": 0.1448,
+      "high": 0.048,
+      "onset": 0.1031,
+      "spectralCentroid": 0.0413
+    },
+    {
+      "time": 6.5,
+      "energy": 0.14,
+      "low": 0.678,
+      "mid": 0.2354,
+      "high": 0.0865,
+      "onset": 0.135,
+      "spectralCentroid": 0.0674
+    },
+    {
+      "time": 6.75,
+      "energy": 0.1009,
+      "low": 0.9824,
+      "mid": 0.0139,
+      "high": 0.0037,
+      "onset": 0.0929,
+      "spectralCentroid": 0.0099
+    },
+    {
+      "time": 7,
+      "energy": 0.4077,
+      "low": 0.9484,
+      "mid": 0.0454,
+      "high": 0.0062,
+      "onset": 0.3921,
+      "spectralCentroid": 0.0128
+    },
+    {
+      "time": 7.25,
+      "energy": 0.1146,
+      "low": 0.9668,
+      "mid": 0.0262,
+      "high": 0.007,
+      "onset": 0.3758,
+      "spectralCentroid": 0.0123
+    },
+    {
+      "time": 7.5,
+      "energy": 0.1439,
+      "low": 0.7304,
+      "mid": 0.2039,
+      "high": 0.0657,
+      "onset": 0.0866,
+      "spectralCentroid": 0.0541
+    },
+    {
+      "time": 7.75,
+      "energy": 0.0815,
+      "low": 0.5466,
+      "mid": 0.3916,
+      "high": 0.0618,
+      "onset": 0.1301,
+      "spectralCentroid": 0.0613
+    },
+    {
+      "time": 8,
+      "energy": 0.3972,
+      "low": 0.6114,
+      "mid": 0.2987,
+      "high": 0.0899,
+      "onset": 0.4228,
+      "spectralCentroid": 0.0724
+    },
+    {
+      "time": 8.25,
+      "energy": 0.5613,
+      "low": 0.8885,
+      "mid": 0.0969,
+      "high": 0.0147,
+      "onset": 0.4985,
+      "spectralCentroid": 0.0201
+    },
+    {
+      "time": 8.5,
+      "energy": 1,
+      "low": 0.9313,
+      "mid": 0.059,
+      "high": 0.0097,
+      "onset": 0.9954,
+      "spectralCentroid": 0.0155
+    },
+    {
+      "time": 8.75,
+      "energy": 0.6989,
+      "low": 0.728,
+      "mid": 0.2148,
+      "high": 0.0572,
+      "onset": 0.8501,
+      "spectralCentroid": 0.0499
+    },
+    {
+      "time": 9,
+      "energy": 1,
+      "low": 0.9088,
+      "mid": 0.0731,
+      "high": 0.0181,
+      "onset": 1,
+      "spectralCentroid": 0.0209
+    },
+    {
+      "time": 9.25,
+      "energy": 0.3948,
+      "low": 0.502,
+      "mid": 0.418,
+      "high": 0.08,
+      "onset": 1,
+      "spectralCentroid": 0.0728
+    },
+    {
+      "time": 9.5,
+      "energy": 0.5055,
+      "low": 0.6675,
+      "mid": 0.2783,
+      "high": 0.0542,
+      "onset": 0.2842,
+      "spectralCentroid": 0.0514
+    },
+    {
+      "time": 9.75,
+      "energy": 0.5968,
+      "low": 0.6389,
+      "mid": 0.2933,
+      "high": 0.0677,
+      "onset": 0.2473,
+      "spectralCentroid": 0.0597
+    },
+    {
+      "time": 10,
+      "energy": 0.5938,
+      "low": 0.8345,
+      "mid": 0.1375,
+      "high": 0.0279,
+      "onset": 0.3283,
+      "spectralCentroid": 0.0296
+    },
+    {
+      "time": 10.25,
+      "energy": 0.4999,
+      "low": 0.7927,
+      "mid": 0.159,
+      "high": 0.0483,
+      "onset": 0.2283,
+      "spectralCentroid": 0.0421
+    },
+    {
+      "time": 10.5,
+      "energy": 0.4287,
+      "low": 0.8464,
+      "mid": 0.1384,
+      "high": 0.0153,
+      "onset": 0.3267,
+      "spectralCentroid": 0.0226
+    },
+    {
+      "time": 10.75,
+      "energy": 0.2995,
+      "low": 0.4787,
+      "mid": 0.4823,
+      "high": 0.0391,
+      "onset": 0.3379,
+      "spectralCentroid": 0.0531
+    },
+    {
+      "time": 11,
+      "energy": 0.6475,
+      "low": 0.8643,
+      "mid": 0.1214,
+      "high": 0.0143,
+      "onset": 0.5718,
+      "spectralCentroid": 0.0212
+    },
+    {
+      "time": 11.25,
+      "energy": 0.4094,
+      "low": 0.7201,
+      "mid": 0.2389,
+      "high": 0.041,
+      "onset": 0.4643,
+      "spectralCentroid": 0.0421
+    },
+    {
+      "time": 11.5,
+      "energy": 0.4036,
+      "low": 0.723,
+      "mid": 0.2226,
+      "high": 0.0544,
+      "onset": 0.1486,
+      "spectralCentroid": 0.0487
+    },
+    {
+      "time": 11.75,
+      "energy": 0.3502,
+      "low": 0.686,
+      "mid": 0.2552,
+      "high": 0.0589,
+      "onset": 0.1779,
+      "spectralCentroid": 0.0529
+    },
+    {
+      "time": 12,
+      "energy": 0.47,
+      "low": 0.9501,
+      "mid": 0.0399,
+      "high": 0.0099,
+      "onset": 0.4771,
+      "spectralCentroid": 0.0147
+    },
+    {
+      "time": 12.25,
+      "energy": 0.1067,
+      "low": 0.3271,
+      "mid": 0.5111,
+      "high": 0.1618,
+      "onset": 0.5132,
+      "spectralCentroid": 0.1234
+    },
+    {
+      "time": 12.5,
+      "energy": 0.2443,
+      "low": 0.7842,
+      "mid": 0.1674,
+      "high": 0.0484,
+      "onset": 0.2149,
+      "spectralCentroid": 0.0426
+    },
+    {
+      "time": 12.75,
+      "energy": 0.1566,
+      "low": 0.711,
+      "mid": 0.2258,
+      "high": 0.0631,
+      "onset": 0.1457,
+      "spectralCentroid": 0.0538
+    },
+    {
+      "time": 13,
+      "energy": 0.3781,
+      "low": 0.9259,
+      "mid": 0.061,
+      "high": 0.0131,
+      "onset": 0.3175,
+      "spectralCentroid": 0.0175
+    },
+    {
+      "time": 13.25,
+      "energy": 0.0893,
+      "low": 0.2435,
+      "mid": 0.5732,
+      "high": 0.1833,
+      "onset": 0.4226,
+      "spectralCentroid": 0.1385
+    },
+    {
+      "time": 13.5,
+      "energy": 0.0992,
+      "low": 0.2404,
+      "mid": 0.5785,
+      "high": 0.1812,
+      "onset": 0.0911,
+      "spectralCentroid": 0.1376
+    },
+    {
+      "time": 13.75,
+      "energy": 0.0994,
+      "low": 0.2356,
+      "mid": 0.5945,
+      "high": 0.1699,
+      "onset": 0.1092,
+      "spectralCentroid": 0.132
+    },
+    {
+      "time": 14,
+      "energy": 0.1055,
+      "low": 0.5542,
+      "mid": 0.3346,
+      "high": 0.1112,
+      "onset": 0.11,
+      "spectralCentroid": 0.0862
+    },
+    {
+      "time": 14.25,
+      "energy": 0.0733,
+      "low": 0.2358,
+      "mid": 0.59,
+      "high": 0.1742,
+      "onset": 0.0973,
+      "spectralCentroid": 0.1343
+    },
+    {
+      "time": 14.5,
+      "energy": 0.1472,
+      "low": 0.5705,
+      "mid": 0.3271,
+      "high": 0.1023,
+      "onset": 0.131,
+      "spectralCentroid": 0.0808
+    },
+    {
+      "time": 14.75,
+      "energy": 0.1136,
+      "low": 0.8671,
+      "mid": 0.1051,
+      "high": 0.0278,
+      "onset": 0.0919,
+      "spectralCentroid": 0.0279
+    },
+    {
+      "time": 15,
+      "energy": 0.4429,
+      "low": 0.9472,
+      "mid": 0.0449,
+      "high": 0.0079,
+      "onset": 0.4246,
+      "spectralCentroid": 0.0137
+    },
+    {
+      "time": 15.25,
+      "energy": 0.1295,
+      "low": 0.8802,
+      "mid": 0.0989,
+      "high": 0.0209,
+      "onset": 0.4564,
+      "spectralCentroid": 0.0237
+    },
+    {
+      "time": 15.5,
+      "energy": 0.0838,
+      "low": 0.6238,
+      "mid": 0.2834,
+      "high": 0.0928,
+      "onset": 0.1259,
+      "spectralCentroid": 0.0733
+    },
+    {
+      "time": 15.75,
+      "energy": 0.0561,
+      "low": 0.1768,
+      "mid": 0.6236,
+      "high": 0.1996,
+      "onset": 0.0661,
+      "spectralCentroid": 0.1502
+    },
+    {
+      "time": 16,
+      "energy": 0.3584,
+      "low": 0.8112,
+      "mid": 0.1683,
+      "high": 0.0205,
+      "onset": 0.431,
+      "spectralCentroid": 0.0271
+    },
+    {
+      "time": 16.25,
+      "energy": 0.858,
+      "low": 0.6235,
+      "mid": 0.3734,
+      "high": 0.003,
+      "onset": 0.8194,
+      "spectralCentroid": 0.0275
+    },
+    {
+      "time": 16.5,
+      "energy": 1,
+      "low": 0.8766,
+      "mid": 0.1229,
+      "high": 0.0005,
+      "onset": 0.8956,
+      "spectralCentroid": 0.0135
+    },
+    {
+      "time": 16.75,
+      "energy": 0.8052,
+      "low": 0.7042,
+      "mid": 0.2948,
+      "high": 0.0009,
+      "onset": 0.9375,
+      "spectralCentroid": 0.0224
+    },
+    {
+      "time": 17,
+      "energy": 1,
+      "low": 0.8953,
+      "mid": 0.0978,
+      "high": 0.0069,
+      "onset": 1,
+      "spectralCentroid": 0.0169
+    },
+    {
+      "time": 17.25,
+      "energy": 0.5514,
+      "low": 0.5418,
+      "mid": 0.4491,
+      "high": 0.0091,
+      "onset": 1,
+      "spectralCentroid": 0.0352
+    },
+    {
+      "time": 17.5,
+      "energy": 0.4656,
+      "low": 0.5376,
+      "mid": 0.4547,
+      "high": 0.0076,
+      "onset": 0.3643,
+      "spectralCentroid": 0.0342
+    },
+    {
+      "time": 17.75,
+      "energy": 0.8222,
+      "low": 0.7496,
+      "mid": 0.2489,
+      "high": 0.0015,
+      "onset": 0.7473,
+      "spectralCentroid": 0.0204
+    },
+    {
+      "time": 18,
+      "energy": 0.8379,
+      "low": 0.7688,
+      "mid": 0.2281,
+      "high": 0.0031,
+      "onset": 0.5361,
+      "spectralCentroid": 0.0204
+    },
+    {
+      "time": 18.25,
+      "energy": 0.6348,
+      "low": 0.5758,
+      "mid": 0.407,
+      "high": 0.0172,
+      "onset": 0.6426,
+      "spectralCentroid": 0.0371
+    },
+    {
+      "time": 18.5,
+      "energy": 0.6065,
+      "low": 0.5878,
+      "mid": 0.4046,
+      "high": 0.0076,
+      "onset": 0.2561,
+      "spectralCentroid": 0.0316
+    },
+    {
+      "time": 18.75,
+      "energy": 1,
+      "low": 0.6616,
+      "mid": 0.3377,
+      "high": 0.0006,
+      "onset": 1,
+      "spectralCentroid": 0.0243
+    },
+    {
+      "time": 19,
+      "energy": 0.7622,
+      "low": 0.6476,
+      "mid": 0.3331,
+      "high": 0.0193,
+      "onset": 1,
+      "spectralCentroid": 0.0371
+    },
+    {
+      "time": 19.25,
+      "energy": 0.4441,
+      "low": 0.6846,
+      "mid": 0.3036,
+      "high": 0.0119,
+      "onset": 0.6343,
+      "spectralCentroid": 0.0297
+    },
+    {
+      "time": 19.5,
+      "energy": 0.525,
+      "low": 0.8619,
+      "mid": 0.1342,
+      "high": 0.0039,
+      "onset": 0.3676,
+      "spectralCentroid": 0.016
+    },
+    {
+      "time": 19.75,
+      "energy": 0.3675,
+      "low": 0.5667,
+      "mid": 0.4287,
+      "high": 0.0045,
+      "onset": 0.443,
+      "spectralCentroid": 0.0311
+    },
+    {
+      "time": 20,
+      "energy": 0.6622,
+      "low": 0.7981,
+      "mid": 0.1977,
+      "high": 0.0043,
+      "onset": 0.5616,
+      "spectralCentroid": 0.0196
+    },
+    {
+      "time": 20.25,
+      "energy": 0.591,
+      "low": 0.4003,
+      "mid": 0.5859,
+      "high": 0.0139,
+      "onset": 0.6462,
+      "spectralCentroid": 0.0442
+    },
+    {
+      "time": 20.5,
+      "energy": 0.4657,
+      "low": 0.4398,
+      "mid": 0.5506,
+      "high": 0.0096,
+      "onset": 0.3109,
+      "spectralCentroid": 0.04
+    },
+    {
+      "time": 20.75,
+      "energy": 0.6906,
+      "low": 0.7005,
+      "mid": 0.2978,
+      "high": 0.0017,
+      "onset": 0.6743,
+      "spectralCentroid": 0.0229
+    },
+    {
+      "time": 21,
+      "energy": 0.7853,
+      "low": 0.573,
+      "mid": 0.4249,
+      "high": 0.0021,
+      "onset": 0.6792,
+      "spectralCentroid": 0.0296
+    },
+    {
+      "time": 21.25,
+      "energy": 0.2413,
+      "low": 0.4948,
+      "mid": 0.4908,
+      "high": 0.0144,
+      "onset": 0.7627,
+      "spectralCentroid": 0.0419
+    },
+    {
+      "time": 21.5,
+      "energy": 0.1232,
+      "low": 0.4173,
+      "mid": 0.5578,
+      "high": 0.0249,
+      "onset": 0.2099,
+      "spectralCentroid": 0.0492
+    },
+    {
+      "time": 21.75,
+      "energy": 0.4487,
+      "low": 0.9733,
+      "mid": 0.0262,
+      "high": 0.0005,
+      "onset": 0.5267,
+      "spectralCentroid": 0.0087
+    },
+    {
+      "time": 22,
+      "energy": 0.4562,
+      "low": 0.8683,
+      "mid": 0.1254,
+      "high": 0.0063,
+      "onset": 0.4731,
+      "spectralCentroid": 0.0174
+    },
+    {
+      "time": 22.25,
+      "energy": 0.2782,
+      "low": 0.4301,
+      "mid": 0.5692,
+      "high": 0.0007,
+      "onset": 0.485,
+      "spectralCentroid": 0.0359
+    },
+    {
+      "time": 22.5,
+      "energy": 0.2334,
+      "low": 0.4219,
+      "mid": 0.5719,
+      "high": 0.0062,
+      "onset": 0.1402,
+      "spectralCentroid": 0.0392
+    },
+    {
+      "time": 22.75,
+      "energy": 0.5015,
+      "low": 0.6741,
+      "mid": 0.3253,
+      "high": 0.0005,
+      "onset": 0.5151,
+      "spectralCentroid": 0.0237
+    },
+    {
+      "time": 23,
+      "energy": 0.6963,
+      "low": 0.7006,
+      "mid": 0.272,
+      "high": 0.0274,
+      "onset": 0.624,
+      "spectralCentroid": 0.0404
+    },
+    {
+      "time": 23.25,
+      "energy": 0.4681,
+      "low": 0.4131,
+      "mid": 0.5802,
+      "high": 0.0066,
+      "onset": 0.7161,
+      "spectralCentroid": 0.0406
+    },
+    {
+      "time": 23.5,
+      "energy": 0.309,
+      "low": 0.7609,
+      "mid": 0.228,
+      "high": 0.0111,
+      "onset": 0.4349,
+      "spectralCentroid": 0.0248
+    },
+    {
+      "time": 23.75,
+      "energy": 0.2496,
+      "low": 0.4866,
+      "mid": 0.5044,
+      "high": 0.009,
+      "onset": 0.2836,
+      "spectralCentroid": 0.0373
+    },
+    {
+      "time": 24,
+      "energy": 0.5436,
+      "low": 0.7336,
+      "mid": 0.2605,
+      "high": 0.0059,
+      "onset": 0.4699,
+      "spectralCentroid": 0.0235
+    },
+    {
+      "time": 24.25,
+      "energy": 0.7111,
+      "low": 0.6343,
+      "mid": 0.3623,
+      "high": 0.0034,
+      "onset": 0.4705,
+      "spectralCentroid": 0.0271
+    },
+    {
+      "time": 24.5,
+      "energy": 1,
+      "low": 0.8134,
+      "mid": 0.1862,
+      "high": 0.0004,
+      "onset": 0.7173,
+      "spectralCentroid": 0.0166
+    },
+    {
+      "time": 24.75,
+      "energy": 0.7062,
+      "low": 0.6853,
+      "mid": 0.3143,
+      "high": 0.0004,
+      "onset": 0.7738,
+      "spectralCentroid": 0.023
+    },
+    {
+      "time": 25,
+      "energy": 1,
+      "low": 0.8872,
+      "mid": 0.112,
+      "high": 0.0008,
+      "onset": 1,
+      "spectralCentroid": 0.0131
+    },
+    {
+      "time": 25.25,
+      "energy": 0.5437,
+      "low": 0.5249,
+      "mid": 0.4671,
+      "high": 0.008,
+      "onset": 1,
+      "spectralCentroid": 0.0356
+    },
+    {
+      "time": 25.5,
+      "energy": 0.4199,
+      "low": 0.5839,
+      "mid": 0.4101,
+      "high": 0.006,
+      "onset": 0.3764,
+      "spectralCentroid": 0.031
+    },
+    {
+      "time": 25.75,
+      "energy": 0.7586,
+      "low": 0.7548,
+      "mid": 0.2439,
+      "high": 0.0013,
+      "onset": 0.7078,
+      "spectralCentroid": 0.02
+    },
+    {
+      "time": 26,
+      "energy": 0.7896,
+      "low": 0.7845,
+      "mid": 0.2131,
+      "high": 0.0024,
+      "onset": 0.4842,
+      "spectralCentroid": 0.0191
+    },
+    {
+      "time": 26.25,
+      "energy": 0.5564,
+      "low": 0.6144,
+      "mid": 0.3727,
+      "high": 0.0129,
+      "onset": 0.5897,
+      "spectralCentroid": 0.033
+    },
+    {
+      "time": 26.5,
+      "energy": 0.563,
+      "low": 0.6329,
+      "mid": 0.3604,
+      "high": 0.0067,
+      "onset": 0.2696,
+      "spectralCentroid": 0.0292
+    },
+    {
+      "time": 26.75,
+      "energy": 1,
+      "low": 0.6625,
+      "mid": 0.337,
+      "high": 0.0005,
+      "onset": 1,
+      "spectralCentroid": 0.0243
+    },
+    {
+      "time": 27,
+      "energy": 0.7959,
+      "low": 0.6254,
+      "mid": 0.3691,
+      "high": 0.0055,
+      "onset": 1,
+      "spectralCentroid": 0.0288
+    },
+    {
+      "time": 27.25,
+      "energy": 0.4201,
+      "low": 0.7022,
+      "mid": 0.2845,
+      "high": 0.0133,
+      "onset": 0.7104,
+      "spectralCentroid": 0.0299
+    },
+    {
+      "time": 27.5,
+      "energy": 0.5075,
+      "low": 0.8842,
+      "mid": 0.1122,
+      "high": 0.0036,
+      "onset": 0.352,
+      "spectralCentroid": 0.0148
+    },
+    {
+      "time": 27.75,
+      "energy": 0.3411,
+      "low": 0.5747,
+      "mid": 0.4217,
+      "high": 0.0036,
+      "onset": 0.4419,
+      "spectralCentroid": 0.0302
+    },
+    {
+      "time": 28,
+      "energy": 0.6553,
+      "low": 0.8466,
+      "mid": 0.1508,
+      "high": 0.0025,
+      "onset": 0.5653,
+      "spectralCentroid": 0.0161
+    },
+    {
+      "time": 28.25,
+      "energy": 0.554,
+      "low": 0.4103,
+      "mid": 0.5768,
+      "high": 0.0129,
+      "onset": 0.6673,
+      "spectralCentroid": 0.0432
+    },
+    {
+      "time": 28.5,
+      "energy": 0.4373,
+      "low": 0.4199,
+      "mid": 0.5707,
+      "high": 0.0094,
+      "onset": 0.2933,
+      "spectralCentroid": 0.0409
+    },
+    {
+      "time": 28.75,
+      "energy": 0.6469,
+      "low": 0.6883,
+      "mid": 0.3099,
+      "high": 0.0018,
+      "onset": 0.6408,
+      "spectralCentroid": 0.0236
+    },
+    {
+      "time": 29,
+      "energy": 0.8173,
+      "low": 0.533,
+      "mid": 0.4494,
+      "high": 0.0177,
+      "onset": 0.715,
+      "spectralCentroid": 0.0424
+    },
+    {
+      "time": 29.25,
+      "energy": 0.2338,
+      "low": 0.4827,
+      "mid": 0.5034,
+      "high": 0.0139,
+      "onset": 0.7984,
+      "spectralCentroid": 0.0423
+    },
+    {
+      "time": 29.5,
+      "energy": 0.1169,
+      "low": 0.3926,
+      "mid": 0.5851,
+      "high": 0.0223,
+      "onset": 0.2081,
+      "spectralCentroid": 0.0489
+    },
+    {
+      "time": 29.75,
+      "energy": 0.4132,
+      "low": 0.9671,
+      "mid": 0.0325,
+      "high": 0.0004,
+      "onset": 0.4827,
+      "spectralCentroid": 0.0089
+    },
+    {
+      "time": 30,
+      "energy": 0.4402,
+      "low": 0.8575,
+      "mid": 0.1379,
+      "high": 0.0046,
+      "onset": 0.4636,
+      "spectralCentroid": 0.0166
+    },
+    {
+      "time": 30.25,
+      "energy": 0.266,
+      "low": 0.4357,
+      "mid": 0.5637,
+      "high": 0.0006,
+      "onset": 0.4594,
+      "spectralCentroid": 0.0356
+    },
+    {
+      "time": 30.5,
+      "energy": 0.2245,
+      "low": 0.4328,
+      "mid": 0.5614,
+      "high": 0.0058,
+      "onset": 0.1363,
+      "spectralCentroid": 0.0384
+    },
+    {
+      "time": 30.75,
+      "energy": 0.4847,
+      "low": 0.6758,
+      "mid": 0.3237,
+      "high": 0.0005,
+      "onset": 0.4984,
+      "spectralCentroid": 0.0236
+    },
+    {
+      "time": 31,
+      "energy": 0.637,
+      "low": 0.6744,
+      "mid": 0.2964,
+      "high": 0.0291,
+      "onset": 0.569,
+      "spectralCentroid": 0.0428
+    },
+    {
+      "time": 31.25,
+      "energy": 0.4625,
+      "low": 0.425,
+      "mid": 0.5687,
+      "high": 0.0063,
+      "onset": 0.6376,
+      "spectralCentroid": 0.0397
+    },
+    {
+      "time": 31.5,
+      "energy": 0.3058,
+      "low": 0.8298,
+      "mid": 0.1601,
+      "high": 0.0101,
+      "onset": 0.4535,
+      "spectralCentroid": 0.0208
+    },
+    {
+      "time": 31.75,
+      "energy": 0.2368,
+      "low": 0.451,
+      "mid": 0.5373,
+      "high": 0.0118,
+      "onset": 0.3157,
+      "spectralCentroid": 0.0405
+    },
+    {
+      "time": 32,
+      "energy": 0.6124,
+      "low": 0.4943,
+      "mid": 0.4348,
+      "high": 0.0709,
+      "onset": 0.6246,
+      "spectralCentroid": 0.0686
+    },
+    {
+      "time": 32.25,
+      "energy": 0.5318,
+      "low": 0.5487,
+      "mid": 0.4289,
+      "high": 0.0224,
+      "onset": 0.5913,
+      "spectralCentroid": 0.0411
+    },
+    {
+      "time": 32.5,
+      "energy": 0.7577,
+      "low": 0.7842,
+      "mid": 0.2069,
+      "high": 0.0089,
+      "onset": 0.5804,
+      "spectralCentroid": 0.0224
+    },
+    {
+      "time": 32.75,
+      "energy": 0.9575,
+      "low": 0.5388,
+      "mid": 0.4556,
+      "high": 0.0056,
+      "onset": 0.9434,
+      "spectralCentroid": 0.033
+    },
+    {
+      "time": 33,
+      "energy": 0.9602,
+      "low": 0.8369,
+      "mid": 0.1535,
+      "high": 0.0096,
+      "onset": 1,
+      "spectralCentroid": 0.0215
+    },
+    {
+      "time": 33.25,
+      "energy": 0.7011,
+      "low": 0.7169,
+      "mid": 0.2722,
+      "high": 0.0108,
+      "onset": 1,
+      "spectralCentroid": 0.027
+    },
+    {
+      "time": 33.5,
+      "energy": 0.5877,
+      "low": 0.7255,
+      "mid": 0.2581,
+      "high": 0.0164,
+      "onset": 0.4243,
+      "spectralCentroid": 0.0292
+    },
+    {
+      "time": 33.75,
+      "energy": 0.6909,
+      "low": 0.7773,
+      "mid": 0.2146,
+      "high": 0.0082,
+      "onset": 0.3411,
+      "spectralCentroid": 0.0224
+    },
+    {
+      "time": 34,
+      "energy": 0.8512,
+      "low": 0.8641,
+      "mid": 0.126,
+      "high": 0.0099,
+      "onset": 0.426,
+      "spectralCentroid": 0.0191
+    },
+    {
+      "time": 34.25,
+      "energy": 0.4521,
+      "low": 0.4527,
+      "mid": 0.5243,
+      "high": 0.023,
+      "onset": 0.8181,
+      "spectralCentroid": 0.0462
+    },
+    {
+      "time": 34.5,
+      "energy": 0.5424,
+      "low": 0.5937,
+      "mid": 0.3957,
+      "high": 0.0106,
+      "onset": 0.2873,
+      "spectralCentroid": 0.0328
+    },
+    {
+      "time": 34.75,
+      "energy": 1,
+      "low": 0.7783,
+      "mid": 0.2193,
+      "high": 0.0025,
+      "onset": 0.8499,
+      "spectralCentroid": 0.0194
+    },
+    {
+      "time": 35,
+      "energy": 0.9002,
+      "low": 0.6803,
+      "mid": 0.3038,
+      "high": 0.0159,
+      "onset": 0.8942,
+      "spectralCentroid": 0.0333
+    },
+    {
+      "time": 35.25,
+      "energy": 0.3636,
+      "low": 0.6974,
+      "mid": 0.2841,
+      "high": 0.0186,
+      "onset": 0.7804,
+      "spectralCentroid": 0.0326
+    },
+    {
+      "time": 35.5,
+      "energy": 0.3801,
+      "low": 0.7692,
+      "mid": 0.2171,
+      "high": 0.0137,
+      "onset": 0.3017,
+      "spectralCentroid": 0.0257
+    },
+    {
+      "time": 35.75,
+      "energy": 0.4163,
+      "low": 0.7666,
+      "mid": 0.2291,
+      "high": 0.0043,
+      "onset": 0.361,
+      "spectralCentroid": 0.021
+    },
+    {
+      "time": 36,
+      "energy": 0.448,
+      "low": 0.7931,
+      "mid": 0.1869,
+      "high": 0.02,
+      "onset": 0.4725,
+      "spectralCentroid": 0.0295
+    },
+    {
+      "time": 36.25,
+      "energy": 0.4894,
+      "low": 0.6357,
+      "mid": 0.3489,
+      "high": 0.0154,
+      "onset": 0.4914,
+      "spectralCentroid": 0.0332
+    },
+    {
+      "time": 36.5,
+      "energy": 0.3986,
+      "low": 0.6082,
+      "mid": 0.3723,
+      "high": 0.0195,
+      "onset": 0.3681,
+      "spectralCentroid": 0.0366
+    },
+    {
+      "time": 36.75,
+      "energy": 0.9594,
+      "low": 0.5654,
+      "mid": 0.4337,
+      "high": 0.0009,
+      "onset": 1,
+      "spectralCentroid": 0.0293
+    },
+    {
+      "time": 37,
+      "energy": 0.6638,
+      "low": 0.7494,
+      "mid": 0.248,
+      "high": 0.0027,
+      "onset": 0.7486,
+      "spectralCentroid": 0.021
+    },
+    {
+      "time": 37.25,
+      "energy": 0.235,
+      "low": 0.5279,
+      "mid": 0.4544,
+      "high": 0.0177,
+      "onset": 0.7022,
+      "spectralCentroid": 0.0422
+    },
+    {
+      "time": 37.5,
+      "energy": 0.1584,
+      "low": 0.4645,
+      "mid": 0.4733,
+      "high": 0.0622,
+      "onset": 0.2164,
+      "spectralCentroid": 0.0665
+    },
+    {
+      "time": 37.75,
+      "energy": 0.4224,
+      "low": 0.957,
+      "mid": 0.0412,
+      "high": 0.0018,
+      "onset": 0.4764,
+      "spectralCentroid": 0.0102
+    },
+    {
+      "time": 38,
+      "energy": 0.4295,
+      "low": 0.8857,
+      "mid": 0.1067,
+      "high": 0.0076,
+      "onset": 0.455,
+      "spectralCentroid": 0.0172
+    },
+    {
+      "time": 38.25,
+      "energy": 0.2422,
+      "low": 0.5046,
+      "mid": 0.4904,
+      "high": 0.005,
+      "onset": 0.4349,
+      "spectralCentroid": 0.0344
+    },
+    {
+      "time": 38.5,
+      "energy": 0.2025,
+      "low": 0.5594,
+      "mid": 0.409,
+      "high": 0.0316,
+      "onset": 0.1326,
+      "spectralCentroid": 0.0453
+    },
+    {
+      "time": 38.75,
+      "energy": 0.7209,
+      "low": 0.6565,
+      "mid": 0.3431,
+      "high": 0.0005,
+      "onset": 0.764,
+      "spectralCentroid": 0.0245
+    },
+    {
+      "time": 39,
+      "energy": 0.6153,
+      "low": 0.585,
+      "mid": 0.3834,
+      "high": 0.0316,
+      "onset": 0.6378,
+      "spectralCentroid": 0.0492
+    },
+    {
+      "time": 39.25,
+      "energy": 0.3958,
+      "low": 0.4303,
+      "mid": 0.562,
+      "high": 0.0078,
+      "onset": 0.5293,
+      "spectralCentroid": 0.0403
+    },
+    {
+      "time": 39.5,
+      "energy": 0.2721,
+      "low": 0.8577,
+      "mid": 0.1342,
+      "high": 0.0081,
+      "onset": 0.4386,
+      "spectralCentroid": 0.0184
+    },
+    {
+      "time": 39.75,
+      "energy": 0.222,
+      "low": 0.4526,
+      "mid": 0.5352,
+      "high": 0.0121,
+      "onset": 0.292,
+      "spectralCentroid": 0.0406
+    },
+    {
+      "time": 40,
+      "energy": 0.5955,
+      "low": 0.8048,
+      "mid": 0.1904,
+      "high": 0.0048,
+      "onset": 0.6233,
+      "spectralCentroid": 0.0193
+    },
+    {
+      "time": 40.25,
+      "energy": 0.5811,
+      "low": 0.6998,
+      "mid": 0.2957,
+      "high": 0.0046,
+      "onset": 0.438,
+      "spectralCentroid": 0.0244
+    },
+    {
+      "time": 40.5,
+      "energy": 0.865,
+      "low": 0.8774,
+      "mid": 0.1209,
+      "high": 0.0016,
+      "onset": 0.6535,
+      "spectralCentroid": 0.0141
+    },
+    {
+      "time": 40.75,
+      "energy": 1,
+      "low": 0.8195,
+      "mid": 0.1802,
+      "high": 0.0003,
+      "onset": 1,
+      "spectralCentroid": 0.0163
+    },
+    {
+      "time": 41,
+      "energy": 1,
+      "low": 0.9216,
+      "mid": 0.0768,
+      "high": 0.0015,
+      "onset": 0.91,
+      "spectralCentroid": 0.0118
+    },
+    {
+      "time": 41.25,
+      "energy": 0.7399,
+      "low": 0.8349,
+      "mid": 0.1602,
+      "high": 0.0049,
+      "onset": 0.8271,
+      "spectralCentroid": 0.0181
+    },
+    {
+      "time": 41.5,
+      "energy": 0.8673,
+      "low": 0.8741,
+      "mid": 0.1217,
+      "high": 0.0042,
+      "onset": 0.3844,
+      "spectralCentroid": 0.0155
+    },
+    {
+      "time": 41.75,
+      "energy": 0.484,
+      "low": 0.6232,
+      "mid": 0.3664,
+      "high": 0.0104,
+      "onset": 0.6678,
+      "spectralCentroid": 0.0312
+    },
+    {
+      "time": 42,
+      "energy": 0.5625,
+      "low": 0.7666,
+      "mid": 0.2235,
+      "high": 0.0099,
+      "onset": 0.4631,
+      "spectralCentroid": 0.0239
+    },
+    {
+      "time": 42.25,
+      "energy": 0.6541,
+      "low": 0.6079,
+      "mid": 0.3777,
+      "high": 0.0145,
+      "onset": 0.5485,
+      "spectralCentroid": 0.0342
+    },
+    {
+      "time": 42.5,
+      "energy": 0.7096,
+      "low": 0.7834,
+      "mid": 0.2105,
+      "high": 0.0061,
+      "onset": 0.4879,
+      "spectralCentroid": 0.0211
+    },
+    {
+      "time": 42.75,
+      "energy": 0.8191,
+      "low": 0.8094,
+      "mid": 0.1883,
+      "high": 0.0023,
+      "onset": 0.5625,
+      "spectralCentroid": 0.0179
+    },
+    {
+      "time": 43,
+      "energy": 0.7001,
+      "low": 0.7318,
+      "mid": 0.2632,
+      "high": 0.005,
+      "onset": 0.4125,
+      "spectralCentroid": 0.0233
+    },
+    {
+      "time": 43.25,
+      "energy": 0.396,
+      "low": 0.6891,
+      "mid": 0.3015,
+      "high": 0.0095,
+      "onset": 0.5224,
+      "spectralCentroid": 0.0286
+    },
+    {
+      "time": 43.5,
+      "energy": 0.4036,
+      "low": 0.7998,
+      "mid": 0.194,
+      "high": 0.0063,
+      "onset": 0.2654,
+      "spectralCentroid": 0.0203
+    },
+    {
+      "time": 43.75,
+      "energy": 0.3284,
+      "low": 0.6099,
+      "mid": 0.3875,
+      "high": 0.0027,
+      "onset": 0.2595,
+      "spectralCentroid": 0.0279
+    },
+    {
+      "time": 44,
+      "energy": 0.7015,
+      "low": 0.8206,
+      "mid": 0.1737,
+      "high": 0.0057,
+      "onset": 0.6704,
+      "spectralCentroid": 0.019
+    },
+    {
+      "time": 44.25,
+      "energy": 0.6995,
+      "low": 0.4917,
+      "mid": 0.4933,
+      "high": 0.015,
+      "onset": 0.6208,
+      "spectralCentroid": 0.0402
+    },
+    {
+      "time": 44.5,
+      "energy": 0.912,
+      "low": 0.8256,
+      "mid": 0.168,
+      "high": 0.0064,
+      "onset": 0.7335,
+      "spectralCentroid": 0.0191
+    },
+    {
+      "time": 44.75,
+      "energy": 0.7921,
+      "low": 0.6644,
+      "mid": 0.3313,
+      "high": 0.0044,
+      "onset": 0.5879,
+      "spectralCentroid": 0.0261
+    },
+    {
+      "time": 45,
+      "energy": 1,
+      "low": 0.6444,
+      "mid": 0.3483,
+      "high": 0.0073,
+      "onset": 1,
+      "spectralCentroid": 0.0296
+    },
+    {
+      "time": 45.25,
+      "energy": 0.4106,
+      "low": 0.5711,
+      "mid": 0.4184,
+      "high": 0.0105,
+      "onset": 1,
+      "spectralCentroid": 0.0347
+    },
+    {
+      "time": 45.5,
+      "energy": 0.7264,
+      "low": 0.9224,
+      "mid": 0.0745,
+      "high": 0.0032,
+      "onset": 0.7015,
+      "spectralCentroid": 0.0126
+    },
+    {
+      "time": 45.75,
+      "energy": 0.6536,
+      "low": 0.919,
+      "mid": 0.0794,
+      "high": 0.0016,
+      "onset": 0.3312,
+      "spectralCentroid": 0.0119
+    },
+    {
+      "time": 46,
+      "energy": 0.6564,
+      "low": 0.8877,
+      "mid": 0.1088,
+      "high": 0.0034,
+      "onset": 0.4472,
+      "spectralCentroid": 0.0145
+    },
+    {
+      "time": 46.25,
+      "energy": 0.609,
+      "low": 0.6707,
+      "mid": 0.3267,
+      "high": 0.0026,
+      "onset": 0.5416,
+      "spectralCentroid": 0.0249
+    },
+    {
+      "time": 46.5,
+      "energy": 0.662,
+      "low": 0.6704,
+      "mid": 0.3232,
+      "high": 0.0065,
+      "onset": 0.5069,
+      "spectralCentroid": 0.0269
+    },
+    {
+      "time": 46.75,
+      "energy": 0.8645,
+      "low": 0.8392,
+      "mid": 0.1592,
+      "high": 0.0016,
+      "onset": 0.5148,
+      "spectralCentroid": 0.0159
+    },
+    {
+      "time": 47,
+      "energy": 1,
+      "low": 0.6686,
+      "mid": 0.3195,
+      "high": 0.0119,
+      "onset": 0.8491,
+      "spectralCentroid": 0.0305
+    },
+    {
+      "time": 47.25,
+      "energy": 0.949,
+      "low": 0.8752,
+      "mid": 0.1217,
+      "high": 0.0031,
+      "onset": 0.8462,
+      "spectralCentroid": 0.015
+    },
+    {
+      "time": 47.5,
+      "energy": 0.6602,
+      "low": 0.8091,
+      "mid": 0.1847,
+      "high": 0.0062,
+      "onset": 0.63,
+      "spectralCentroid": 0.0198
+    },
+    {
+      "time": 47.75,
+      "energy": 0.7171,
+      "low": 0.8906,
+      "mid": 0.1071,
+      "high": 0.0023,
+      "onset": 0.4132,
+      "spectralCentroid": 0.0137
+    },
+    {
+      "time": 48,
+      "energy": 1,
+      "low": 0.9161,
+      "mid": 0.0817,
+      "high": 0.0022,
+      "onset": 1,
+      "spectralCentroid": 0.0124
+    },
+    {
+      "time": 48.25,
+      "energy": 1,
+      "low": 0.8878,
+      "mid": 0.1101,
+      "high": 0.0021,
+      "onset": 0.811,
+      "spectralCentroid": 0.0138
+    },
+    {
+      "time": 48.5,
+      "energy": 1,
+      "low": 0.8208,
+      "mid": 0.1782,
+      "high": 0.001,
+      "onset": 0.7003,
+      "spectralCentroid": 0.0166
+    },
+    {
+      "time": 48.75,
+      "energy": 0.6906,
+      "low": 0.7698,
+      "mid": 0.2237,
+      "high": 0.0065,
+      "onset": 0.8291,
+      "spectralCentroid": 0.0225
+    },
+    {
+      "time": 49,
+      "energy": 1,
+      "low": 0.803,
+      "mid": 0.1671,
+      "high": 0.0299,
+      "onset": 1,
+      "spectralCentroid": 0.0347
+    },
+    {
+      "time": 49.25,
+      "energy": 0.5611,
+      "low": 0.4837,
+      "mid": 0.4907,
+      "high": 0.0255,
+      "onset": 1,
+      "spectralCentroid": 0.0506
+    },
+    {
+      "time": 49.5,
+      "energy": 0.8764,
+      "low": 0.3126,
+      "mid": 0.616,
+      "high": 0.0714,
+      "onset": 0.776,
+      "spectralCentroid": 0.078
+    },
+    {
+      "time": 49.75,
+      "energy": 1,
+      "low": 0.4553,
+      "mid": 0.5024,
+      "high": 0.0423,
+      "onset": 0.7106,
+      "spectralCentroid": 0.0559
+    },
+    {
+      "time": 50,
+      "energy": 0.7831,
+      "low": 0.7835,
+      "mid": 0.205,
+      "high": 0.0115,
+      "onset": 1,
+      "spectralCentroid": 0.0239
+    },
+    {
+      "time": 50.25,
+      "energy": 0.8949,
+      "low": 0.434,
+      "mid": 0.4306,
+      "high": 0.1354,
+      "onset": 0.9666,
+      "spectralCentroid": 0.1045
+    },
+    {
+      "time": 50.5,
+      "energy": 0.8598,
+      "low": 0.3872,
+      "mid": 0.5364,
+      "high": 0.0764,
+      "onset": 0.8534,
+      "spectralCentroid": 0.0767
+    },
+    {
+      "time": 50.75,
+      "energy": 1,
+      "low": 0.5789,
+      "mid": 0.387,
+      "high": 0.0341,
+      "onset": 0.9865,
+      "spectralCentroid": 0.0457
+    },
+    {
+      "time": 51,
+      "energy": 0.8575,
+      "low": 0.38,
+      "mid": 0.5332,
+      "high": 0.0867,
+      "onset": 1,
+      "spectralCentroid": 0.0862
+    },
+    {
+      "time": 51.25,
+      "energy": 0.6218,
+      "low": 0.3106,
+      "mid": 0.5299,
+      "high": 0.1595,
+      "onset": 0.7757,
+      "spectralCentroid": 0.127
+    },
+    {
+      "time": 51.5,
+      "energy": 0.6977,
+      "low": 0.3526,
+      "mid": 0.4989,
+      "high": 0.1485,
+      "onset": 0.3975,
+      "spectralCentroid": 0.1155
+    },
+    {
+      "time": 51.75,
+      "energy": 0.7319,
+      "low": 0.2365,
+      "mid": 0.6425,
+      "high": 0.121,
+      "onset": 0.6238,
+      "spectralCentroid": 0.1071
+    },
+    {
+      "time": 52,
+      "energy": 0.9331,
+      "low": 0.8247,
+      "mid": 0.1516,
+      "high": 0.0237,
+      "onset": 1,
+      "spectralCentroid": 0.028
+    },
+    {
+      "time": 52.25,
+      "energy": 0.9168,
+      "low": 0.4562,
+      "mid": 0.4327,
+      "high": 0.111,
+      "onset": 0.882,
+      "spectralCentroid": 0.091
+    },
+    {
+      "time": 52.5,
+      "energy": 0.5994,
+      "low": 0.3239,
+      "mid": 0.5669,
+      "high": 0.1091,
+      "onset": 0.7242,
+      "spectralCentroid": 0.0966
+    },
+    {
+      "time": 52.75,
+      "energy": 0.6918,
+      "low": 0.5871,
+      "mid": 0.3563,
+      "high": 0.0565,
+      "onset": 0.6429,
+      "spectralCentroid": 0.0571
+    },
+    {
+      "time": 53,
+      "energy": 0.7463,
+      "low": 0.4559,
+      "mid": 0.4851,
+      "high": 0.059,
+      "onset": 0.6852,
+      "spectralCentroid": 0.0684
+    },
+    {
+      "time": 53.25,
+      "energy": 0.3859,
+      "low": 0.1675,
+      "mid": 0.6132,
+      "high": 0.2192,
+      "onset": 0.7146,
+      "spectralCentroid": 0.1708
+    },
+    {
+      "time": 53.5,
+      "energy": 0.4454,
+      "low": 0.0797,
+      "mid": 0.6994,
+      "high": 0.2209,
+      "onset": 0.4648,
+      "spectralCentroid": 0.1663
+    },
+    {
+      "time": 53.75,
+      "energy": 0.6405,
+      "low": 0.3522,
+      "mid": 0.5123,
+      "high": 0.1354,
+      "onset": 0.674,
+      "spectralCentroid": 0.1087
+    },
+    {
+      "time": 54,
+      "energy": 0.696,
+      "low": 0.7956,
+      "mid": 0.1659,
+      "high": 0.0385,
+      "onset": 0.8999,
+      "spectralCentroid": 0.0371
+    },
+    {
+      "time": 54.25,
+      "energy": 0.5456,
+      "low": 0.3635,
+      "mid": 0.4964,
+      "high": 0.1401,
+      "onset": 0.7401,
+      "spectralCentroid": 0.1105
+    },
+    {
+      "time": 54.5,
+      "energy": 0.5647,
+      "low": 0.1385,
+      "mid": 0.6474,
+      "high": 0.2141,
+      "onset": 0.5366,
+      "spectralCentroid": 0.1596
+    },
+    {
+      "time": 54.75,
+      "energy": 0.6401,
+      "low": 0.3579,
+      "mid": 0.5061,
+      "high": 0.136,
+      "onset": 0.5839,
+      "spectralCentroid": 0.1092
+    },
+    {
+      "time": 55,
+      "energy": 0.6683,
+      "low": 0.4723,
+      "mid": 0.4194,
+      "high": 0.1084,
+      "onset": 0.5988,
+      "spectralCentroid": 0.0957
+    },
+    {
+      "time": 55.25,
+      "energy": 0.5121,
+      "low": 0.2244,
+      "mid": 0.6308,
+      "high": 0.1448,
+      "onset": 0.6075,
+      "spectralCentroid": 0.1253
+    },
+    {
+      "time": 55.5,
+      "energy": 0.4236,
+      "low": 0.2963,
+      "mid": 0.5545,
+      "high": 0.1492,
+      "onset": 0.3683,
+      "spectralCentroid": 0.119
+    },
+    {
+      "time": 55.75,
+      "energy": 0.422,
+      "low": 0.2228,
+      "mid": 0.6534,
+      "high": 0.1238,
+      "onset": 0.4211,
+      "spectralCentroid": 0.1093
+    },
+    {
+      "time": 56,
+      "energy": 0.6723,
+      "low": 0.7503,
+      "mid": 0.2248,
+      "high": 0.025,
+      "onset": 0.7144,
+      "spectralCentroid": 0.0323
+    },
+    {
+      "time": 56.25,
+      "energy": 0.6505,
+      "low": 0.5256,
+      "mid": 0.4298,
+      "high": 0.0446,
+      "onset": 0.5665,
+      "spectralCentroid": 0.0536
+    },
+    {
+      "time": 56.5,
+      "energy": 0.966,
+      "low": 0.7857,
+      "mid": 0.1994,
+      "high": 0.0149,
+      "onset": 0.6367,
+      "spectralCentroid": 0.0254
+    },
+    {
+      "time": 56.75,
+      "energy": 0.6353,
+      "low": 0.5889,
+      "mid": 0.368,
+      "high": 0.043,
+      "onset": 0.6671,
+      "spectralCentroid": 0.0502
+    },
+    {
+      "time": 57,
+      "energy": 1,
+      "low": 0.8328,
+      "mid": 0.1483,
+      "high": 0.0189,
+      "onset": 0.8341,
+      "spectralCentroid": 0.027
+    },
+    {
+      "time": 57.25,
+      "energy": 0.6355,
+      "low": 0.4446,
+      "mid": 0.5204,
+      "high": 0.035,
+      "onset": 1,
+      "spectralCentroid": 0.0559
+    },
+    {
+      "time": 57.5,
+      "energy": 0.9109,
+      "low": 0.3928,
+      "mid": 0.5933,
+      "high": 0.0139,
+      "onset": 0.5982,
+      "spectralCentroid": 0.0446
+    },
+    {
+      "time": 57.75,
+      "energy": 1,
+      "low": 0.4845,
+      "mid": 0.5097,
+      "high": 0.0058,
+      "onset": 0.5507,
+      "spectralCentroid": 0.0358
+    },
+    {
+      "time": 58,
+      "energy": 0.695,
+      "low": 0.764,
+      "mid": 0.2253,
+      "high": 0.0107,
+      "onset": 0.7979,
+      "spectralCentroid": 0.0244
+    },
+    {
+      "time": 58.25,
+      "energy": 0.5772,
+      "low": 0.5232,
+      "mid": 0.4626,
+      "high": 0.0142,
+      "onset": 0.573,
+      "spectralCentroid": 0.0382
+    },
+    {
+      "time": 58.5,
+      "energy": 0.707,
+      "low": 0.4594,
+      "mid": 0.532,
+      "high": 0.0086,
+      "onset": 0.3828,
+      "spectralCentroid": 0.0386
+    },
+    {
+      "time": 58.75,
+      "energy": 1,
+      "low": 0.6386,
+      "mid": 0.3576,
+      "high": 0.0038,
+      "onset": 1,
+      "spectralCentroid": 0.0272
+    },
+    {
+      "time": 59,
+      "energy": 0.7098,
+      "low": 0.5607,
+      "mid": 0.4089,
+      "high": 0.0305,
+      "onset": 1,
+      "spectralCentroid": 0.049
+    },
+    {
+      "time": 59.25,
+      "energy": 0.3685,
+      "low": 0.6359,
+      "mid": 0.296,
+      "high": 0.0681,
+      "onset": 0.6571,
+      "spectralCentroid": 0.0712
+    },
+    {
+      "time": 59.5,
+      "energy": 0.4493,
+      "low": 0.7444,
+      "mid": 0.2271,
+      "high": 0.0285,
+      "onset": 0.3381,
+      "spectralCentroid": 0.0347
+    },
+    {
+      "time": 59.75,
+      "energy": 0.3241,
+      "low": 0.5013,
+      "mid": 0.4802,
+      "high": 0.0186,
+      "onset": 0.3744,
+      "spectralCentroid": 0.0417
+    },
+    {
+      "time": 60,
+      "energy": 0.5637,
+      "low": 0.8753,
+      "mid": 0.118,
+      "high": 0.0067,
+      "onset": 0.5373,
+      "spectralCentroid": 0.0168
+    },
+    {
+      "time": 60.25,
+      "energy": 0.4681,
+      "low": 0.4233,
+      "mid": 0.5598,
+      "high": 0.0169,
+      "onset": 0.6035,
+      "spectralCentroid": 0.0446
+    },
+    {
+      "time": 60.5,
+      "energy": 0.379,
+      "low": 0.4608,
+      "mid": 0.5254,
+      "high": 0.0138,
+      "onset": 0.2681,
+      "spectralCentroid": 0.0411
+    },
+    {
+      "time": 60.75,
+      "energy": 0.5188,
+      "low": 0.6806,
+      "mid": 0.307,
+      "high": 0.0124,
+      "onset": 0.5,
+      "spectralCentroid": 0.0301
+    },
+    {
+      "time": 61,
+      "energy": 0.6864,
+      "low": 0.5236,
+      "mid": 0.4369,
+      "high": 0.0395,
+      "onset": 0.6182,
+      "spectralCentroid": 0.058
+    },
+    {
+      "time": 61.25,
+      "energy": 0.2015,
+      "low": 0.3984,
+      "mid": 0.4445,
+      "high": 0.1571,
+      "onset": 0.6914,
+      "spectralCentroid": 0.1535
+    },
+    {
+      "time": 61.5,
+      "energy": 0.168,
+      "low": 0.213,
+      "mid": 0.6553,
+      "high": 0.1317,
+      "onset": 0.2025,
+      "spectralCentroid": 0.1163
+    },
+    {
+      "time": 61.75,
+      "energy": 0.3355,
+      "low": 0.9299,
+      "mid": 0.0596,
+      "high": 0.0105,
+      "onset": 0.4127,
+      "spectralCentroid": 0.0161
+    },
+    {
+      "time": 62,
+      "energy": 0.369,
+      "low": 0.8624,
+      "mid": 0.1281,
+      "high": 0.0095,
+      "onset": 0.3647,
+      "spectralCentroid": 0.0189
+    },
+    {
+      "time": 62.25,
+      "energy": 0.2232,
+      "low": 0.4522,
+      "mid": 0.5322,
+      "high": 0.0155,
+      "onset": 0.3782,
+      "spectralCentroid": 0.0424
+    },
+    {
+      "time": 62.5,
+      "energy": 0.1777,
+      "low": 0.3912,
+      "mid": 0.586,
+      "high": 0.0228,
+      "onset": 0.1356,
+      "spectralCentroid": 0.0494
+    },
+    {
+      "time": 62.75,
+      "energy": 0.4103,
+      "low": 0.6401,
+      "mid": 0.3505,
+      "high": 0.0094,
+      "onset": 0.4302,
+      "spectralCentroid": 0.0311
+    },
+    {
+      "time": 63,
+      "energy": 0.533,
+      "low": 0.6515,
+      "mid": 0.2869,
+      "high": 0.0616,
+      "onset": 0.4755,
+      "spectralCentroid": 0.0667
+    },
+    {
+      "time": 63.25,
+      "energy": 0.3158,
+      "low": 0.426,
+      "mid": 0.5177,
+      "high": 0.0563,
+      "onset": 0.5219,
+      "spectralCentroid": 0.0781
+    },
+    {
+      "time": 63.5,
+      "energy": 0.405,
+      "low": 0.2716,
+      "mid": 0.5363,
+      "high": 0.1921,
+      "onset": 0.4941,
+      "spectralCentroid": 0.142
+    },
+    {
+      "time": 63.75,
+      "energy": 0.2966,
+      "low": 0.1913,
+      "mid": 0.6419,
+      "high": 0.1668,
+      "onset": 0.3403,
+      "spectralCentroid": 0.133
+    },
+    {
+      "time": 64,
+      "energy": 0.4358,
+      "low": 0.5847,
+      "mid": 0.3759,
+      "high": 0.0394,
+      "onset": 0.3701,
+      "spectralCentroid": 0.048
+    },
+    {
+      "time": 64.25,
+      "energy": 0.4779,
+      "low": 0.3453,
+      "mid": 0.5533,
+      "high": 0.1015,
+      "onset": 0.4565,
+      "spectralCentroid": 0.0917
+    },
+    {
+      "time": 64.5,
+      "energy": 0.7327,
+      "low": 0.5541,
+      "mid": 0.3579,
+      "high": 0.088,
+      "onset": 0.6189,
+      "spectralCentroid": 0.0744
+    },
+    {
+      "time": 64.75,
+      "energy": 0.8347,
+      "low": 0.4568,
+      "mid": 0.491,
+      "high": 0.0521,
+      "onset": 0.8464,
+      "spectralCentroid": 0.0612
+    },
+    {
+      "time": 65,
+      "energy": 0.8863,
+      "low": 0.7499,
+      "mid": 0.2146,
+      "high": 0.0355,
+      "onset": 0.8474,
+      "spectralCentroid": 0.0405
+    },
+    {
+      "time": 65.25,
+      "energy": 0.6394,
+      "low": 0.531,
+      "mid": 0.4087,
+      "high": 0.0604,
+      "onset": 0.8996,
+      "spectralCentroid": 0.0645
+    },
+    {
+      "time": 65.5,
+      "energy": 0.8318,
+      "low": 0.4435,
+      "mid": 0.5235,
+      "high": 0.033,
+      "onset": 0.5807,
+      "spectralCentroid": 0.0519
+    },
+    {
+      "time": 65.75,
+      "energy": 0.9353,
+      "low": 0.4927,
+      "mid": 0.4927,
+      "high": 0.0145,
+      "onset": 0.3895,
+      "spectralCentroid": 0.0399
+    },
+    {
+      "time": 66,
+      "energy": 0.7482,
+      "low": 0.7547,
+      "mid": 0.2275,
+      "high": 0.0178,
+      "onset": 0.6879,
+      "spectralCentroid": 0.0286
+    },
+    {
+      "time": 66.25,
+      "energy": 0.396,
+      "low": 0.3127,
+      "mid": 0.5988,
+      "high": 0.0886,
+      "onset": 0.7395,
+      "spectralCentroid": 0.0867
+    },
+    {
+      "time": 66.5,
+      "energy": 0.8401,
+      "low": 0.4356,
+      "mid": 0.5526,
+      "high": 0.0118,
+      "onset": 0.8488,
+      "spectralCentroid": 0.0414
+    },
+    {
+      "time": 66.75,
+      "energy": 0.944,
+      "low": 0.6342,
+      "mid": 0.3528,
+      "high": 0.013,
+      "onset": 0.5811,
+      "spectralCentroid": 0.0323
+    },
+    {
+      "time": 67,
+      "energy": 0.8243,
+      "low": 0.5968,
+      "mid": 0.3668,
+      "high": 0.0364,
+      "onset": 0.7165,
+      "spectralCentroid": 0.0498
+    },
+    {
+      "time": 67.25,
+      "energy": 0.3715,
+      "low": 0.5138,
+      "mid": 0.4109,
+      "high": 0.0753,
+      "onset": 0.7064,
+      "spectralCentroid": 0.0797
+    },
+    {
+      "time": 67.5,
+      "energy": 0.3548,
+      "low": 0.5681,
+      "mid": 0.3599,
+      "high": 0.072,
+      "onset": 0.344,
+      "spectralCentroid": 0.0661
+    },
+    {
+      "time": 67.75,
+      "energy": 0.3645,
+      "low": 0.6821,
+      "mid": 0.3046,
+      "high": 0.0134,
+      "onset": 0.3483,
+      "spectralCentroid": 0.03
+    },
+    {
+      "time": 68,
+      "energy": 0.4021,
+      "low": 0.691,
+      "mid": 0.2832,
+      "high": 0.0258,
+      "onset": 0.3992,
+      "spectralCentroid": 0.0372
+    },
+    {
+      "time": 68.25,
+      "energy": 0.4028,
+      "low": 0.5376,
+      "mid": 0.4308,
+      "high": 0.0316,
+      "onset": 0.3877,
+      "spectralCentroid": 0.0464
+    },
+    {
+      "time": 68.5,
+      "energy": 0.3543,
+      "low": 0.5835,
+      "mid": 0.3911,
+      "high": 0.0255,
+      "onset": 0.2936,
+      "spectralCentroid": 0.041
+    },
+    {
+      "time": 68.75,
+      "energy": 0.8172,
+      "low": 0.5449,
+      "mid": 0.4463,
+      "high": 0.0088,
+      "onset": 0.8275,
+      "spectralCentroid": 0.0346
+    },
+    {
+      "time": 69,
+      "energy": 0.5439,
+      "low": 0.6765,
+      "mid": 0.285,
+      "high": 0.0385,
+      "onset": 0.6509,
+      "spectralCentroid": 0.0488
+    },
+    {
+      "time": 69.25,
+      "energy": 0.2193,
+      "low": 0.417,
+      "mid": 0.4404,
+      "high": 0.1425,
+      "onset": 0.5691,
+      "spectralCentroid": 0.1375
+    },
+    {
+      "time": 69.5,
+      "energy": 0.1891,
+      "low": 0.2404,
+      "mid": 0.6126,
+      "high": 0.147,
+      "onset": 0.2187,
+      "spectralCentroid": 0.1227
+    },
+    {
+      "time": 69.75,
+      "energy": 0.3434,
+      "low": 0.924,
+      "mid": 0.0632,
+      "high": 0.0128,
+      "onset": 0.411,
+      "spectralCentroid": 0.0176
+    },
+    {
+      "time": 70,
+      "energy": 0.359,
+      "low": 0.8723,
+      "mid": 0.1138,
+      "high": 0.0139,
+      "onset": 0.3706,
+      "spectralCentroid": 0.021
+    },
+    {
+      "time": 70.25,
+      "energy": 0.2113,
+      "low": 0.4564,
+      "mid": 0.516,
+      "high": 0.0276,
+      "onset": 0.3563,
+      "spectralCentroid": 0.0484
+    },
+    {
+      "time": 70.5,
+      "energy": 0.1713,
+      "low": 0.5094,
+      "mid": 0.4411,
+      "high": 0.0495,
+      "onset": 0.1228,
+      "spectralCentroid": 0.0571
+    },
+    {
+      "time": 70.75,
+      "energy": 0.5786,
+      "low": 0.63,
+      "mid": 0.3609,
+      "high": 0.0091,
+      "onset": 0.6031,
+      "spectralCentroid": 0.031
+    },
+    {
+      "time": 71,
+      "energy": 0.5221,
+      "low": 0.546,
+      "mid": 0.389,
+      "high": 0.065,
+      "onset": 0.5207,
+      "spectralCentroid": 0.074
+    },
+    {
+      "time": 71.25,
+      "energy": 0.3392,
+      "low": 0.4008,
+      "mid": 0.5436,
+      "high": 0.0556,
+      "onset": 0.4596,
+      "spectralCentroid": 0.0776
+    },
+    {
+      "time": 71.5,
+      "energy": 0.3219,
+      "low": 0.5489,
+      "mid": 0.4176,
+      "high": 0.0335,
+      "onset": 0.2824,
+      "spectralCentroid": 0.0475
+    },
+    {
+      "time": 71.75,
+      "energy": 0.2027,
+      "low": 0.413,
+      "mid": 0.5663,
+      "high": 0.0207,
+      "onset": 0.2774,
+      "spectralCentroid": 0.0475
+    },
+    {
+      "time": 72,
+      "energy": 0.4926,
+      "low": 0.7806,
+      "mid": 0.213,
+      "high": 0.0063,
+      "onset": 0.4999,
+      "spectralCentroid": 0.0213
+    },
+    {
+      "time": 72.25,
+      "energy": 0.4534,
+      "low": 0.7461,
+      "mid": 0.2458,
+      "high": 0.008,
+      "onset": 0.3269,
+      "spectralCentroid": 0.0239
+    },
+    {
+      "time": 72.5,
+      "energy": 0.7304,
+      "low": 0.8829,
+      "mid": 0.1149,
+      "high": 0.0021,
+      "onset": 0.538,
+      "spectralCentroid": 0.0141
+    },
+    {
+      "time": 72.75,
+      "energy": 1,
+      "low": 0.8145,
+      "mid": 0.1836,
+      "high": 0.0019,
+      "onset": 0.8126,
+      "spectralCentroid": 0.0176
+    },
+    {
+      "time": 73,
+      "energy": 0.9064,
+      "low": 0.8724,
+      "mid": 0.1126,
+      "high": 0.015,
+      "onset": 0.7352,
+      "spectralCentroid": 0.0237
+    },
+    {
+      "time": 73.25,
+      "energy": 0.7232,
+      "low": 0.6929,
+      "mid": 0.2922,
+      "high": 0.0149,
+      "onset": 0.715,
+      "spectralCentroid": 0.0327
+    },
+    {
+      "time": 73.5,
+      "energy": 0.9895,
+      "low": 0.5924,
+      "mid": 0.4025,
+      "high": 0.0051,
+      "onset": 0.5511,
+      "spectralCentroid": 0.0302
+    },
+    {
+      "time": 73.75,
+      "energy": 0.8033,
+      "low": 0.437,
+      "mid": 0.5599,
+      "high": 0.0031,
+      "onset": 0.5705,
+      "spectralCentroid": 0.0369
+    },
+    {
+      "time": 74,
+      "energy": 0.5717,
+      "low": 0.5531,
+      "mid": 0.4405,
+      "high": 0.0063,
+      "onset": 0.5138,
+      "spectralCentroid": 0.0327
+    },
+    {
+      "time": 74.25,
+      "energy": 0.536,
+      "low": 0.5816,
+      "mid": 0.4074,
+      "high": 0.011,
+      "onset": 0.4927,
+      "spectralCentroid": 0.0338
+    },
+    {
+      "time": 74.5,
+      "energy": 0.7124,
+      "low": 0.5924,
+      "mid": 0.4043,
+      "high": 0.0032,
+      "onset": 0.5738,
+      "spectralCentroid": 0.0292
+    },
+    {
+      "time": 74.75,
+      "energy": 0.6475,
+      "low": 0.8041,
+      "mid": 0.1909,
+      "high": 0.0051,
+      "onset": 0.6842,
+      "spectralCentroid": 0.0201
+    },
+    {
+      "time": 75,
+      "energy": 0.5836,
+      "low": 0.6695,
+      "mid": 0.2953,
+      "high": 0.0352,
+      "onset": 0.3576,
+      "spectralCentroid": 0.0477
+    },
+    {
+      "time": 75.25,
+      "energy": 0.3358,
+      "low": 0.6195,
+      "mid": 0.3294,
+      "high": 0.0512,
+      "onset": 0.4502,
+      "spectralCentroid": 0.0643
+    },
+    {
+      "time": 75.5,
+      "energy": 0.3551,
+      "low": 0.695,
+      "mid": 0.2795,
+      "high": 0.0254,
+      "onset": 0.2453,
+      "spectralCentroid": 0.036
+    },
+    {
+      "time": 75.75,
+      "energy": 0.3102,
+      "low": 0.5358,
+      "mid": 0.4608,
+      "high": 0.0033,
+      "onset": 0.2814,
+      "spectralCentroid": 0.0322
+    },
+    {
+      "time": 76,
+      "energy": 0.4582,
+      "low": 0.704,
+      "mid": 0.2874,
+      "high": 0.0087,
+      "onset": 0.3543,
+      "spectralCentroid": 0.0263
+    },
+    {
+      "time": 76.25,
+      "energy": 0.614,
+      "low": 0.5681,
+      "mid": 0.419,
+      "high": 0.0129,
+      "onset": 0.4447,
+      "spectralCentroid": 0.0353
+    },
+    {
+      "time": 76.5,
+      "energy": 1,
+      "low": 0.9116,
+      "mid": 0.0852,
+      "high": 0.0032,
+      "onset": 0.9453,
+      "spectralCentroid": 0.0131
+    },
+    {
+      "time": 76.75,
+      "energy": 0.6522,
+      "low": 0.7636,
+      "mid": 0.2278,
+      "high": 0.0086,
+      "onset": 0.8894,
+      "spectralCentroid": 0.0238
+    },
+    {
+      "time": 77,
+      "energy": 0.8138,
+      "low": 0.7703,
+      "mid": 0.2025,
+      "high": 0.0272,
+      "onset": 0.5824,
+      "spectralCentroid": 0.0371
+    },
+    {
+      "time": 77.25,
+      "energy": 0.4351,
+      "low": 0.6553,
+      "mid": 0.314,
+      "high": 0.0307,
+      "onset": 0.7061,
+      "spectralCentroid": 0.0469
+    },
+    {
+      "time": 77.5,
+      "energy": 0.5507,
+      "low": 0.8417,
+      "mid": 0.1472,
+      "high": 0.0112,
+      "onset": 0.3442,
+      "spectralCentroid": 0.021
+    },
+    {
+      "time": 77.75,
+      "energy": 0.5998,
+      "low": 0.7869,
+      "mid": 0.1743,
+      "high": 0.0388,
+      "onset": 0.3475,
+      "spectralCentroid": 0.0376
+    },
+    {
+      "time": 78,
+      "energy": 0.5896,
+      "low": 0.5879,
+      "mid": 0.3246,
+      "high": 0.0875,
+      "onset": 0.466,
+      "spectralCentroid": 0.0724
+    },
+    {
+      "time": 78.25,
+      "energy": 0.8106,
+      "low": 0.4758,
+      "mid": 0.4125,
+      "high": 0.1117,
+      "onset": 0.6358,
+      "spectralCentroid": 0.0903
+    },
+    {
+      "time": 78.5,
+      "energy": 0.8112,
+      "low": 0.6411,
+      "mid": 0.3043,
+      "high": 0.0546,
+      "onset": 0.4991,
+      "spectralCentroid": 0.0529
+    },
+    {
+      "time": 78.75,
+      "energy": 0.768,
+      "low": 0.4776,
+      "mid": 0.4447,
+      "high": 0.0777,
+      "onset": 0.623,
+      "spectralCentroid": 0.0732
+    },
+    {
+      "time": 79,
+      "energy": 0.8611,
+      "low": 0.4946,
+      "mid": 0.432,
+      "high": 0.0733,
+      "onset": 0.522,
+      "spectralCentroid": 0.0725
+    },
+    {
+      "time": 79.25,
+      "energy": 0.9022,
+      "low": 0.6849,
+      "mid": 0.25,
+      "high": 0.0651,
+      "onset": 0.7605,
+      "spectralCentroid": 0.0576
+    },
+    {
+      "time": 79.5,
+      "energy": 0.7537,
+      "low": 0.4561,
+      "mid": 0.4157,
+      "high": 0.1281,
+      "onset": 0.6135,
+      "spectralCentroid": 0.0998
+    },
+    {
+      "time": 79.75,
+      "energy": 0.7119,
+      "low": 0.6478,
+      "mid": 0.2751,
+      "high": 0.0771,
+      "onset": 0.4194,
+      "spectralCentroid": 0.0641
+    },
+    {
+      "time": 80,
+      "energy": 1,
+      "low": 0.8147,
+      "mid": 0.1533,
+      "high": 0.032,
+      "onset": 0.9771,
+      "spectralCentroid": 0.0327
+    },
+    {
+      "time": 80.25,
+      "energy": 0.9229,
+      "low": 0.7074,
+      "mid": 0.2388,
+      "high": 0.0538,
+      "onset": 0.8589,
+      "spectralCentroid": 0.0492
+    },
+    {
+      "time": 80.5,
+      "energy": 1,
+      "low": 0.7031,
+      "mid": 0.2537,
+      "high": 0.0431,
+      "onset": 0.7119,
+      "spectralCentroid": 0.044
+    },
+    {
+      "time": 80.75,
+      "energy": 0.7101,
+      "low": 0.548,
+      "mid": 0.3821,
+      "high": 0.0699,
+      "onset": 0.8164,
+      "spectralCentroid": 0.0658
+    },
+    {
+      "time": 81,
+      "energy": 1,
+      "low": 0.6833,
+      "mid": 0.2567,
+      "high": 0.0599,
+      "onset": 0.9025,
+      "spectralCentroid": 0.0558
+    },
+    {
+      "time": 81.25,
+      "energy": 0.5729,
+      "low": 0.4046,
+      "mid": 0.5197,
+      "high": 0.0756,
+      "onset": 1,
+      "spectralCentroid": 0.079
+    },
+    {
+      "time": 81.5,
+      "energy": 0.8191,
+      "low": 0.2724,
+      "mid": 0.6308,
+      "high": 0.0968,
+      "onset": 0.6747,
+      "spectralCentroid": 0.0931
+    },
+    {
+      "time": 81.75,
+      "energy": 1,
+      "low": 0.3886,
+      "mid": 0.5317,
+      "high": 0.0798,
+      "onset": 0.7221,
+      "spectralCentroid": 0.0784
+    },
+    {
+      "time": 82,
+      "energy": 0.9735,
+      "low": 0.8334,
+      "mid": 0.1439,
+      "high": 0.0227,
+      "onset": 1,
+      "spectralCentroid": 0.027
+    },
+    {
+      "time": 82.25,
+      "energy": 0.8799,
+      "low": 0.4047,
+      "mid": 0.4545,
+      "high": 0.1408,
+      "onset": 0.9529,
+      "spectralCentroid": 0.1087
+    },
+    {
+      "time": 82.5,
+      "energy": 0.8463,
+      "low": 0.3953,
+      "mid": 0.5203,
+      "high": 0.0844,
+      "onset": 0.7363,
+      "spectralCentroid": 0.0805
+    },
+    {
+      "time": 82.75,
+      "energy": 1,
+      "low": 0.579,
+      "mid": 0.3825,
+      "high": 0.0385,
+      "onset": 0.9538,
+      "spectralCentroid": 0.0479
+    },
+    {
+      "time": 83,
+      "energy": 0.8249,
+      "low": 0.3367,
+      "mid": 0.5562,
+      "high": 0.1071,
+      "onset": 1,
+      "spectralCentroid": 0.0984
+    },
+    {
+      "time": 83.25,
+      "energy": 0.5803,
+      "low": 0.2655,
+      "mid": 0.5568,
+      "high": 0.1777,
+      "onset": 0.7204,
+      "spectralCentroid": 0.1382
+    },
+    {
+      "time": 83.5,
+      "energy": 0.5975,
+      "low": 0.348,
+      "mid": 0.5021,
+      "high": 0.1499,
+      "onset": 0.3489,
+      "spectralCentroid": 0.1165
+    },
+    {
+      "time": 83.75,
+      "energy": 0.704,
+      "low": 0.1883,
+      "mid": 0.6572,
+      "high": 0.1546,
+      "onset": 0.6018,
+      "spectralCentroid": 0.1267
+    },
+    {
+      "time": 84,
+      "energy": 0.7945,
+      "low": 0.7745,
+      "mid": 0.1792,
+      "high": 0.0463,
+      "onset": 0.8918,
+      "spectralCentroid": 0.0421
+    },
+    {
+      "time": 84.25,
+      "energy": 0.6585,
+      "low": 0.297,
+      "mid": 0.5666,
+      "high": 0.1364,
+      "onset": 0.8524,
+      "spectralCentroid": 0.1119
+    },
+    {
+      "time": 84.5,
+      "energy": 0.5723,
+      "low": 0.4528,
+      "mid": 0.457,
+      "high": 0.0902,
+      "onset": 0.5186,
+      "spectralCentroid": 0.0805
+    },
+    {
+      "time": 84.75,
+      "energy": 0.5883,
+      "low": 0.5409,
+      "mid": 0.388,
+      "high": 0.0711,
+      "onset": 0.5215,
+      "spectralCentroid": 0.0668
+    },
+    {
+      "time": 85,
+      "energy": 0.6863,
+      "low": 0.4619,
+      "mid": 0.4739,
+      "high": 0.0642,
+      "onset": 0.5876,
+      "spectralCentroid": 0.0706
+    },
+    {
+      "time": 85.25,
+      "energy": 0.4507,
+      "low": 0.0828,
+      "mid": 0.6684,
+      "high": 0.2488,
+      "onset": 0.7075,
+      "spectralCentroid": 0.1859
+    },
+    {
+      "time": 85.5,
+      "energy": 0.3762,
+      "low": 0.0677,
+      "mid": 0.7006,
+      "high": 0.2317,
+      "onset": 0.4928,
+      "spectralCentroid": 0.1726
+    },
+    {
+      "time": 85.75,
+      "energy": 0.646,
+      "low": 0.2913,
+      "mid": 0.5472,
+      "high": 0.1615,
+      "onset": 0.6489,
+      "spectralCentroid": 0.125
+    },
+    {
+      "time": 86,
+      "energy": 0.7511,
+      "low": 0.777,
+      "mid": 0.1738,
+      "high": 0.0491,
+      "onset": 0.7564,
+      "spectralCentroid": 0.0434
+    },
+    {
+      "time": 86.25,
+      "energy": 0.5451,
+      "low": 0.2768,
+      "mid": 0.5644,
+      "high": 0.1588,
+      "onset": 0.7909,
+      "spectralCentroid": 0.1244
+    },
+    {
+      "time": 86.5,
+      "energy": 0.5854,
+      "low": 0.1898,
+      "mid": 0.6018,
+      "high": 0.2084,
+      "onset": 0.5244,
+      "spectralCentroid": 0.1541
+    },
+    {
+      "time": 86.75,
+      "energy": 0.5891,
+      "low": 0.3083,
+      "mid": 0.5385,
+      "high": 0.1532,
+      "onset": 0.5902,
+      "spectralCentroid": 0.1204
+    },
+    {
+      "time": 87,
+      "energy": 0.5808,
+      "low": 0.4562,
+      "mid": 0.4261,
+      "high": 0.1177,
+      "onset": 0.5391,
+      "spectralCentroid": 0.1023
+    },
+    {
+      "time": 87.25,
+      "energy": 0.5063,
+      "low": 0.1619,
+      "mid": 0.6509,
+      "high": 0.1872,
+      "onset": 0.587,
+      "spectralCentroid": 0.1491
+    },
+    {
+      "time": 87.5,
+      "energy": 0.4027,
+      "low": 0.2345,
+      "mid": 0.5816,
+      "high": 0.1839,
+      "onset": 0.4393,
+      "spectralCentroid": 0.1399
+    },
+    {
+      "time": 87.75,
+      "energy": 0.4016,
+      "low": 0.1916,
+      "mid": 0.6595,
+      "high": 0.1488,
+      "onset": 0.451,
+      "spectralCentroid": 0.1237
+    },
+    {
+      "time": 88,
+      "energy": 0.5005,
+      "low": 0.581,
+      "mid": 0.3632,
+      "high": 0.0558,
+      "onset": 0.4968,
+      "spectralCentroid": 0.0566
+    },
+    {
+      "time": 88.25,
+      "energy": 0.67,
+      "low": 0.6233,
+      "mid": 0.3398,
+      "high": 0.037,
+      "onset": 0.5352,
+      "spectralCentroid": 0.0448
+    },
+    {
+      "time": 88.5,
+      "energy": 0.8778,
+      "low": 0.7557,
+      "mid": 0.2173,
+      "high": 0.027,
+      "onset": 0.5351,
+      "spectralCentroid": 0.0331
+    },
+    {
+      "time": 88.75,
+      "energy": 0.5957,
+      "low": 0.6065,
+      "mid": 0.3476,
+      "high": 0.0459,
+      "onset": 0.6199,
+      "spectralCentroid": 0.0508
+    },
+    {
+      "time": 89,
+      "energy": 1,
+      "low": 0.8576,
+      "mid": 0.1276,
+      "high": 0.0148,
+      "onset": 0.8423,
+      "spectralCentroid": 0.0234
+    },
+    {
+      "time": 89.25,
+      "energy": 0.5905,
+      "low": 0.4499,
+      "mid": 0.509,
+      "high": 0.0411,
+      "onset": 1,
+      "spectralCentroid": 0.0586
+    },
+    {
+      "time": 89.5,
+      "energy": 0.8297,
+      "low": 0.3834,
+      "mid": 0.5985,
+      "high": 0.0181,
+      "onset": 0.5692,
+      "spectralCentroid": 0.0473
+    },
+    {
+      "time": 89.75,
+      "energy": 0.9224,
+      "low": 0.4738,
+      "mid": 0.5181,
+      "high": 0.0081,
+      "onset": 0.4964,
+      "spectralCentroid": 0.0376
+    },
+    {
+      "time": 90,
+      "energy": 0.5576,
+      "low": 0.6572,
+      "mid": 0.3212,
+      "high": 0.0216,
+      "onset": 0.793,
+      "spectralCentroid": 0.0353
+    },
+    {
+      "time": 90.25,
+      "energy": 0.5597,
+      "low": 0.5438,
+      "mid": 0.4368,
+      "high": 0.0194,
+      "onset": 0.4185,
+      "spectralCentroid": 0.0399
+    },
+    {
+      "time": 90.5,
+      "energy": 0.6667,
+      "low": 0.4438,
+      "mid": 0.5407,
+      "high": 0.0155,
+      "onset": 0.3748,
+      "spectralCentroid": 0.0429
+    },
+    {
+      "time": 90.75,
+      "energy": 1,
+      "low": 0.6302,
+      "mid": 0.3646,
+      "high": 0.0052,
+      "onset": 1,
+      "spectralCentroid": 0.0284
+    },
+    {
+      "time": 91,
+      "energy": 0.6818,
+      "low": 0.5849,
+      "mid": 0.3855,
+      "high": 0.0297,
+      "onset": 0.9647,
+      "spectralCentroid": 0.0469
+    },
+    {
+      "time": 91.25,
+      "energy": 0.3401,
+      "low": 0.5702,
+      "mid": 0.3547,
+      "high": 0.0751,
+      "onset": 0.6321,
+      "spectralCentroid": 0.0768
+    },
+    {
+      "time": 91.5,
+      "energy": 0.4031,
+      "low": 0.701,
+      "mid": 0.2639,
+      "high": 0.0351,
+      "onset": 0.32,
+      "spectralCentroid": 0.0405
+    },
+    {
+      "time": 91.75,
+      "energy": 0.3151,
+      "low": 0.4575,
+      "mid": 0.5172,
+      "high": 0.0253,
+      "onset": 0.3498,
+      "spectralCentroid": 0.0474
+    },
+    {
+      "time": 92,
+      "energy": 0.5979,
+      "low": 0.4784,
+      "mid": 0.4182,
+      "high": 0.1034,
+      "onset": 0.5906,
+      "spectralCentroid": 0.086
+    },
+    {
+      "time": 92.25,
+      "energy": 0.6589,
+      "low": 0.2508,
+      "mid": 0.6448,
+      "high": 0.1043,
+      "onset": 0.5866,
+      "spectralCentroid": 0.0978
+    },
+    {
+      "time": 92.5,
+      "energy": 0.5584,
+      "low": 0.2433,
+      "mid": 0.6378,
+      "high": 0.119,
+      "onset": 0.4596,
+      "spectralCentroid": 0.1057
+    },
+    {
+      "time": 92.75,
+      "energy": 0.7756,
+      "low": 0.2794,
+      "mid": 0.5579,
+      "high": 0.1627,
+      "onset": 0.6771,
+      "spectralCentroid": 0.1264
+    },
+    {
+      "time": 93,
+      "energy": 0.7141,
+      "low": 0.3837,
+      "mid": 0.5193,
+      "high": 0.097,
+      "onset": 0.7617,
+      "spectralCentroid": 0.093
+    },
+    {
+      "time": 93.25,
+      "energy": 0.4185,
+      "low": 0.1079,
+      "mid": 0.6613,
+      "high": 0.2308,
+      "onset": 0.7236,
+      "spectralCentroid": 0.1761
+    },
+    {
+      "time": 93.5,
+      "energy": 0.4985,
+      "low": 0.056,
+      "mid": 0.706,
+      "high": 0.238,
+      "onset": 0.4456,
+      "spectralCentroid": 0.1761
+    },
+    {
+      "time": 93.75,
+      "energy": 0.6217,
+      "low": 0.2487,
+      "mid": 0.5601,
+      "high": 0.1912,
+      "onset": 0.5371,
+      "spectralCentroid": 0.1423
+    },
+    {
+      "time": 94,
+      "energy": 0.5001,
+      "low": 0.3211,
+      "mid": 0.5146,
+      "high": 0.1643,
+      "onset": 0.5079,
+      "spectralCentroid": 0.1249
+    },
+    {
+      "time": 94.25,
+      "energy": 0.4874,
+      "low": 0.1691,
+      "mid": 0.66,
+      "high": 0.1709,
+      "onset": 0.398,
+      "spectralCentroid": 0.1359
+    },
+    {
+      "time": 94.5,
+      "energy": 0.4848,
+      "low": 0.0849,
+      "mid": 0.6917,
+      "high": 0.2235,
+      "onset": 0.3499,
+      "spectralCentroid": 0.1669
+    },
+    {
+      "time": 94.75,
+      "energy": 0.546,
+      "low": 0.3365,
+      "mid": 0.539,
+      "high": 0.1246,
+      "onset": 0.4371,
+      "spectralCentroid": 0.1044
+    },
+    {
+      "time": 95,
+      "energy": 0.5894,
+      "low": 0.4803,
+      "mid": 0.4105,
+      "high": 0.1092,
+      "onset": 0.5326,
+      "spectralCentroid": 0.0962
+    },
+    {
+      "time": 95.25,
+      "energy": 0.4442,
+      "low": 0.234,
+      "mid": 0.6195,
+      "high": 0.1465,
+      "onset": 0.5258,
+      "spectralCentroid": 0.1258
+    },
+    {
+      "time": 95.5,
+      "energy": 0.471,
+      "low": 0.1837,
+      "mid": 0.6021,
+      "high": 0.2143,
+      "onset": 0.4298,
+      "spectralCentroid": 0.1577
+    },
+    {
+      "time": 95.75,
+      "energy": 0.3888,
+      "low": 0.1075,
+      "mid": 0.6804,
+      "high": 0.2121,
+      "onset": 0.3412,
+      "spectralCentroid": 0.1602
+    },
+    {
+      "time": 96,
+      "energy": 0.457,
+      "low": 0.4473,
+      "mid": 0.4554,
+      "high": 0.0973,
+      "onset": 0.3635,
+      "spectralCentroid": 0.0844
+    },
+    {
+      "time": 96.25,
+      "energy": 0.5536,
+      "low": 0.296,
+      "mid": 0.5625,
+      "high": 0.1414,
+      "onset": 0.447,
+      "spectralCentroid": 0.1145
+    },
+    {
+      "time": 96.5,
+      "energy": 0.6599,
+      "low": 0.496,
+      "mid": 0.3982,
+      "high": 0.1058,
+      "onset": 0.5808,
+      "spectralCentroid": 0.0864
+    },
+    {
+      "time": 96.75,
+      "energy": 0.7989,
+      "low": 0.4108,
+      "mid": 0.5197,
+      "high": 0.0695,
+      "onset": 0.7887,
+      "spectralCentroid": 0.0723
+    },
+    {
+      "time": 97,
+      "energy": 0.9063,
+      "low": 0.7248,
+      "mid": 0.2326,
+      "high": 0.0425,
+      "onset": 0.8561,
+      "spectralCentroid": 0.0451
+    },
+    {
+      "time": 97.25,
+      "energy": 0.6082,
+      "low": 0.48,
+      "mid": 0.4426,
+      "high": 0.0774,
+      "onset": 0.9072,
+      "spectralCentroid": 0.0756
+    },
+    {
+      "time": 97.5,
+      "energy": 0.7935,
+      "low": 0.4037,
+      "mid": 0.5478,
+      "high": 0.0485,
+      "onset": 0.5653,
+      "spectralCentroid": 0.0618
+    },
+    {
+      "time": 97.75,
+      "energy": 0.8654,
+      "low": 0.4501,
+      "mid": 0.5148,
+      "high": 0.0351,
+      "onset": 0.3517,
+      "spectralCentroid": 0.0525
+    },
+    {
+      "time": 98,
+      "energy": 0.6677,
+      "low": 0.7025,
+      "mid": 0.2651,
+      "high": 0.0325,
+      "onset": 0.6386,
+      "spectralCentroid": 0.0387
+    },
+    {
+      "time": 98.25,
+      "energy": 0.376,
+      "low": 0.3563,
+      "mid": 0.5499,
+      "high": 0.0937,
+      "onset": 0.5821,
+      "spectralCentroid": 0.0872
+    },
+    {
+      "time": 98.5,
+      "energy": 0.7741,
+      "low": 0.4213,
+      "mid": 0.5611,
+      "high": 0.0176,
+      "onset": 0.7775,
+      "spectralCentroid": 0.045
+    },
+    {
+      "time": 98.75,
+      "energy": 0.8593,
+      "low": 0.6109,
+      "mid": 0.3638,
+      "high": 0.0253,
+      "onset": 0.5514,
+      "spectralCentroid": 0.0397
+    },
+    {
+      "time": 99,
+      "energy": 0.7462,
+      "low": 0.6013,
+      "mid": 0.3593,
+      "high": 0.0394,
+      "onset": 0.672,
+      "spectralCentroid": 0.0514
+    },
+    {
+      "time": 99.25,
+      "energy": 0.3362,
+      "low": 0.4695,
+      "mid": 0.4297,
+      "high": 0.1008,
+      "onset": 0.6552,
+      "spectralCentroid": 0.0951
+    },
+    {
+      "time": 99.5,
+      "energy": 0.331,
+      "low": 0.5084,
+      "mid": 0.397,
+      "high": 0.0946,
+      "onset": 0.3122,
+      "spectralCentroid": 0.0807
+    },
+    {
+      "time": 99.75,
+      "energy": 0.3511,
+      "low": 0.5792,
+      "mid": 0.3668,
+      "high": 0.054,
+      "onset": 0.3164,
+      "spectralCentroid": 0.0559
+    },
+    {
+      "time": 100,
+      "energy": 0.366,
+      "low": 0.6359,
+      "mid": 0.3173,
+      "high": 0.0468,
+      "onset": 0.3586,
+      "spectralCentroid": 0.0505
+    },
+    {
+      "time": 100.25,
+      "energy": 0.3827,
+      "low": 0.5788,
+      "mid": 0.3805,
+      "high": 0.0407,
+      "onset": 0.3643,
+      "spectralCentroid": 0.0489
+    },
+    {
+      "time": 100.5,
+      "energy": 0.3041,
+      "low": 0.5283,
+      "mid": 0.4386,
+      "high": 0.0331,
+      "onset": 0.308,
+      "spectralCentroid": 0.0476
+    },
+    {
+      "time": 100.75,
+      "energy": 0.7252,
+      "low": 0.5343,
+      "mid": 0.4546,
+      "high": 0.0111,
+      "onset": 0.7386,
+      "spectralCentroid": 0.0363
+    },
+    {
+      "time": 101,
+      "energy": 0.5078,
+      "low": 0.697,
+      "mid": 0.264,
+      "high": 0.039,
+      "onset": 0.5873,
+      "spectralCentroid": 0.0479
+    },
+    {
+      "time": 101.25,
+      "energy": 0.2034,
+      "low": 0.3862,
+      "mid": 0.4656,
+      "high": 0.1482,
+      "onset": 0.5357,
+      "spectralCentroid": 0.138
+    },
+    {
+      "time": 101.5,
+      "energy": 0.1773,
+      "low": 0.2328,
+      "mid": 0.6079,
+      "high": 0.1592,
+      "onset": 0.1919,
+      "spectralCentroid": 0.13
+    },
+    {
+      "time": 101.75,
+      "energy": 0.3154,
+      "low": 0.8761,
+      "mid": 0.098,
+      "high": 0.0259,
+      "onset": 0.3618,
+      "spectralCentroid": 0.0267
+    },
+    {
+      "time": 102,
+      "energy": 0.3043,
+      "low": 0.8487,
+      "mid": 0.1316,
+      "high": 0.0197,
+      "onset": 0.329,
+      "spectralCentroid": 0.0253
+    },
+    {
+      "time": 102.25,
+      "energy": 0.1994,
+      "low": 0.4503,
+      "mid": 0.51,
+      "high": 0.0397,
+      "onset": 0.2942,
+      "spectralCentroid": 0.0549
+    },
+    {
+      "time": 102.5,
+      "energy": 0.1584,
+      "low": 0.4525,
+      "mid": 0.4804,
+      "high": 0.0671,
+      "onset": 0.1224,
+      "spectralCentroid": 0.0689
+    },
+    {
+      "time": 102.75,
+      "energy": 0.5249,
+      "low": 0.6227,
+      "mid": 0.366,
+      "high": 0.0113,
+      "onset": 0.55,
+      "spectralCentroid": 0.0324
+    },
+    {
+      "time": 103,
+      "energy": 0.465,
+      "low": 0.5392,
+      "mid": 0.3927,
+      "high": 0.0681,
+      "onset": 0.4742,
+      "spectralCentroid": 0.0766
+    },
+    {
+      "time": 103.25,
+      "energy": 0.3321,
+      "low": 0.3861,
+      "mid": 0.5629,
+      "high": 0.051,
+      "onset": 0.4203,
+      "spectralCentroid": 0.0738
+    },
+    {
+      "time": 103.5,
+      "energy": 0.2807,
+      "low": 0.5619,
+      "mid": 0.4028,
+      "high": 0.0353,
+      "onset": 0.2688,
+      "spectralCentroid": 0.0482
+    },
+    {
+      "time": 103.75,
+      "energy": 0.3863,
+      "low": 0.1378,
+      "mid": 0.6758,
+      "high": 0.1864,
+      "onset": 0.448,
+      "spectralCentroid": 0.1455
+    },
+    {
+      "time": 104,
+      "energy": 0.4647,
+      "low": 0.7077,
+      "mid": 0.2679,
+      "high": 0.0244,
+      "onset": 0.529,
+      "spectralCentroid": 0.0342
+    },
+    {
+      "time": 104.25,
+      "energy": 0.4705,
+      "low": 0.562,
+      "mid": 0.3828,
+      "high": 0.0552,
+      "onset": 0.3144,
+      "spectralCentroid": 0.0572
+    },
+    {
+      "time": 104.5,
+      "energy": 0.6902,
+      "low": 0.7748,
+      "mid": 0.1945,
+      "high": 0.0307,
+      "onset": 0.5305,
+      "spectralCentroid": 0.034
+    },
+    {
+      "time": 104.75,
+      "energy": 0.9298,
+      "low": 0.7797,
+      "mid": 0.208,
+      "high": 0.0123,
+      "onset": 0.7589,
+      "spectralCentroid": 0.0246
+    },
+    {
+      "time": 105,
+      "energy": 0.856,
+      "low": 0.8374,
+      "mid": 0.1343,
+      "high": 0.0283,
+      "onset": 0.6895,
+      "spectralCentroid": 0.0321
+    },
+    {
+      "time": 105.25,
+      "energy": 0.6662,
+      "low": 0.6607,
+      "mid": 0.3058,
+      "high": 0.0336,
+      "onset": 0.6474,
+      "spectralCentroid": 0.0437
+    },
+    {
+      "time": 105.5,
+      "energy": 0.8975,
+      "low": 0.5755,
+      "mid": 0.4072,
+      "high": 0.0172,
+      "onset": 0.5108,
+      "spectralCentroid": 0.0372
+    },
+    {
+      "time": 105.75,
+      "energy": 0.7619,
+      "low": 0.4262,
+      "mid": 0.561,
+      "high": 0.0128,
+      "onset": 0.5368,
+      "spectralCentroid": 0.0423
+    },
+    {
+      "time": 106,
+      "energy": 0.5312,
+      "low": 0.5501,
+      "mid": 0.4341,
+      "high": 0.0157,
+      "onset": 0.4947,
+      "spectralCentroid": 0.0376
+    },
+    {
+      "time": 106.25,
+      "energy": 0.4855,
+      "low": 0.5536,
+      "mid": 0.4175,
+      "high": 0.0288,
+      "onset": 0.4501,
+      "spectralCentroid": 0.0443
+    },
+    {
+      "time": 106.5,
+      "energy": 0.6507,
+      "low": 0.5694,
+      "mid": 0.42,
+      "high": 0.0106,
+      "onset": 0.4879,
+      "spectralCentroid": 0.0341
+    },
+    {
+      "time": 106.75,
+      "energy": 0.5952,
+      "low": 0.7512,
+      "mid": 0.2261,
+      "high": 0.0227,
+      "onset": 0.6349,
+      "spectralCentroid": 0.0317
+    },
+    {
+      "time": 107,
+      "energy": 0.5432,
+      "low": 0.6594,
+      "mid": 0.2986,
+      "high": 0.042,
+      "onset": 0.3313,
+      "spectralCentroid": 0.0515
+    },
+    {
+      "time": 107.25,
+      "energy": 0.3025,
+      "low": 0.6077,
+      "mid": 0.3256,
+      "high": 0.0667,
+      "onset": 0.4249,
+      "spectralCentroid": 0.0739
+    },
+    {
+      "time": 107.5,
+      "energy": 0.3394,
+      "low": 0.5803,
+      "mid": 0.3498,
+      "high": 0.0699,
+      "onset": 0.2527,
+      "spectralCentroid": 0.0646
+    },
+    {
+      "time": 107.75,
+      "energy": 0.2763,
+      "low": 0.5081,
+      "mid": 0.4652,
+      "high": 0.0267,
+      "onset": 0.2958,
+      "spectralCentroid": 0.0457
+    },
+    {
+      "time": 108,
+      "energy": 0.4073,
+      "low": 0.7226,
+      "mid": 0.2633,
+      "high": 0.0141,
+      "onset": 0.3409,
+      "spectralCentroid": 0.0282
+    },
+    {
+      "time": 108.25,
+      "energy": 0.8341,
+      "low": 0.6944,
+      "mid": 0.2996,
+      "high": 0.0061,
+      "onset": 0.6758,
+      "spectralCentroid": 0.0255
+    },
+    {
+      "time": 108.5,
+      "energy": 0.5177,
+      "low": 0.7784,
+      "mid": 0.2077,
+      "high": 0.0139,
+      "onset": 0.7205,
+      "spectralCentroid": 0.0253
+    },
+    {
+      "time": 108.75,
+      "energy": 0.9049,
+      "low": 0.8725,
+      "mid": 0.1199,
+      "high": 0.0076,
+      "onset": 0.7658,
+      "spectralCentroid": 0.0175
+    },
+    {
+      "time": 109,
+      "energy": 0.8988,
+      "low": 0.7537,
+      "mid": 0.2279,
+      "high": 0.0184,
+      "onset": 0.5202,
+      "spectralCentroid": 0.0319
+    },
+    {
+      "time": 109.25,
+      "energy": 0.2853,
+      "low": 0.5576,
+      "mid": 0.3778,
+      "high": 0.0646,
+      "onset": 0.8857,
+      "spectralCentroid": 0.0757
+    },
+    {
+      "time": 109.5,
+      "energy": 0.5561,
+      "low": 0.904,
+      "mid": 0.0843,
+      "high": 0.0117,
+      "onset": 0.5549,
+      "spectralCentroid": 0.0181
+    },
+    {
+      "time": 109.75,
+      "energy": 0.5263,
+      "low": 0.7977,
+      "mid": 0.1587,
+      "high": 0.0436,
+      "onset": 0.342,
+      "spectralCentroid": 0.0396
+    },
+    {
+      "time": 110,
+      "energy": 0.5154,
+      "low": 0.6033,
+      "mid": 0.3138,
+      "high": 0.0829,
+      "onset": 0.3893,
+      "spectralCentroid": 0.0692
+    },
+    {
+      "time": 110.25,
+      "energy": 0.8688,
+      "low": 0.5003,
+      "mid": 0.4167,
+      "high": 0.083,
+      "onset": 0.7644,
+      "spectralCentroid": 0.0744
+    },
+    {
+      "time": 110.5,
+      "energy": 0.6553,
+      "low": 0.6204,
+      "mid": 0.3165,
+      "high": 0.0631,
+      "onset": 0.5747,
+      "spectralCentroid": 0.0583
+    },
+    {
+      "time": 110.75,
+      "energy": 0.9895,
+      "low": 0.7285,
+      "mid": 0.2315,
+      "high": 0.04,
+      "onset": 0.5593,
+      "spectralCentroid": 0.0412
+    },
+    {
+      "time": 111,
+      "energy": 0.9455,
+      "low": 0.4775,
+      "mid": 0.4567,
+      "high": 0.0657,
+      "onset": 0.7557,
+      "spectralCentroid": 0.0692
+    },
+    {
+      "time": 111.25,
+      "energy": 0.8066,
+      "low": 0.6942,
+      "mid": 0.2375,
+      "high": 0.0682,
+      "onset": 0.8014,
+      "spectralCentroid": 0.0589
+    },
+    {
+      "time": 111.5,
+      "energy": 0.6597,
+      "low": 0.4674,
+      "mid": 0.4,
+      "high": 0.1325,
+      "onset": 0.527,
+      "spectralCentroid": 0.1016
+    },
+    {
+      "time": 111.75,
+      "energy": 0.6399,
+      "low": 0.6454,
+      "mid": 0.2703,
+      "high": 0.0843,
+      "onset": 0.3641,
+      "spectralCentroid": 0.0679
+    },
+    {
+      "time": 112,
+      "energy": 0.5459,
+      "low": 0.3723,
+      "mid": 0.5031,
+      "high": 0.1246,
+      "onset": 0.4497,
+      "spectralCentroid": 0.1021
+    },
+    {
+      "time": 112.25,
+      "energy": 0.5781,
+      "low": 0.3438,
+      "mid": 0.5153,
+      "high": 0.1409,
+      "onset": 0.6205,
+      "spectralCentroid": 0.1118
+    },
+    {
+      "time": 112.5,
+      "energy": 0.92,
+      "low": 0.7286,
+      "mid": 0.2181,
+      "high": 0.0533,
+      "onset": 0.8045,
+      "spectralCentroid": 0.0479
+    },
+    {
+      "time": 112.75,
+      "energy": 0.5487,
+      "low": 0.5093,
+      "mid": 0.396,
+      "high": 0.0946,
+      "onset": 0.6843,
+      "spectralCentroid": 0.0799
+    },
+    {
+      "time": 113,
+      "energy": 0.9932,
+      "low": 0.7561,
+      "mid": 0.1997,
+      "high": 0.0442,
+      "onset": 0.7837,
+      "spectralCentroid": 0.0419
+    },
+    {
+      "time": 113.25,
+      "energy": 0.5336,
+      "low": 0.3607,
+      "mid": 0.5737,
+      "high": 0.0656,
+      "onset": 1,
+      "spectralCentroid": 0.0726
+    },
+    {
+      "time": 113.5,
+      "energy": 0.7458,
+      "low": 0.2749,
+      "mid": 0.6331,
+      "high": 0.092,
+      "onset": 0.5399,
+      "spectralCentroid": 0.0903
+    },
+    {
+      "time": 113.75,
+      "energy": 1,
+      "low": 0.3879,
+      "mid": 0.5331,
+      "high": 0.0789,
+      "onset": 0.696,
+      "spectralCentroid": 0.078
+    },
+    {
+      "time": 114,
+      "energy": 0.5811,
+      "low": 0.5571,
+      "mid": 0.3894,
+      "high": 0.0536,
+      "onset": 0.8379,
+      "spectralCentroid": 0.0566
+    },
+    {
+      "time": 114.25,
+      "energy": 0.7646,
+      "low": 0.1597,
+      "mid": 0.6419,
+      "high": 0.1985,
+      "onset": 0.8059,
+      "spectralCentroid": 0.1504
+    },
+    {
+      "time": 114.5,
+      "energy": 0.859,
+      "low": 0.2949,
+      "mid": 0.6202,
+      "high": 0.0849,
+      "onset": 0.7764,
+      "spectralCentroid": 0.0857
+    },
+    {
+      "time": 114.75,
+      "energy": 0.5642,
+      "low": 0.111,
+      "mid": 0.6808,
+      "high": 0.2083,
+      "onset": 0.7287,
+      "spectralCentroid": 0.158
+    },
+    {
+      "time": 115,
+      "energy": 0.6736,
+      "low": 0.4024,
+      "mid": 0.4785,
+      "high": 0.1191,
+      "onset": 0.6123,
+      "spectralCentroid": 0.0978
+    },
+    {
+      "time": 115.25,
+      "energy": 0.5409,
+      "low": 0.2659,
+      "mid": 0.5669,
+      "high": 0.1671,
+      "onset": 0.5643,
+      "spectralCentroid": 0.1292
+    },
+    {
+      "time": 115.5,
+      "energy": 0.5808,
+      "low": 0.394,
+      "mid": 0.47,
+      "high": 0.136,
+      "onset": 0.334,
+      "spectralCentroid": 0.1069
+    },
+    {
+      "time": 115.75,
+      "energy": 0.6635,
+      "low": 0.1742,
+      "mid": 0.6701,
+      "high": 0.1557,
+      "onset": 0.6002,
+      "spectralCentroid": 0.1279
+    },
+    {
+      "time": 116,
+      "energy": 0.4558,
+      "low": 0.4249,
+      "mid": 0.4514,
+      "high": 0.1238,
+      "onset": 0.5391,
+      "spectralCentroid": 0.099
+    },
+    {
+      "time": 116.25,
+      "energy": 0.5325,
+      "low": 0.1432,
+      "mid": 0.6685,
+      "high": 0.1883,
+      "onset": 0.5103,
+      "spectralCentroid": 0.1461
+    },
+    {
+      "time": 116.5,
+      "energy": 0.4167,
+      "low": 0.2182,
+      "mid": 0.6301,
+      "high": 0.1517,
+      "onset": 0.4383,
+      "spectralCentroid": 0.1237
+    },
+    {
+      "time": 116.75,
+      "energy": 0.3414,
+      "low": 0.1061,
+      "mid": 0.6742,
+      "high": 0.2197,
+      "onset": 0.3002,
+      "spectralCentroid": 0.164
+    },
+    {
+      "time": 117,
+      "energy": 0.419,
+      "low": 0.3744,
+      "mid": 0.5119,
+      "high": 0.1137,
+      "onset": 0.3436,
+      "spectralCentroid": 0.0964
+    },
+    {
+      "time": 117.25,
+      "energy": 0.4053,
+      "low": 0.0344,
+      "mid": 0.7101,
+      "high": 0.2555,
+      "onset": 0.4421,
+      "spectralCentroid": 0.1858
+    },
+    {
+      "time": 117.5,
+      "energy": 0.3474,
+      "low": 0.0757,
+      "mid": 0.7017,
+      "high": 0.2226,
+      "onset": 0.4494,
+      "spectralCentroid": 0.167
+    },
+    {
+      "time": 117.75,
+      "energy": 0.5329,
+      "low": 0.09,
+      "mid": 0.7003,
+      "high": 0.2098,
+      "onset": 0.482,
+      "spectralCentroid": 0.1597
+    },
+    {
+      "time": 118,
+      "energy": 0.3161,
+      "low": 0.0466,
+      "mid": 0.7025,
+      "high": 0.2509,
+      "onset": 0.4711,
+      "spectralCentroid": 0.1829
+    },
+    {
+      "time": 118.25,
+      "energy": 0.4361,
+      "low": 0.0669,
+      "mid": 0.7059,
+      "high": 0.2271,
+      "onset": 0.4423,
+      "spectralCentroid": 0.1697
+    },
+    {
+      "time": 118.5,
+      "energy": 0.4909,
+      "low": 0.0252,
+      "mid": 0.7096,
+      "high": 0.2653,
+      "onset": 0.4654,
+      "spectralCentroid": 0.1914
+    },
+    {
+      "time": 118.75,
+      "energy": 0.4495,
+      "low": 0.0338,
+      "mid": 0.7081,
+      "high": 0.2581,
+      "onset": 0.4476,
+      "spectralCentroid": 0.1872
+    },
+    {
+      "time": 119,
+      "energy": 0.3947,
+      "low": 0.3694,
+      "mid": 0.4886,
+      "high": 0.1421,
+      "onset": 0.419,
+      "spectralCentroid": 0.1112
+    },
+    {
+      "time": 119.25,
+      "energy": 0.4828,
+      "low": 0.1508,
+      "mid": 0.6753,
+      "high": 0.1738,
+      "onset": 0.475,
+      "spectralCentroid": 0.1383
+    },
+    {
+      "time": 119.5,
+      "energy": 0.3241,
+      "low": 0.0883,
+      "mid": 0.6809,
+      "high": 0.2308,
+      "onset": 0.4033,
+      "spectralCentroid": 0.1707
+    },
+    {
+      "time": 119.75,
+      "energy": 0.3737,
+      "low": 0.1619,
+      "mid": 0.6792,
+      "high": 0.1589,
+      "onset": 0.3736,
+      "spectralCentroid": 0.1302
+    },
+    {
+      "time": 120,
+      "energy": 0.3472,
+      "low": 0.351,
+      "mid": 0.5468,
+      "high": 0.1021,
+      "onset": 0.3443,
+      "spectralCentroid": 0.0917
+    },
+    {
+      "time": 120.25,
+      "energy": 0.4358,
+      "low": 0.5118,
+      "mid": 0.4079,
+      "high": 0.0802,
+      "onset": 0.4132,
+      "spectralCentroid": 0.0725
+    },
+    {
+      "time": 120.5,
+      "energy": 0.7738,
+      "low": 0.7873,
+      "mid": 0.1812,
+      "high": 0.0315,
+      "onset": 0.6239,
+      "spectralCentroid": 0.0338
+    },
+    {
+      "time": 120.75,
+      "energy": 0.4362,
+      "low": 0.6343,
+      "mid": 0.2928,
+      "high": 0.0728,
+      "onset": 0.5468,
+      "spectralCentroid": 0.0626
+    },
+    {
+      "time": 121,
+      "energy": 0.9266,
+      "low": 0.8999,
+      "mid": 0.0929,
+      "high": 0.0072,
+      "onset": 0.7577,
+      "spectralCentroid": 0.0158
+    },
+    {
+      "time": 121.25,
+      "energy": 0.5414,
+      "low": 0.4258,
+      "mid": 0.5394,
+      "high": 0.0348,
+      "onset": 1,
+      "spectralCentroid": 0.0536
+    },
+    {
+      "time": 121.5,
+      "energy": 0.7882,
+      "low": 0.3885,
+      "mid": 0.5957,
+      "high": 0.0158,
+      "onset": 0.5113,
+      "spectralCentroid": 0.0457
+    },
+    {
+      "time": 121.75,
+      "energy": 0.8768,
+      "low": 0.474,
+      "mid": 0.5181,
+      "high": 0.0079,
+      "onset": 0.4589,
+      "spectralCentroid": 0.0374
+    },
+    {
+      "time": 122,
+      "energy": 0.5774,
+      "low": 0.6685,
+      "mid": 0.3142,
+      "high": 0.0173,
+      "onset": 0.6212,
+      "spectralCentroid": 0.0325
+    },
+    {
+      "time": 122.25,
+      "energy": 0.4117,
+      "low": 0.5171,
+      "mid": 0.4537,
+      "high": 0.0292,
+      "onset": 0.4246,
+      "spectralCentroid": 0.0462
+    },
+    {
+      "time": 122.5,
+      "energy": 0.6695,
+      "low": 0.4244,
+      "mid": 0.5621,
+      "high": 0.0134,
+      "onset": 0.4899,
+      "spectralCentroid": 0.0427
+    },
+    {
+      "time": 122.75,
+      "energy": 0.2845,
+      "low": 0.3493,
+      "mid": 0.5658,
+      "high": 0.085,
+      "onset": 0.671,
+      "spectralCentroid": 0.083
+    },
+    {
+      "time": 123,
+      "energy": 0.4167,
+      "low": 0.7486,
+      "mid": 0.2259,
+      "high": 0.0255,
+      "onset": 0.3762,
+      "spectralCentroid": 0.0327
+    },
+    {
+      "time": 123.25,
+      "energy": 0.3121,
+      "low": 0.6906,
+      "mid": 0.2697,
+      "high": 0.0397,
+      "onset": 0.2876,
+      "spectralCentroid": 0.0428
+    },
+    {
+      "time": 123.5,
+      "energy": 0.3921,
+      "low": 0.8024,
+      "mid": 0.1749,
+      "high": 0.0226,
+      "onset": 0.1927,
+      "spectralCentroid": 0.0285
+    },
+    {
+      "time": 123.75,
+      "energy": 0.2847,
+      "low": 0.4212,
+      "mid": 0.5521,
+      "high": 0.0266,
+      "onset": 0.371,
+      "spectralCentroid": 0.0496
+    },
+    {
+      "time": 124,
+      "energy": 0.5046,
+      "low": 0.4205,
+      "mid": 0.4371,
+      "high": 0.1424,
+      "onset": 0.5372,
+      "spectralCentroid": 0.1088
+    },
+    {
+      "time": 124.25,
+      "energy": 0.5201,
+      "low": 0.1281,
+      "mid": 0.6712,
+      "high": 0.2006,
+      "onset": 0.4068,
+      "spectralCentroid": 0.1532
+    },
+    {
+      "time": 124.5,
+      "energy": 0.5245,
+      "low": 0.092,
+      "mid": 0.6788,
+      "high": 0.2292,
+      "onset": 0.3059,
+      "spectralCentroid": 0.1697
+    },
+    {
+      "time": 124.75,
+      "energy": 0.4444,
+      "low": 0.0392,
+      "mid": 0.7027,
+      "high": 0.2581,
+      "onset": 0.5395,
+      "spectralCentroid": 0.187
+    },
+    {
+      "time": 125,
+      "energy": 0.2893,
+      "low": 0.4457,
+      "mid": 0.4289,
+      "high": 0.1254,
+      "onset": 0.431,
+      "spectralCentroid": 0.0991
+    },
+    {
+      "time": 125.25,
+      "energy": 0.4126,
+      "low": 0.0364,
+      "mid": 0.7094,
+      "high": 0.2542,
+      "onset": 0.4289,
+      "spectralCentroid": 0.1852
+    },
+    {
+      "time": 125.5,
+      "energy": 0.3835,
+      "low": 0.037,
+      "mid": 0.7092,
+      "high": 0.2538,
+      "onset": 0.421,
+      "spectralCentroid": 0.1851
+    },
+    {
+      "time": 125.75,
+      "energy": 0.4998,
+      "low": 0.0301,
+      "mid": 0.7113,
+      "high": 0.2586,
+      "onset": 0.4899,
+      "spectralCentroid": 0.1877
+    },
+    {
+      "time": 126,
+      "energy": 0.422,
+      "low": 0.0505,
+      "mid": 0.7041,
+      "high": 0.2453,
+      "onset": 0.2705,
+      "spectralCentroid": 0.1799
+    },
+    {
+      "time": 126.25,
+      "energy": 0.3237,
+      "low": 0.1393,
+      "mid": 0.6905,
+      "high": 0.1702,
+      "onset": 0.3068,
+      "spectralCentroid": 0.1373
+    },
+    {
+      "time": 126.5,
+      "energy": 0.3611,
+      "low": 0.1194,
+      "mid": 0.6857,
+      "high": 0.1949,
+      "onset": 0.213,
+      "spectralCentroid": 0.1509
+    },
+    {
+      "time": 126.75,
+      "energy": 0.4047,
+      "low": 0.0918,
+      "mid": 0.6952,
+      "high": 0.213,
+      "onset": 0.2458,
+      "spectralCentroid": 0.1617
+    },
+    {
+      "time": 127,
+      "energy": 0.3998,
+      "low": 0.3293,
+      "mid": 0.5386,
+      "high": 0.132,
+      "onset": 0.3024,
+      "spectralCentroid": 0.1082
+    },
+    {
+      "time": 127.25,
+      "energy": 0.4315,
+      "low": 0.1974,
+      "mid": 0.6628,
+      "high": 0.1398,
+      "onset": 0.386,
+      "spectralCentroid": 0.1187
+    },
+    {
+      "time": 127.5,
+      "energy": 0.4119,
+      "low": 0.0691,
+      "mid": 0.6955,
+      "high": 0.2354,
+      "onset": 0.4407,
+      "spectralCentroid": 0.1739
+    },
+    {
+      "time": 127.75,
+      "energy": 0.3384,
+      "low": 0.1022,
+      "mid": 0.6911,
+      "high": 0.2067,
+      "onset": 0.2607,
+      "spectralCentroid": 0.1576
+    },
+    {
+      "time": 128,
+      "energy": 0.3636,
+      "low": 0.2015,
+      "mid": 0.6517,
+      "high": 0.1468,
+      "onset": 0.2581,
+      "spectralCentroid": 0.1221
+    },
+    {
+      "time": 128.25,
+      "energy": 0.4588,
+      "low": 0.277,
+      "mid": 0.5867,
+      "high": 0.1363,
+      "onset": 0.3568,
+      "spectralCentroid": 0.1129
+    },
+    {
+      "time": 128.5,
+      "energy": 0.6731,
+      "low": 0.5096,
+      "mid": 0.3872,
+      "high": 0.1032,
+      "onset": 0.5702,
+      "spectralCentroid": 0.0843
+    },
+    {
+      "time": 128.75,
+      "energy": 0.427,
+      "low": 0.3574,
+      "mid": 0.4871,
+      "high": 0.1555,
+      "onset": 0.5877,
+      "spectralCentroid": 0.1187
+    },
+    {
+      "time": 129,
+      "energy": 0.7495,
+      "low": 0.7175,
+      "mid": 0.2282,
+      "high": 0.0543,
+      "onset": 0.6451,
+      "spectralCentroid": 0.049
+    },
+    {
+      "time": 129.25,
+      "energy": 0.571,
+      "low": 0.4551,
+      "mid": 0.4714,
+      "high": 0.0735,
+      "onset": 0.7554,
+      "spectralCentroid": 0.0719
+    },
+    {
+      "time": 129.5,
+      "energy": 0.7205,
+      "low": 0.4624,
+      "mid": 0.5091,
+      "high": 0.0285,
+      "onset": 0.4929,
+      "spectralCentroid": 0.0485
+    },
+    {
+      "time": 129.75,
+      "energy": 0.822,
+      "low": 0.4704,
+      "mid": 0.5029,
+      "high": 0.0267,
+      "onset": 0.2957,
+      "spectralCentroid": 0.0472
+    },
+    {
+      "time": 130,
+      "energy": 0.649,
+      "low": 0.7673,
+      "mid": 0.2159,
+      "high": 0.0167,
+      "onset": 0.5983,
+      "spectralCentroid": 0.0273
+    },
+    {
+      "time": 130.25,
+      "energy": 0.3358,
+      "low": 0.3656,
+      "mid": 0.5474,
+      "high": 0.087,
+      "onset": 0.6036,
+      "spectralCentroid": 0.0834
+    },
+    {
+      "time": 130.5,
+      "energy": 0.7343,
+      "low": 0.4221,
+      "mid": 0.5592,
+      "high": 0.0187,
+      "onset": 0.7366,
+      "spectralCentroid": 0.0455
+    },
+    {
+      "time": 130.75,
+      "energy": 0.5005,
+      "low": 0.5671,
+      "mid": 0.3843,
+      "high": 0.0486,
+      "onset": 0.5404,
+      "spectralCentroid": 0.0536
+    },
+    {
+      "time": 131,
+      "energy": 0.5275,
+      "low": 0.6684,
+      "mid": 0.2894,
+      "high": 0.0423,
+      "onset": 0.3446,
+      "spectralCentroid": 0.0453
+    },
+    {
+      "time": 131.25,
+      "energy": 0.3071,
+      "low": 0.3896,
+      "mid": 0.519,
+      "high": 0.0914,
+      "onset": 0.4172,
+      "spectralCentroid": 0.0843
+    },
+    {
+      "time": 131.5,
+      "energy": 0.2711,
+      "low": 0.553,
+      "mid": 0.3585,
+      "high": 0.0885,
+      "onset": 0.2497,
+      "spectralCentroid": 0.0747
+    },
+    {
+      "time": 131.75,
+      "energy": 0.3298,
+      "low": 0.687,
+      "mid": 0.2853,
+      "high": 0.0277,
+      "onset": 0.2781,
+      "spectralCentroid": 0.0369
+    },
+    {
+      "time": 132,
+      "energy": 0.31,
+      "low": 0.7052,
+      "mid": 0.2678,
+      "high": 0.027,
+      "onset": 0.3231,
+      "spectralCentroid": 0.0356
+    },
+    {
+      "time": 132.25,
+      "energy": 0.3022,
+      "low": 0.3944,
+      "mid": 0.5517,
+      "high": 0.0539,
+      "onset": 0.3215,
+      "spectralCentroid": 0.0649
+    },
+    {
+      "time": 132.5,
+      "energy": 0.2538,
+      "low": 0.4564,
+      "mid": 0.4955,
+      "high": 0.0481,
+      "onset": 0.2129,
+      "spectralCentroid": 0.0589
+    },
+    {
+      "time": 132.75,
+      "energy": 0.1937,
+      "low": 0.301,
+      "mid": 0.5723,
+      "high": 0.1267,
+      "onset": 0.1785,
+      "spectralCentroid": 0.1068
+    },
+    {
+      "time": 133,
+      "energy": 0.3145,
+      "low": 0.7762,
+      "mid": 0.188,
+      "high": 0.0357,
+      "onset": 0.2673,
+      "spectralCentroid": 0.0365
+    },
+    {
+      "time": 133.25,
+      "energy": 0.147,
+      "low": 0.2712,
+      "mid": 0.6229,
+      "high": 0.1059,
+      "onset": 0.3078,
+      "spectralCentroid": 0.0976
+    },
+    {
+      "time": 133.5,
+      "energy": 0.1473,
+      "low": 0.3125,
+      "mid": 0.555,
+      "high": 0.1325,
+      "onset": 0.1313,
+      "spectralCentroid": 0.1092
+    },
+    {
+      "time": 133.75,
+      "energy": 0.1395,
+      "low": 0.3009,
+      "mid": 0.5461,
+      "high": 0.153,
+      "onset": 0.0965,
+      "spectralCentroid": 0.1202
+    },
+    {
+      "time": 134,
+      "energy": 0.1761,
+      "low": 0.7268,
+      "mid": 0.2227,
+      "high": 0.0504,
+      "onset": 0.1498,
+      "spectralCentroid": 0.0465
+    },
+    {
+      "time": 134.25,
+      "energy": 0.1463,
+      "low": 0.2778,
+      "mid": 0.6433,
+      "high": 0.079,
+      "onset": 0.2013,
+      "spectralCentroid": 0.0836
+    },
+    {
+      "time": 134.5,
+      "energy": 0.1485,
+      "low": 0.302,
+      "mid": 0.587,
+      "high": 0.111,
+      "onset": 0.1331,
+      "spectralCentroid": 0.0987
+    },
+    {
+      "time": 134.75,
+      "energy": 0.129,
+      "low": 0.1309,
+      "mid": 0.6899,
+      "high": 0.1792,
+      "onset": 0.1382,
+      "spectralCentroid": 0.1421
+    },
+    {
+      "time": 135,
+      "energy": 0.2118,
+      "low": 0.5824,
+      "mid": 0.3426,
+      "high": 0.075,
+      "onset": 0.2274,
+      "spectralCentroid": 0.0663
+    },
+    {
+      "time": 135.25,
+      "energy": 0.31,
+      "low": 0.3774,
+      "mid": 0.6061,
+      "high": 0.0166,
+      "onset": 0.3225,
+      "spectralCentroid": 0.0467
+    },
+    {
+      "time": 135.5,
+      "energy": 0.1346,
+      "low": 0.2867,
+      "mid": 0.6148,
+      "high": 0.0985,
+      "onset": 0.2764,
+      "spectralCentroid": 0.0931
+    },
+    {
+      "time": 135.75,
+      "energy": 0.3936,
+      "low": 0.1046,
+      "mid": 0.6926,
+      "high": 0.2028,
+      "onset": 0.4486,
+      "spectralCentroid": 0.1554
+    },
+    {
+      "time": 136,
+      "energy": 0.2879,
+      "low": 0.3315,
+      "mid": 0.6038,
+      "high": 0.0648,
+      "onset": 0.3712,
+      "spectralCentroid": 0.0736
+    },
+    {
+      "time": 136.25,
+      "energy": 0.3724,
+      "low": 0.5341,
+      "mid": 0.3989,
+      "high": 0.067,
+      "onset": 0.3002,
+      "spectralCentroid": 0.0646
+    },
+    {
+      "time": 136.5,
+      "energy": 0.6854,
+      "low": 0.8352,
+      "mid": 0.142,
+      "high": 0.0228,
+      "onset": 0.5563,
+      "spectralCentroid": 0.027
+    },
+    {
+      "time": 136.75,
+      "energy": 0.3522,
+      "low": 0.7289,
+      "mid": 0.2362,
+      "high": 0.035,
+      "onset": 0.5033,
+      "spectralCentroid": 0.0385
+    },
+    {
+      "time": 137,
+      "energy": 0.8271,
+      "low": 0.9006,
+      "mid": 0.0855,
+      "high": 0.0139,
+      "onset": 0.6877,
+      "spectralCentroid": 0.0192
+    },
+    {
+      "time": 137.25,
+      "energy": 0.5945,
+      "low": 0.6934,
+      "mid": 0.2943,
+      "high": 0.0123,
+      "onset": 0.7858,
+      "spectralCentroid": 0.0287
+    },
+    {
+      "time": 137.5,
+      "energy": 0.8609,
+      "low": 0.5987,
+      "mid": 0.393,
+      "high": 0.0083,
+      "onset": 0.4999,
+      "spectralCentroid": 0.0314
+    },
+    {
+      "time": 137.75,
+      "energy": 0.7342,
+      "low": 0.4254,
+      "mid": 0.5639,
+      "high": 0.0107,
+      "onset": 0.4997,
+      "spectralCentroid": 0.0413
+    },
+    {
+      "time": 138,
+      "energy": 0.4911,
+      "low": 0.4945,
+      "mid": 0.4885,
+      "high": 0.0169,
+      "onset": 0.4591,
+      "spectralCentroid": 0.041
+    },
+    {
+      "time": 138.25,
+      "energy": 0.4131,
+      "low": 0.5226,
+      "mid": 0.445,
+      "high": 0.0324,
+      "onset": 0.3376,
+      "spectralCentroid": 0.0475
+    },
+    {
+      "time": 138.5,
+      "energy": 0.6394,
+      "low": 0.55,
+      "mid": 0.44,
+      "high": 0.0101,
+      "onset": 0.4631,
+      "spectralCentroid": 0.0347
+    },
+    {
+      "time": 138.75,
+      "energy": 0.3715,
+      "low": 0.6142,
+      "mid": 0.3571,
+      "high": 0.0287,
+      "onset": 0.5237,
+      "spectralCentroid": 0.041
+    },
+    {
+      "time": 139,
+      "energy": 0.329,
+      "low": 0.6613,
+      "mid": 0.309,
+      "high": 0.0297,
+      "onset": 0.193,
+      "spectralCentroid": 0.0392
+    },
+    {
+      "time": 139.25,
+      "energy": 0.2388,
+      "low": 0.6426,
+      "mid": 0.3416,
+      "high": 0.0158,
+      "onset": 0.1807,
+      "spectralCentroid": 0.033
+    },
+    {
+      "time": 139.5,
+      "energy": 0.2515,
+      "low": 0.589,
+      "mid": 0.3797,
+      "high": 0.0313,
+      "onset": 0.1438,
+      "spectralCentroid": 0.0436
+    },
+    {
+      "time": 139.75,
+      "energy": 0.2828,
+      "low": 0.4406,
+      "mid": 0.533,
+      "high": 0.0265,
+      "onset": 0.185,
+      "spectralCentroid": 0.0486
+    },
+    {
+      "time": 140,
+      "energy": 0.4046,
+      "low": 0.6794,
+      "mid": 0.3051,
+      "high": 0.0156,
+      "onset": 0.3129,
+      "spectralCentroid": 0.0311
+    },
+    {
+      "time": 140.25,
+      "energy": 0.6296,
+      "low": 0.5056,
+      "mid": 0.4439,
+      "high": 0.0504,
+      "onset": 0.497,
+      "spectralCentroid": 0.0575
+    },
+    {
+      "time": 140.5,
+      "energy": 0.7634,
+      "low": 0.7253,
+      "mid": 0.2347,
+      "high": 0.0399,
+      "onset": 0.512,
+      "spectralCentroid": 0.0412
+    },
+    {
+      "time": 140.75,
+      "energy": 0.6053,
+      "low": 0.4189,
+      "mid": 0.4724,
+      "high": 0.1088,
+      "onset": 0.4718,
+      "spectralCentroid": 0.0917
+    },
+    {
+      "time": 141,
+      "energy": 0.698,
+      "low": 0.8052,
+      "mid": 0.1807,
+      "high": 0.0141,
+      "onset": 0.5373,
+      "spectralCentroid": 0.024
+    },
+    {
+      "time": 141.25,
+      "energy": 0.4069,
+      "low": 0.5031,
+      "mid": 0.4467,
+      "high": 0.0503,
+      "onset": 0.6123,
+      "spectralCentroid": 0.0576
+    },
+    {
+      "time": 141.5,
+      "energy": 0.5379,
+      "low": 0.7893,
+      "mid": 0.185,
+      "high": 0.0256,
+      "onset": 0.3945,
+      "spectralCentroid": 0.0307
+    },
+    {
+      "time": 141.75,
+      "energy": 0.4869,
+      "low": 0.7426,
+      "mid": 0.2207,
+      "high": 0.0366,
+      "onset": 0.2894,
+      "spectralCentroid": 0.0387
+    },
+    {
+      "time": 142,
+      "energy": 0.4153,
+      "low": 0.6445,
+      "mid": 0.3243,
+      "high": 0.0312,
+      "onset": 0.3144,
+      "spectralCentroid": 0.0408
+    },
+    {
+      "time": 142.25,
+      "energy": 0.553,
+      "low": 0.5421,
+      "mid": 0.4146,
+      "high": 0.0432,
+      "onset": 0.4333,
+      "spectralCentroid": 0.0521
+    },
+    {
+      "time": 142.5,
+      "energy": 0.635,
+      "low": 0.5463,
+      "mid": 0.393,
+      "high": 0.0607,
+      "onset": 0.4929,
+      "spectralCentroid": 0.0608
+    },
+    {
+      "time": 142.75,
+      "energy": 0.6008,
+      "low": 0.4394,
+      "mid": 0.4814,
+      "high": 0.0793,
+      "onset": 0.4101,
+      "spectralCentroid": 0.0756
+    },
+    {
+      "time": 143,
+      "energy": 0.7462,
+      "low": 0.5519,
+      "mid": 0.4053,
+      "high": 0.0428,
+      "onset": 0.5675,
+      "spectralCentroid": 0.0513
+    },
+    {
+      "time": 143.25,
+      "energy": 0.6088,
+      "low": 0.5309,
+      "mid": 0.3939,
+      "high": 0.0752,
+      "onset": 0.5994,
+      "spectralCentroid": 0.069
+    },
+    {
+      "time": 143.5,
+      "energy": 0.548,
+      "low": 0.5956,
+      "mid": 0.3295,
+      "high": 0.0749,
+      "onset": 0.3238,
+      "spectralCentroid": 0.0656
+    },
+    {
+      "time": 143.75,
+      "energy": 0.7173,
+      "low": 0.5681,
+      "mid": 0.3712,
+      "high": 0.0607,
+      "onset": 0.4258,
+      "spectralCentroid": 0.0597
+    },
+    {
+      "time": 144,
+      "energy": 0.4178,
+      "low": 0.4736,
+      "mid": 0.4483,
+      "high": 0.0782,
+      "onset": 0.5713,
+      "spectralCentroid": 0.0733
+    },
+    {
+      "time": 144.25,
+      "energy": 0.34,
+      "low": 0.5595,
+      "mid": 0.3776,
+      "high": 0.0628,
+      "onset": 0.3041,
+      "spectralCentroid": 0.0612
+    },
+    {
+      "time": 144.5,
+      "energy": 0.3856,
+      "low": 0.4361,
+      "mid": 0.4522,
+      "high": 0.1117,
+      "onset": 0.2677,
+      "spectralCentroid": 0.0923
+    },
+    {
+      "time": 144.75,
+      "energy": 0.3414,
+      "low": 0.4231,
+      "mid": 0.5038,
+      "high": 0.0731,
+      "onset": 0.2946,
+      "spectralCentroid": 0.0733
+    },
+    {
+      "time": 145,
+      "energy": 0.3798,
+      "low": 0.1299,
+      "mid": 0.6628,
+      "high": 0.2073,
+      "onset": 0.3215,
+      "spectralCentroid": 0.1564
+    },
+    {
+      "time": 145.25,
+      "energy": 0.337,
+      "low": 0.2534,
+      "mid": 0.6306,
+      "high": 0.1159,
+      "onset": 0.3276,
+      "spectralCentroid": 0.1036
+    },
+    {
+      "time": 145.5,
+      "energy": 0.2144,
+      "low": 0.3327,
+      "mid": 0.507,
+      "high": 0.1602,
+      "onset": 0.2855,
+      "spectralCentroid": 0.1223
+    },
+    {
+      "time": 145.75,
+      "energy": 0.2695,
+      "low": 0.2883,
+      "mid": 0.5443,
+      "high": 0.1674,
+      "onset": 0.1495,
+      "spectralCentroid": 0.1281
+    },
+    {
+      "time": 146,
+      "energy": 0.2646,
+      "low": 0.5137,
+      "mid": 0.4053,
+      "high": 0.081,
+      "onset": 0.2196,
+      "spectralCentroid": 0.0727
+    },
+    {
+      "time": 146.25,
+      "energy": 0.4149,
+      "low": 0.6384,
+      "mid": 0.3162,
+      "high": 0.0454,
+      "onset": 0.2972,
+      "spectralCentroid": 0.0483
+    },
+    {
+      "time": 146.5,
+      "energy": 0.3336,
+      "low": 0.5082,
+      "mid": 0.4372,
+      "high": 0.0546,
+      "onset": 0.2526,
+      "spectralCentroid": 0.0595
+    },
+    {
+      "time": 146.75,
+      "energy": 0.3412,
+      "low": 0.5936,
+      "mid": 0.3898,
+      "high": 0.0166,
+      "onset": 0.1662,
+      "spectralCentroid": 0.0359
+    },
+    {
+      "time": 147,
+      "energy": 0.2753,
+      "low": 0.5399,
+      "mid": 0.4089,
+      "high": 0.0513,
+      "onset": 0.1965,
+      "spectralCentroid": 0.0563
+    },
+    {
+      "time": 147.25,
+      "energy": 0.3297,
+      "low": 0.5433,
+      "mid": 0.3934,
+      "high": 0.0632,
+      "onset": 0.2025,
+      "spectralCentroid": 0.0622
+    },
+    {
+      "time": 147.5,
+      "energy": 0.2382,
+      "low": 0.5158,
+      "mid": 0.4214,
+      "high": 0.0628,
+      "onset": 0.176,
+      "spectralCentroid": 0.0633
+    },
+    {
+      "time": 147.75,
+      "energy": 0.2066,
+      "low": 0.5118,
+      "mid": 0.4346,
+      "high": 0.0535,
+      "onset": 0.1216,
+      "spectralCentroid": 0.0588
+    },
+    {
+      "time": 148,
+      "energy": 0.2086,
+      "low": 0.3117,
+      "mid": 0.5569,
+      "high": 0.1314,
+      "onset": 0.1337,
+      "spectralCentroid": 0.1086
+    },
+    {
+      "time": 148.25,
+      "energy": 0.2256,
+      "low": 0.5685,
+      "mid": 0.3585,
+      "high": 0.073,
+      "onset": 0.1332,
+      "spectralCentroid": 0.0659
+    },
+    {
+      "time": 148.5,
+      "energy": 0.2927,
+      "low": 0.7975,
+      "mid": 0.1707,
+      "high": 0.0318,
+      "onset": 0.191,
+      "spectralCentroid": 0.0335
+    },
+    {
+      "time": 148.75,
+      "energy": 0.2859,
+      "low": 0.7076,
+      "mid": 0.2749,
+      "high": 0.0175,
+      "onset": 0.1656,
+      "spectralCentroid": 0.0306
+    },
+    {
+      "time": 149,
+      "energy": 0.2792,
+      "low": 0.7017,
+      "mid": 0.2656,
+      "high": 0.0327,
+      "onset": 0.1098,
+      "spectralCentroid": 0.0387
+    },
+    {
+      "time": 149.25,
+      "energy": 0.325,
+      "low": 0.5261,
+      "mid": 0.3924,
+      "high": 0.0814,
+      "onset": 0.1763,
+      "spectralCentroid": 0.0723
+    },
+    {
+      "time": 149.5,
+      "energy": 0.2196,
+      "low": 0.5754,
+      "mid": 0.3886,
+      "high": 0.036,
+      "onset": 0.2015,
+      "spectralCentroid": 0.0467
+    },
+    {
+      "time": 149.75,
+      "energy": 0.1577,
+      "low": 0.415,
+      "mid": 0.525,
+      "high": 0.0601,
+      "onset": 0.1397,
+      "spectralCentroid": 0.067
+    },
+    {
+      "time": 150,
+      "energy": 0.1751,
+      "low": 0.298,
+      "mid": 0.5786,
+      "high": 0.1233,
+      "onset": 0.0998,
+      "spectralCentroid": 0.1051
+    },
+    {
+      "time": 150.25,
+      "energy": 0.2066,
+      "low": 0.643,
+      "mid": 0.3161,
+      "high": 0.0408,
+      "onset": 0.1603,
+      "spectralCentroid": 0.0458
+    },
+    {
+      "time": 150.5,
+      "energy": 0.1747,
+      "low": 0.6805,
+      "mid": 0.2691,
+      "high": 0.0504,
+      "onset": 0.1115,
+      "spectralCentroid": 0.0488
+    },
+    {
+      "time": 150.75,
+      "energy": 0.2105,
+      "low": 0.7164,
+      "mid": 0.2686,
+      "high": 0.015,
+      "onset": 0.1165,
+      "spectralCentroid": 0.0289
+    },
+    {
+      "time": 151,
+      "energy": 0.1772,
+      "low": 0.6211,
+      "mid": 0.3416,
+      "high": 0.0373,
+      "onset": 0.0993,
+      "spectralCentroid": 0.0451
+    },
+    {
+      "time": 151.25,
+      "energy": 0.1951,
+      "low": 0.6219,
+      "mid": 0.3102,
+      "high": 0.068,
+      "onset": 0.1092,
+      "spectralCentroid": 0.0607
+    },
+    {
+      "time": 151.5,
+      "energy": 0.2949,
+      "low": 0.9318,
+      "mid": 0.0624,
+      "high": 0.0058,
+      "onset": 0.2028,
+      "spectralCentroid": 0.0135
+    },
+    {
+      "time": 151.75,
+      "energy": 0.2477,
+      "low": 0.9161,
+      "mid": 0.0721,
+      "high": 0.0118,
+      "onset": 0.086,
+      "spectralCentroid": 0.0173
+    },
+    {
+      "time": 152,
+      "energy": 0.2243,
+      "low": 0.7987,
+      "mid": 0.1622,
+      "high": 0.0392,
+      "onset": 0.0847,
+      "spectralCentroid": 0.0371
+    },
+    {
+      "time": 152.25,
+      "energy": 0.1121,
+      "low": 0.5654,
+      "mid": 0.3652,
+      "high": 0.0694,
+      "onset": 0.1789,
+      "spectralCentroid": 0.0643
+    },
+    {
+      "time": 152.5,
+      "energy": 0.0862,
+      "low": 0.6141,
+      "mid": 0.333,
+      "high": 0.0529,
+      "onset": 0.0582,
+      "spectralCentroid": 0.0534
+    },
+    {
+      "time": 152.75,
+      "energy": 0.0967,
+      "low": 0.5615,
+      "mid": 0.4101,
+      "high": 0.0285,
+      "onset": 0.0529,
+      "spectralCentroid": 0.0435
+    },
+    {
+      "time": 153,
+      "energy": 0.1135,
+      "low": 0.4981,
+      "mid": 0.4648,
+      "high": 0.037,
+      "onset": 0.0608,
+      "spectralCentroid": 0.0511
+    },
+    {
+      "time": 153.25,
+      "energy": 0.1128,
+      "low": 0.4751,
+      "mid": 0.4711,
+      "high": 0.0537,
+      "onset": 0.0506,
+      "spectralCentroid": 0.0608
+    },
+    {
+      "time": 153.5,
+      "energy": 0.0756,
+      "low": 0.5637,
+      "mid": 0.4051,
+      "high": 0.0312,
+      "onset": 0.0618,
+      "spectralCentroid": 0.0448
+    },
+    {
+      "time": 153.75,
+      "energy": 0.0696,
+      "low": 0.5443,
+      "mid": 0.377,
+      "high": 0.0787,
+      "onset": 0.0498,
+      "spectralCentroid": 0.07
+    },
+    {
+      "time": 154,
+      "energy": 0.0639,
+      "low": 0.5149,
+      "mid": 0.3756,
+      "high": 0.1095,
+      "onset": 0.0339,
+      "spectralCentroid": 0.0872
+    },
+    {
+      "time": 154.25,
+      "energy": 0.0882,
+      "low": 0.8663,
+      "mid": 0.1039,
+      "high": 0.0298,
+      "onset": 0.0639,
+      "spectralCentroid": 0.029
+    },
+    {
+      "time": 154.5,
+      "energy": 0.0505,
+      "low": 0.6638,
+      "mid": 0.2608,
+      "high": 0.0754,
+      "onset": 0.0582,
+      "spectralCentroid": 0.0624
+    },
+    {
+      "time": 154.75,
+      "energy": 0.0448,
+      "low": 0.5358,
+      "mid": 0.3814,
+      "high": 0.0828,
+      "onset": 0.0273,
+      "spectralCentroid": 0.0726
+    },
+    {
+      "time": 155,
+      "energy": 0.0279,
+      "low": 0.1546,
+      "mid": 0.6305,
+      "high": 0.215,
+      "onset": 0.034,
+      "spectralCentroid": 0.1591
+    },
+    {
+      "time": 155.25,
+      "energy": 0.0286,
+      "low": 0.1347,
+      "mid": 0.6488,
+      "high": 0.2165,
+      "onset": 0.0153,
+      "spectralCentroid": 0.1609
+    },
+    {
+      "time": 155.5,
+      "energy": 0.0145,
+      "low": 0.0548,
+      "mid": 0.7017,
+      "high": 0.2435,
+      "onset": 0.0224,
+      "spectralCentroid": 0.1787
+    },
+    {
+      "time": 155.75,
+      "energy": 0.0252,
+      "low": 0.1086,
+      "mid": 0.698,
+      "high": 0.1934,
+      "onset": 0.0196,
+      "spectralCentroid": 0.1504
+    },
+    {
+      "time": 156,
+      "energy": 0.0275,
+      "low": 0.039,
+      "mid": 0.7122,
+      "high": 0.2488,
+      "onset": 0.013,
+      "spectralCentroid": 0.1821
+    },
+    {
+      "time": 156.25,
+      "energy": 0.0197,
+      "low": 0.0399,
+      "mid": 0.712,
+      "high": 0.2481,
+      "onset": 0.0125,
+      "spectralCentroid": 0.1817
+    },
+    {
+      "time": 156.5,
+      "energy": 0.0174,
+      "low": 0.0393,
+      "mid": 0.7121,
+      "high": 0.2486,
+      "onset": 0.0097,
+      "spectralCentroid": 0.182
+    },
+    {
+      "time": 156.75,
+      "energy": 0.0188,
+      "low": 0.1775,
+      "mid": 0.6845,
+      "high": 0.138,
+      "onset": 0.0151,
+      "spectralCentroid": 0.1187
+    },
+    {
+      "time": 157,
+      "energy": 0.017,
+      "low": 0.0987,
+      "mid": 0.7002,
+      "high": 0.201,
+      "onset": 0.0094,
+      "spectralCentroid": 0.1548
+    },
+    {
+      "time": 157.25,
+      "energy": 0.0188,
+      "low": 0.0652,
+      "mid": 0.7069,
+      "high": 0.2278,
+      "onset": 0.0114,
+      "spectralCentroid": 0.1701
+    },
+    {
+      "time": 157.5,
+      "energy": 0.0096,
+      "low": 0.0463,
+      "mid": 0.7107,
+      "high": 0.243,
+      "onset": 0.0151,
+      "spectralCentroid": 0.1788
+    },
+    {
+      "time": 157.75,
+      "energy": 0.016,
+      "low": 0.0618,
+      "mid": 0.7076,
+      "high": 0.2306,
+      "onset": 0.0122,
+      "spectralCentroid": 0.1717
+    },
+    {
+      "time": 158,
+      "energy": 0.0146,
+      "low": 0.0491,
+      "mid": 0.7102,
+      "high": 0.2407,
+      "onset": 0.0041,
+      "spectralCentroid": 0.1775
+    },
+    {
+      "time": 158.25,
+      "energy": 0.0106,
+      "low": 0.0754,
+      "mid": 0.7049,
+      "high": 0.2197,
+      "onset": 0.0064,
+      "spectralCentroid": 0.1654
+    },
+    {
+      "time": 158.5,
+      "energy": 0.0095,
+      "low": 0.0625,
+      "mid": 0.7075,
+      "high": 0.23,
+      "onset": 0.0045,
+      "spectralCentroid": 0.1714
+    },
+    {
+      "time": 158.75,
+      "energy": 0.0104,
+      "low": 0.114,
+      "mid": 0.6972,
+      "high": 0.1888,
+      "onset": 0.0056,
+      "spectralCentroid": 0.1477
+    },
+    {
+      "time": 159,
+      "energy": 0.0085,
+      "low": 0.0421,
+      "mid": 0.7116,
+      "high": 0.2463,
+      "onset": 0.0057,
+      "spectralCentroid": 0.1807
+    },
+    {
+      "time": 159.25,
+      "energy": 0.0111,
+      "low": 0.0319,
+      "mid": 0.7136,
+      "high": 0.2545,
+      "onset": 0.007,
+      "spectralCentroid": 0.1854
+    },
+    {
+      "time": 159.5,
+      "energy": 0.0054,
+      "low": 0.0715,
+      "mid": 0.7057,
+      "high": 0.2228,
+      "onset": 0.0095,
+      "spectralCentroid": 0.1673
+    },
+    {
+      "time": 159.75,
+      "energy": 0.0095,
+      "low": 0.0568,
+      "mid": 0.7086,
+      "high": 0.2346,
+      "onset": 0.0073,
+      "spectralCentroid": 0.174
+    },
+    {
+      "time": 160,
+      "energy": 0.0104,
+      "low": 0.0313,
+      "mid": 0.7137,
+      "high": 0.255,
+      "onset": 0.0032,
+      "spectralCentroid": 0.1857
+    },
+    {
+      "time": 160.25,
+      "energy": 0.0063,
+      "low": 0.0553,
+      "mid": 0.7089,
+      "high": 0.2358,
+      "onset": 0.0057,
+      "spectralCentroid": 0.1747
+    },
+    {
+      "time": 160.5,
+      "energy": 0.0047,
+      "low": 0.112,
+      "mid": 0.6976,
+      "high": 0.1904,
+      "onset": 0.0033,
+      "spectralCentroid": 0.1487
+    },
+    {
+      "time": 160.75,
+      "energy": 0.0054,
+      "low": 0.1247,
+      "mid": 0.695,
+      "high": 0.1802,
+      "onset": 0.0032,
+      "spectralCentroid": 0.1429
+    },
+    {
+      "time": 161,
+      "energy": 0.0058,
+      "low": 0.0402,
+      "mid": 0.712,
+      "high": 0.2479,
+      "onset": 0.003,
+      "spectralCentroid": 0.1816
+    },
+    {
+      "time": 161.25,
+      "energy": 0.0048,
+      "low": 0.0499,
+      "mid": 0.71,
+      "high": 0.2401,
+      "onset": 0.0033,
+      "spectralCentroid": 0.1772
+    },
+    {
+      "time": 161.5,
+      "energy": 0.004,
+      "low": 0.1831,
+      "mid": 0.6834,
+      "high": 0.1336,
+      "onset": 0.0038,
+      "spectralCentroid": 0.1161
+    },
+    {
+      "time": 161.75,
+      "energy": 0.005,
+      "low": 0.0389,
+      "mid": 0.7122,
+      "high": 0.2489,
+      "onset": 0.0039,
+      "spectralCentroid": 0.1822
+    },
+    {
+      "time": 162,
+      "energy": 0.0042,
+      "low": 0.0496,
+      "mid": 0.7101,
+      "high": 0.2404,
+      "onset": 0.0018,
+      "spectralCentroid": 0.1773
+    },
+    {
+      "time": 162.25,
+      "energy": 0.0029,
+      "low": 0.1185,
+      "mid": 0.6963,
+      "high": 0.1852,
+      "onset": 0.0027,
+      "spectralCentroid": 0.1457
+    },
+    {
+      "time": 162.5,
+      "energy": 0.0025,
+      "low": 0.1035,
+      "mid": 0.6993,
+      "high": 0.1972,
+      "onset": 0.0014,
+      "spectralCentroid": 0.1526
+    },
+    {
+      "time": 162.75,
+      "energy": 0.0032,
+      "low": 0.0621,
+      "mid": 0.7076,
+      "high": 0.2303,
+      "onset": 0.0016,
+      "spectralCentroid": 0.1715
+    },
+    {
+      "time": 163,
+      "energy": 0.0028,
+      "low": 0.0077,
+      "mid": 0.7184,
+      "high": 0.2738,
+      "onset": 0.0018,
+      "spectralCentroid": 0.1965
+    },
+    {
+      "time": 163.25,
+      "energy": 0.0024,
+      "low": 0.0454,
+      "mid": 0.7109,
+      "high": 0.2437,
+      "onset": 0.0017,
+      "spectralCentroid": 0.1792
+    },
+    {
+      "time": 163.5,
+      "energy": 0.0015,
+      "low": 0.0205,
+      "mid": 0.4152,
+      "high": 0.1467,
+      "onset": 0.0018,
+      "spectralCentroid": 0.1071
+    },
+    {
+      "time": 163.75,
+      "energy": 0.0024,
+      "low": 0.0708,
+      "mid": 0.7058,
+      "high": 0.2234,
+      "onset": 0.0016,
+      "spectralCentroid": 0.1676
+    },
+    {
+      "time": 164,
+      "energy": 0.0026,
+      "low": 0.0138,
+      "mid": 0.7172,
+      "high": 0.269,
+      "onset": 0.0012,
+      "spectralCentroid": 0.1937
+    },
+    {
+      "time": 164.25,
+      "energy": 0.0016,
+      "low": 0.0354,
+      "mid": 0.4899,
+      "high": 0.165,
+      "onset": 0.0016,
+      "spectralCentroid": 0.1218
+    },
+    {
+      "time": 164.5,
+      "energy": 0.0017,
+      "low": 0.0643,
+      "mid": 0.5502,
+      "high": 0.1675,
+      "onset": 0.0008,
+      "spectralCentroid": 0.127
+    },
+    {
+      "time": 164.75,
+      "energy": 0.0016,
+      "low": 0.03,
+      "mid": 0.4601,
+      "high": 0.1573,
+      "onset": 0.0011,
+      "spectralCentroid": 0.1157
+    },
+    {
+      "time": 165,
+      "energy": 0.0016,
+      "low": 0.0216,
+      "mid": 0.4617,
+      "high": 0.164,
+      "onset": 0.0006,
+      "spectralCentroid": 0.1196
+    },
+    {
+      "time": 165.25,
+      "energy": 0.0014,
+      "low": 0.0148,
+      "mid": 0.3852,
+      "high": 0.1391,
+      "onset": 0.0009,
+      "spectralCentroid": 0.101
+    },
+    {
+      "time": 165.5,
+      "energy": 0.0009,
+      "low": 0.0222,
+      "mid": 0.1616,
+      "high": 0.0468,
+      "onset": 0.001,
+      "spectralCentroid": 0.0359
+    },
+    {
+      "time": 165.75,
+      "energy": 0.0014,
+      "low": 0.0309,
+      "mid": 0.3723,
+      "high": 0.1225,
+      "onset": 0.0008,
+      "spectralCentroid": 0.091
+    }
+  ],
+  "bars": [
+    {
+      "index": 0,
+      "start": 0.5108,
+      "end": 2.531,
+      "beats": [
+        0.5108,
+        1.0217,
+        1.5325,
+        2.0317
+      ]
+    },
+    {
+      "index": 1,
+      "start": 2.531,
+      "end": 4.5279,
+      "beats": [
+        2.531,
+        3.0302,
+        3.5294,
+        4.0287
+      ]
+    },
+    {
+      "index": 2,
+      "start": 4.5279,
+      "end": 6.5248,
+      "beats": [
+        4.5279,
+        5.0271,
+        5.5263,
+        6.0256
+      ]
+    },
+    {
+      "index": 3,
+      "start": 6.5248,
+      "end": 8.5333,
+      "beats": [
+        6.5248,
+        7.024,
+        7.5349,
+        8.0341
+      ]
+    },
+    {
+      "index": 4,
+      "start": 8.5333,
+      "end": 10.5302,
+      "beats": [
+        8.5333,
+        9.0326,
+        9.5318,
+        10.031
+      ]
+    },
+    {
+      "index": 5,
+      "start": 10.5302,
+      "end": 12.5272,
+      "beats": [
+        10.5302,
+        11.0411,
+        11.5287,
+        12.0279
+      ]
+    },
+    {
+      "index": 6,
+      "start": 12.5272,
+      "end": 14.5241,
+      "beats": [
+        12.5272,
+        13.0264,
+        13.5256,
+        14.0249
+      ]
+    },
+    {
+      "index": 7,
+      "start": 14.5241,
+      "end": 16.521,
+      "beats": [
+        14.5241,
+        15.0233,
+        15.5225,
+        16.0218
+      ]
+    },
+    {
+      "index": 8,
+      "start": 16.521,
+      "end": 18.5295,
+      "beats": [
+        16.521,
+        16.997,
+        17.5195,
+        18.0303
+      ]
+    },
+    {
+      "index": 9,
+      "start": 18.5295,
+      "end": 20.538,
+      "beats": [
+        18.5295,
+        19.052,
+        19.5396,
+        20.0388
+      ]
+    },
+    {
+      "index": 10,
+      "start": 20.538,
+      "end": 22.535,
+      "beats": [
+        20.538,
+        21.0373,
+        21.5365,
+        22.0357
+      ]
+    },
+    {
+      "index": 11,
+      "start": 22.535,
+      "end": 24.5319,
+      "beats": [
+        22.535,
+        23.0458,
+        23.5334,
+        24.0327
+      ]
+    },
+    {
+      "index": 12,
+      "start": 24.5319,
+      "end": 26.5288,
+      "beats": [
+        24.5319,
+        25.0311,
+        25.5303,
+        26.0296
+      ]
+    },
+    {
+      "index": 13,
+      "start": 26.5288,
+      "end": 28.5257,
+      "beats": [
+        26.5288,
+        27.0396,
+        27.5273,
+        28.0265
+      ]
+    },
+    {
+      "index": 14,
+      "start": 28.5257,
+      "end": 30.5342,
+      "beats": [
+        28.5257,
+        29.0366,
+        29.5358,
+        30.035
+      ]
+    },
+    {
+      "index": 15,
+      "start": 30.5342,
+      "end": 32.5312,
+      "beats": [
+        30.5342,
+        31.0451,
+        31.5327,
+        32.0319
+      ]
+    },
+    {
+      "index": 16,
+      "start": 32.5312,
+      "end": 34.5397,
+      "beats": [
+        32.5312,
+        33.042,
+        33.5412,
+        34.0405
+      ]
+    },
+    {
+      "index": 17,
+      "start": 34.5397,
+      "end": 36.5366,
+      "beats": [
+        34.5397,
+        35.0505,
+        35.5381,
+        36.0374
+      ]
+    },
+    {
+      "index": 18,
+      "start": 36.5366,
+      "end": 38.5335,
+      "beats": [
+        36.5366,
+        37.0358,
+        37.5351,
+        38.0343
+      ]
+    },
+    {
+      "index": 19,
+      "start": 38.5335,
+      "end": 40.5304,
+      "beats": [
+        38.5335,
+        39.0444,
+        39.532,
+        40.0312
+      ]
+    },
+    {
+      "index": 20,
+      "start": 40.5304,
+      "end": 42.539,
+      "beats": [
+        40.5304,
+        41.0297,
+        41.5289,
+        42.0281
+      ]
+    },
+    {
+      "index": 21,
+      "start": 42.539,
+      "end": 44.5359,
+      "beats": [
+        42.539,
+        43.0382,
+        43.5258,
+        44.025
+      ]
+    },
+    {
+      "index": 22,
+      "start": 44.5359,
+      "end": 46.5328,
+      "beats": [
+        44.5359,
+        45.0467,
+        45.5343,
+        46.0336
+      ]
+    },
+    {
+      "index": 23,
+      "start": 46.5328,
+      "end": 48.5297,
+      "beats": [
+        46.5328,
+        47.0436,
+        47.5312,
+        48.0305
+      ]
+    },
+    {
+      "index": 24,
+      "start": 48.5297,
+      "end": 50.5382,
+      "beats": [
+        48.5297,
+        49.0289,
+        49.5398,
+        50.039
+      ]
+    },
+    {
+      "index": 25,
+      "start": 50.5382,
+      "end": 52.5351,
+      "beats": [
+        50.5382,
+        51.0491,
+        51.5367,
+        52.0359
+      ]
+    },
+    {
+      "index": 26,
+      "start": 52.5351,
+      "end": 54.5321,
+      "beats": [
+        52.5351,
+        53.0344,
+        53.5336,
+        54.0328
+      ]
+    },
+    {
+      "index": 27,
+      "start": 54.5321,
+      "end": 56.529,
+      "beats": [
+        54.5321,
+        55.0429,
+        55.5305,
+        56.0298
+      ]
+    },
+    {
+      "index": 28,
+      "start": 56.529,
+      "end": 58.5375,
+      "beats": [
+        56.529,
+        57.0398,
+        57.539,
+        58.0383
+      ]
+    },
+    {
+      "index": 29,
+      "start": 58.5375,
+      "end": 60.5344,
+      "beats": [
+        58.5375,
+        59.0483,
+        59.536,
+        60.0352
+      ]
+    },
+    {
+      "index": 30,
+      "start": 60.5344,
+      "end": 62.5313,
+      "beats": [
+        60.5344,
+        61.0453,
+        61.5329,
+        62.0321
+      ]
+    },
+    {
+      "index": 31,
+      "start": 62.5313,
+      "end": 64.5399,
+      "beats": [
+        62.5313,
+        63.0422,
+        63.5414,
+        64.0406
+      ]
+    },
+    {
+      "index": 32,
+      "start": 64.5399,
+      "end": 66.5484,
+      "beats": [
+        64.5399,
+        65.0391,
+        65.5383,
+        66.0376
+      ]
+    },
+    {
+      "index": 33,
+      "start": 66.5484,
+      "end": 68.5337,
+      "beats": [
+        66.5484,
+        67.0476,
+        67.5352,
+        68.0345
+      ]
+    },
+    {
+      "index": 34,
+      "start": 68.5337,
+      "end": 70.5306,
+      "beats": [
+        68.5337,
+        69.0445,
+        69.5322,
+        70.0314
+      ]
+    },
+    {
+      "index": 35,
+      "start": 70.5306,
+      "end": 72.5391,
+      "beats": [
+        70.5306,
+        71.0298,
+        71.5291,
+        72.0283
+      ]
+    },
+    {
+      "index": 36,
+      "start": 72.5391,
+      "end": 74.5361,
+      "beats": [
+        72.5391,
+        73.0384,
+        73.5376,
+        74.0368
+      ]
+    },
+    {
+      "index": 37,
+      "start": 74.5361,
+      "end": 76.533,
+      "beats": [
+        74.5361,
+        75.0353,
+        75.5345,
+        76.0337
+      ]
+    },
+    {
+      "index": 38,
+      "start": 76.533,
+      "end": 78.5299,
+      "beats": [
+        76.533,
+        77.0438,
+        77.5314,
+        78.0307
+      ]
+    },
+    {
+      "index": 39,
+      "start": 78.5299,
+      "end": 80.5384,
+      "beats": [
+        78.5299,
+        79.0407,
+        79.54,
+        80.0392
+      ]
+    },
+    {
+      "index": 40,
+      "start": 80.5384,
+      "end": 82.5353,
+      "beats": [
+        80.5384,
+        81.0376,
+        81.5369,
+        82.0361
+      ]
+    },
+    {
+      "index": 41,
+      "start": 82.5353,
+      "end": 84.5322,
+      "beats": [
+        82.5353,
+        83.0462,
+        83.5454,
+        84.0446
+      ]
+    },
+    {
+      "index": 42,
+      "start": 84.5322,
+      "end": 86.5408,
+      "beats": [
+        84.5322,
+        85.0431,
+        85.5423,
+        86.0415
+      ]
+    },
+    {
+      "index": 43,
+      "start": 86.5408,
+      "end": 88.5377,
+      "beats": [
+        86.5408,
+        87.0516,
+        87.5392,
+        88.0385
+      ]
+    },
+    {
+      "index": 44,
+      "start": 88.5377,
+      "end": 90.5346,
+      "beats": [
+        88.5377,
+        89.0369,
+        89.5361,
+        90.0354
+      ]
+    },
+    {
+      "index": 45,
+      "start": 90.5346,
+      "end": 92.5315,
+      "beats": [
+        90.5346,
+        91.0454,
+        91.5331,
+        92.0323
+      ]
+    },
+    {
+      "index": 46,
+      "start": 92.5315,
+      "end": 94.5284,
+      "beats": [
+        92.5315,
+        93.0424,
+        93.53,
+        94.0292
+      ]
+    },
+    {
+      "index": 47,
+      "start": 94.5284,
+      "end": 96.537,
+      "beats": [
+        94.5284,
+        95.0393,
+        95.5385,
+        96.0377
+      ]
+    },
+    {
+      "index": 48,
+      "start": 96.537,
+      "end": 98.5455,
+      "beats": [
+        96.537,
+        97.0478,
+        97.547,
+        98.0463
+      ]
+    },
+    {
+      "index": 49,
+      "start": 98.5455,
+      "end": 100.5308,
+      "beats": [
+        98.5455,
+        99.0447,
+        99.5323,
+        100.0316
+      ]
+    },
+    {
+      "index": 50,
+      "start": 100.5308,
+      "end": 102.5393,
+      "beats": [
+        100.5308,
+        101.0416,
+        101.5409,
+        102.0401
+      ]
+    },
+    {
+      "index": 51,
+      "start": 102.5393,
+      "end": 104.5362,
+      "beats": [
+        102.5393,
+        103.0502,
+        103.5378,
+        104.037
+      ]
+    },
+    {
+      "index": 52,
+      "start": 104.5362,
+      "end": 106.5331,
+      "beats": [
+        104.5362,
+        105.0355,
+        105.5347,
+        106.0339
+      ]
+    },
+    {
+      "index": 53,
+      "start": 106.5331,
+      "end": 108.5301,
+      "beats": [
+        106.5331,
+        107.044,
+        107.5316,
+        108.0308
+      ]
+    },
+    {
+      "index": 54,
+      "start": 108.5301,
+      "end": 110.527,
+      "beats": [
+        108.5301,
+        109.0525,
+        109.5401,
+        110.0278
+      ]
+    },
+    {
+      "index": 55,
+      "start": 110.527,
+      "end": 112.5355,
+      "beats": [
+        110.527,
+        111.0378,
+        111.537,
+        112.0363
+      ]
+    },
+    {
+      "index": 56,
+      "start": 112.5355,
+      "end": 114.5324,
+      "beats": [
+        112.5355,
+        113.0347,
+        113.534,
+        114.0332
+      ]
+    },
+    {
+      "index": 57,
+      "start": 114.5324,
+      "end": 116.5293,
+      "beats": [
+        114.5324,
+        115.0433,
+        115.5309,
+        116.0301
+      ]
+    },
+    {
+      "index": 58,
+      "start": 116.5293,
+      "end": 118.5263,
+      "beats": [
+        116.5293,
+        117.0286,
+        117.5278,
+        118.027
+      ]
+    },
+    {
+      "index": 59,
+      "start": 118.5263,
+      "end": 120.5348,
+      "beats": [
+        118.5263,
+        119.0371,
+        119.5363,
+        120.0356
+      ]
+    },
+    {
+      "index": 60,
+      "start": 120.5348,
+      "end": 122.5317,
+      "beats": [
+        120.5348,
+        121.034,
+        121.5449,
+        122.0325
+      ]
+    },
+    {
+      "index": 61,
+      "start": 122.5317,
+      "end": 124.5286,
+      "beats": [
+        122.5317,
+        123.0425,
+        123.5418,
+        124.0294
+      ]
+    },
+    {
+      "index": 62,
+      "start": 124.5286,
+      "end": 126.5255,
+      "beats": [
+        124.5286,
+        125.0278,
+        125.5271,
+        126.0263
+      ]
+    },
+    {
+      "index": 63,
+      "start": 126.5255,
+      "end": 128.5341,
+      "beats": [
+        126.5255,
+        127.0248,
+        127.524,
+        128.0348
+      ]
+    },
+    {
+      "index": 64,
+      "start": 128.5341,
+      "end": 130.531,
+      "beats": [
+        128.5341,
+        129.0333,
+        129.5325,
+        130.0317
+      ]
+    },
+    {
+      "index": 65,
+      "start": 130.531,
+      "end": 132.5279,
+      "beats": [
+        130.531,
+        131.0418,
+        131.5294,
+        132.0287
+      ]
+    },
+    {
+      "index": 66,
+      "start": 132.5279,
+      "end": 134.5248,
+      "beats": [
+        132.5279,
+        133.0271,
+        133.5264,
+        134.0256
+      ]
+    },
+    {
+      "index": 67,
+      "start": 134.5248,
+      "end": 136.5333,
+      "beats": [
+        134.5248,
+        135.024,
+        135.5349,
+        136.0341
+      ]
+    },
+    {
+      "index": 68,
+      "start": 136.5333,
+      "end": 138.5302,
+      "beats": [
+        136.5333,
+        137.0326,
+        137.5318,
+        138.031
+      ]
+    },
+    {
+      "index": 69,
+      "start": 138.5302,
+      "end": 140.5272,
+      "beats": [
+        138.5302,
+        139.0411,
+        139.5287,
+        140.0279
+      ]
+    },
+    {
+      "index": 70,
+      "start": 140.5272,
+      "end": 142.5357,
+      "beats": [
+        140.5272,
+        141.0264,
+        141.5256,
+        142.0365
+      ]
+    },
+    {
+      "index": 71,
+      "start": 142.5357,
+      "end": 144.5442,
+      "beats": [
+        142.5357,
+        143.0465,
+        143.5458,
+        144.0566
+      ]
+    },
+    {
+      "index": 72,
+      "start": 144.5442,
+      "end": 146.5411,
+      "beats": [
+        144.5442,
+        145.0434,
+        145.5427,
+        146.0419
+      ]
+    },
+    {
+      "index": 73,
+      "start": 146.5411,
+      "end": 148.956,
+      "beats": [
+        146.5411,
+        147.052,
+        147.6673,
+        148.2826
+      ]
+    },
+    {
+      "index": 74,
+      "start": 148.956,
+      "end": 151.6147,
+      "beats": [
+        148.956,
+        149.6178,
+        150.2795,
+        150.9413
+      ]
+    },
+    {
+      "index": 75,
+      "start": 151.6147,
+      "end": 154.2734,
+      "beats": [
+        151.6147,
+        152.2765,
+        152.9498,
+        153.6116
+      ]
+    },
+    {
+      "index": 76,
+      "start": 154.2734,
+      "end": 156.9437,
+      "beats": [
+        154.2734,
+        154.9468,
+        155.6085,
+        156.2703
+      ]
+    },
+    {
+      "index": 77,
+      "start": 156.9437,
+      "end": 159.6256,
+      "beats": [
+        156.9437,
+        157.6171,
+        158.2788,
+        158.9522
+      ]
+    },
+    {
+      "index": 78,
+      "start": 159.6256,
+      "end": 162.2843,
+      "beats": [
+        159.6256,
+        160.299,
+        160.9607,
+        161.6225
+      ]
+    },
+    {
+      "index": 79,
+      "start": 162.2843,
+      "end": 164.9197,
+      "beats": [
+        162.2843,
+        162.946,
+        163.6078,
+        164.2696
+      ]
+    },
+    {
+      "index": 80,
+      "start": 164.9197,
+      "end": 165.892,
+      "beats": [
+        164.9197,
+        165.5815
+      ]
+    }
+  ],
+  "cameraEvents": [
+    {
+      "time": 0,
+      "gesture": "section-drift",
+      "intensity": 0.4499,
+      "sectionId": "intro-1"
+    },
+    {
+      "time": 31.995,
+      "gesture": "section-drift",
+      "intensity": 0.6333,
+      "sectionId": "peak-2"
+    },
+    {
+      "time": 63.989,
+      "gesture": "section-drift",
+      "intensity": 0.6243,
+      "sectionId": "peak-3"
+    },
+    {
+      "time": 95.984,
+      "gesture": "section-drift",
+      "intensity": 0.5402,
+      "sectionId": "body-4"
+    },
+    {
+      "time": 127.978,
+      "gesture": "section-drift",
+      "intensity": 0.3063,
+      "sectionId": "break-5"
+    },
+    {
+      "time": 159.973,
+      "gesture": "section-drift",
+      "intensity": 0.0034,
+      "sectionId": "release-6"
+    }
+  ],
+  "particleEvents": [
+    {
+      "time": 0,
+      "type": "section",
+      "intensity": 0.4499,
+      "sectionId": "intro-1"
+    },
+    {
+      "time": 0.5,
+      "type": "onset",
+      "intensity": 0.8823,
+      "energy": 1
+    },
+    {
+      "time": 1,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 1.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.3327
+    },
+    {
+      "time": 8.5,
+      "type": "onset",
+      "intensity": 0.9954,
+      "energy": 1
+    },
+    {
+      "time": 8.75,
+      "type": "onset",
+      "intensity": 0.8501,
+      "energy": 0.6989
+    },
+    {
+      "time": 9,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 9.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.3948
+    },
+    {
+      "time": 16.25,
+      "type": "onset",
+      "intensity": 0.8194,
+      "energy": 0.858
+    },
+    {
+      "time": 16.5,
+      "type": "onset",
+      "intensity": 0.8956,
+      "energy": 1
+    },
+    {
+      "time": 16.75,
+      "type": "onset",
+      "intensity": 0.9375,
+      "energy": 0.8052
+    },
+    {
+      "time": 17,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 17.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5514
+    },
+    {
+      "time": 17.75,
+      "type": "onset",
+      "intensity": 0.7473,
+      "energy": 0.8222
+    },
+    {
+      "time": 18.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 19,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.7622
+    },
+    {
+      "time": 21.25,
+      "type": "onset",
+      "intensity": 0.7627,
+      "energy": 0.2413
+    },
+    {
+      "time": 24.75,
+      "type": "onset",
+      "intensity": 0.7738,
+      "energy": 0.7062
+    },
+    {
+      "time": 25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 25.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5437
+    },
+    {
+      "time": 26.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 27,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.7959
+    },
+    {
+      "time": 29.25,
+      "type": "onset",
+      "intensity": 0.7984,
+      "energy": 0.2338
+    },
+    {
+      "time": 31.995,
+      "type": "section",
+      "intensity": 0.6333,
+      "sectionId": "peak-2"
+    },
+    {
+      "time": 32.75,
+      "type": "onset",
+      "intensity": 0.9434,
+      "energy": 0.9575
+    },
+    {
+      "time": 33,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.9602
+    },
+    {
+      "time": 33.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.7011
+    },
+    {
+      "time": 34.25,
+      "type": "onset",
+      "intensity": 0.8181,
+      "energy": 0.4521
+    },
+    {
+      "time": 34.75,
+      "type": "onset",
+      "intensity": 0.8499,
+      "energy": 1
+    },
+    {
+      "time": 35,
+      "type": "onset",
+      "intensity": 0.8942,
+      "energy": 0.9002
+    },
+    {
+      "time": 35.25,
+      "type": "onset",
+      "intensity": 0.7804,
+      "energy": 0.3636
+    },
+    {
+      "time": 36.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.9594
+    },
+    {
+      "time": 37,
+      "type": "onset",
+      "intensity": 0.7486,
+      "energy": 0.6638
+    },
+    {
+      "time": 38.75,
+      "type": "onset",
+      "intensity": 0.764,
+      "energy": 0.7209
+    },
+    {
+      "time": 40.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 41,
+      "type": "onset",
+      "intensity": 0.91,
+      "energy": 1
+    },
+    {
+      "time": 41.25,
+      "type": "onset",
+      "intensity": 0.8271,
+      "energy": 0.7399
+    },
+    {
+      "time": 44.5,
+      "type": "onset",
+      "intensity": 0.7335,
+      "energy": 0.912
+    },
+    {
+      "time": 45,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 45.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.4106
+    },
+    {
+      "time": 47,
+      "type": "onset",
+      "intensity": 0.8491,
+      "energy": 1
+    },
+    {
+      "time": 47.25,
+      "type": "onset",
+      "intensity": 0.8462,
+      "energy": 0.949
+    },
+    {
+      "time": 48,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 48.25,
+      "type": "onset",
+      "intensity": 0.811,
+      "energy": 1
+    },
+    {
+      "time": 48.75,
+      "type": "onset",
+      "intensity": 0.8291,
+      "energy": 0.6906
+    },
+    {
+      "time": 49,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 49.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5611
+    },
+    {
+      "time": 49.5,
+      "type": "onset",
+      "intensity": 0.776,
+      "energy": 0.8764
+    },
+    {
+      "time": 50,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.7831
+    },
+    {
+      "time": 50.25,
+      "type": "onset",
+      "intensity": 0.9666,
+      "energy": 0.8949
+    },
+    {
+      "time": 50.5,
+      "type": "onset",
+      "intensity": 0.8534,
+      "energy": 0.8598
+    },
+    {
+      "time": 50.75,
+      "type": "onset",
+      "intensity": 0.9865,
+      "energy": 1
+    },
+    {
+      "time": 51,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.8575
+    },
+    {
+      "time": 51.25,
+      "type": "onset",
+      "intensity": 0.7757,
+      "energy": 0.6218
+    },
+    {
+      "time": 52,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.9331
+    },
+    {
+      "time": 52.25,
+      "type": "onset",
+      "intensity": 0.882,
+      "energy": 0.9168
+    },
+    {
+      "time": 52.5,
+      "type": "onset",
+      "intensity": 0.7242,
+      "energy": 0.5994
+    },
+    {
+      "time": 54,
+      "type": "onset",
+      "intensity": 0.8999,
+      "energy": 0.696
+    },
+    {
+      "time": 54.25,
+      "type": "onset",
+      "intensity": 0.7401,
+      "energy": 0.5456
+    },
+    {
+      "time": 57,
+      "type": "onset",
+      "intensity": 0.8341,
+      "energy": 1
+    },
+    {
+      "time": 57.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.6355
+    },
+    {
+      "time": 58,
+      "type": "onset",
+      "intensity": 0.7979,
+      "energy": 0.695
+    },
+    {
+      "time": 58.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 59,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.7098
+    },
+    {
+      "time": 63.989,
+      "type": "section",
+      "intensity": 0.6243,
+      "sectionId": "peak-3"
+    },
+    {
+      "time": 64.75,
+      "type": "onset",
+      "intensity": 0.8464,
+      "energy": 0.8347
+    },
+    {
+      "time": 65,
+      "type": "onset",
+      "intensity": 0.8474,
+      "energy": 0.8863
+    },
+    {
+      "time": 65.25,
+      "type": "onset",
+      "intensity": 0.8996,
+      "energy": 0.6394
+    },
+    {
+      "time": 66.25,
+      "type": "onset",
+      "intensity": 0.7395,
+      "energy": 0.396
+    },
+    {
+      "time": 66.5,
+      "type": "onset",
+      "intensity": 0.8488,
+      "energy": 0.8401
+    },
+    {
+      "time": 68.75,
+      "type": "onset",
+      "intensity": 0.8275,
+      "energy": 0.8172
+    },
+    {
+      "time": 72.75,
+      "type": "onset",
+      "intensity": 0.8126,
+      "energy": 1
+    },
+    {
+      "time": 73,
+      "type": "onset",
+      "intensity": 0.7352,
+      "energy": 0.9064
+    },
+    {
+      "time": 76.5,
+      "type": "onset",
+      "intensity": 0.9453,
+      "energy": 1
+    },
+    {
+      "time": 76.75,
+      "type": "onset",
+      "intensity": 0.8894,
+      "energy": 0.6522
+    },
+    {
+      "time": 79.25,
+      "type": "onset",
+      "intensity": 0.7605,
+      "energy": 0.9022
+    },
+    {
+      "time": 80,
+      "type": "onset",
+      "intensity": 0.9771,
+      "energy": 1
+    },
+    {
+      "time": 80.25,
+      "type": "onset",
+      "intensity": 0.8589,
+      "energy": 0.9229
+    },
+    {
+      "time": 80.75,
+      "type": "onset",
+      "intensity": 0.8164,
+      "energy": 0.7101
+    },
+    {
+      "time": 81,
+      "type": "onset",
+      "intensity": 0.9025,
+      "energy": 1
+    },
+    {
+      "time": 81.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5729
+    },
+    {
+      "time": 81.75,
+      "type": "onset",
+      "intensity": 0.7221,
+      "energy": 1
+    },
+    {
+      "time": 82,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.9735
+    },
+    {
+      "time": 82.25,
+      "type": "onset",
+      "intensity": 0.9529,
+      "energy": 0.8799
+    },
+    {
+      "time": 82.5,
+      "type": "onset",
+      "intensity": 0.7363,
+      "energy": 0.8463
+    },
+    {
+      "time": 82.75,
+      "type": "onset",
+      "intensity": 0.9538,
+      "energy": 1
+    },
+    {
+      "time": 83,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.8249
+    },
+    {
+      "time": 83.25,
+      "type": "onset",
+      "intensity": 0.7204,
+      "energy": 0.5803
+    },
+    {
+      "time": 84,
+      "type": "onset",
+      "intensity": 0.8918,
+      "energy": 0.7945
+    },
+    {
+      "time": 84.25,
+      "type": "onset",
+      "intensity": 0.8524,
+      "energy": 0.6585
+    },
+    {
+      "time": 86,
+      "type": "onset",
+      "intensity": 0.7564,
+      "energy": 0.7511
+    },
+    {
+      "time": 86.25,
+      "type": "onset",
+      "intensity": 0.7909,
+      "energy": 0.5451
+    },
+    {
+      "time": 89,
+      "type": "onset",
+      "intensity": 0.8423,
+      "energy": 1
+    },
+    {
+      "time": 89.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5905
+    },
+    {
+      "time": 90,
+      "type": "onset",
+      "intensity": 0.793,
+      "energy": 0.5576
+    },
+    {
+      "time": 90.75,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 1
+    },
+    {
+      "time": 91,
+      "type": "onset",
+      "intensity": 0.9647,
+      "energy": 0.6818
+    },
+    {
+      "time": 93,
+      "type": "onset",
+      "intensity": 0.7617,
+      "energy": 0.7141
+    },
+    {
+      "time": 93.25,
+      "type": "onset",
+      "intensity": 0.7236,
+      "energy": 0.4185
+    },
+    {
+      "time": 95.984,
+      "type": "section",
+      "intensity": 0.5402,
+      "sectionId": "body-4"
+    },
+    {
+      "time": 96.75,
+      "type": "onset",
+      "intensity": 0.7887,
+      "energy": 0.7989
+    },
+    {
+      "time": 97,
+      "type": "onset",
+      "intensity": 0.8561,
+      "energy": 0.9063
+    },
+    {
+      "time": 97.25,
+      "type": "onset",
+      "intensity": 0.9072,
+      "energy": 0.6082
+    },
+    {
+      "time": 98.5,
+      "type": "onset",
+      "intensity": 0.7775,
+      "energy": 0.7741
+    },
+    {
+      "time": 100.75,
+      "type": "onset",
+      "intensity": 0.7386,
+      "energy": 0.7252
+    },
+    {
+      "time": 104.75,
+      "type": "onset",
+      "intensity": 0.7589,
+      "energy": 0.9298
+    },
+    {
+      "time": 108.5,
+      "type": "onset",
+      "intensity": 0.7205,
+      "energy": 0.5177
+    },
+    {
+      "time": 108.75,
+      "type": "onset",
+      "intensity": 0.7658,
+      "energy": 0.9049
+    },
+    {
+      "time": 109.25,
+      "type": "onset",
+      "intensity": 0.8857,
+      "energy": 0.2853
+    },
+    {
+      "time": 110.25,
+      "type": "onset",
+      "intensity": 0.7644,
+      "energy": 0.8688
+    },
+    {
+      "time": 111,
+      "type": "onset",
+      "intensity": 0.7557,
+      "energy": 0.9455
+    },
+    {
+      "time": 111.25,
+      "type": "onset",
+      "intensity": 0.8014,
+      "energy": 0.8066
+    },
+    {
+      "time": 112.5,
+      "type": "onset",
+      "intensity": 0.8045,
+      "energy": 0.92
+    },
+    {
+      "time": 113,
+      "type": "onset",
+      "intensity": 0.7837,
+      "energy": 0.9932
+    },
+    {
+      "time": 113.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5336
+    },
+    {
+      "time": 114,
+      "type": "onset",
+      "intensity": 0.8379,
+      "energy": 0.5811
+    },
+    {
+      "time": 114.25,
+      "type": "onset",
+      "intensity": 0.8059,
+      "energy": 0.7646
+    },
+    {
+      "time": 114.5,
+      "type": "onset",
+      "intensity": 0.7764,
+      "energy": 0.859
+    },
+    {
+      "time": 114.75,
+      "type": "onset",
+      "intensity": 0.7287,
+      "energy": 0.5642
+    },
+    {
+      "time": 121,
+      "type": "onset",
+      "intensity": 0.7577,
+      "energy": 0.9266
+    },
+    {
+      "time": 121.25,
+      "type": "onset",
+      "intensity": 1,
+      "energy": 0.5414
+    },
+    {
+      "time": 127.978,
+      "type": "section",
+      "intensity": 0.3063,
+      "sectionId": "break-5"
+    },
+    {
+      "time": 129.25,
+      "type": "onset",
+      "intensity": 0.7554,
+      "energy": 0.571
+    },
+    {
+      "time": 130.5,
+      "type": "onset",
+      "intensity": 0.7366,
+      "energy": 0.7343
+    },
+    {
+      "time": 137.25,
+      "type": "onset",
+      "intensity": 0.7858,
+      "energy": 0.5945
+    },
+    {
+      "time": 159.973,
+      "type": "section",
+      "intensity": 0.0034,
+      "sectionId": "release-6"
+    }
+  ]
+}

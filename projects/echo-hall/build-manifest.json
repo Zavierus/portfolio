@@ -1,0 +1,8 @@
+{
+  "product": "THE LISTENER",
+  "sourceEntry": "projects/echo-hall/src/main.js",
+  "output": "projects/echo-hall/app.bundle.js",
+  "bytes": 798008,
+  "builtAt": "2026-08-29T00:07:23.867Z",
+  "buildDurationMs": 101.98
+}

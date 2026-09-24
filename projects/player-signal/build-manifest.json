@@ -1,0 +1,17 @@
+{
+  "product": "PLAYER SIGNAL",
+  "outputs": {
+    "app": {
+      "sourceEntry": "projects/player-signal/src/main.js",
+      "output": "projects/player-signal/app.bundle.js",
+      "bytes": 82011
+    },
+    "worker": {
+      "sourceEntry": "projects/player-signal/src/analysis/worker.js",
+      "output": "projects/player-signal/analysis.worker.bundle.js",
+      "bytes": 10377
+    }
+  },
+  "builtAt": "2026-08-29T00:07:23.491Z",
+  "buildDurationMs": 29.53
+}

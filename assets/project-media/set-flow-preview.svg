@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#0a0d0f"/>
+  <g stroke="#5eb8c2" stroke-opacity=".11">
+    <path d="M0 100h1600M0 200h1600M0 300h1600M0 400h1600M0 500h1600M0 600h1600M0 700h1600M0 800h1600M0 900h1600"/>
+    <path d="M100 0v1000M200 0v1000M300 0v1000M400 0v1000M500 0v1000M600 0v1000M700 0v1000M800 0v1000M900 0v1000M1000 0v1000M1100 0v1000M1200 0v1000M1300 0v1000M1400 0v1000M1500 0v1000"/>
+  </g>
+  <g transform="translate(145 125)" fill="none" stroke="#5eb8c2">
+    <rect x="0" y="0" width="880" height="690" stroke-width="3"/>
+    <rect x="675" y="60" width="90" height="560" fill="#5eb8c2" fill-opacity=".07"/>
+    <rect x="470" y="125" width="155" height="70" fill="#aab7b6" fill-opacity=".08" stroke="#aab7b6"/>
+    <rect x="385" y="315" width="230" height="110" fill="#aab7b6" fill-opacity=".07" stroke="#aab7b6"/>
+    <circle cx="315" cy="305" r="57" fill="#ffd4a8" fill-opacity=".08" stroke="#ffd4a8"/>
+    <rect x="160" y="585" width="120" height="55" stroke="#d9b85d"/>
+    <rect x="700" y="500" width="120" height="55" stroke="#d9b85d"/>
+    <path d="M280 610 640 310M700 525 480 350" stroke="#d9b85d" stroke-dasharray="12 9"/>
+    <path d="M0 730h880M920 0v690" stroke-opacity=".55"/>
+  </g>
+  <g transform="translate(1110 125)">
+    <rect width="340" height="315" fill="#111a1e" stroke="#aab7b6" stroke-opacity=".45"/>
+    <rect x="55" y="35" width="230" height="245" fill="none" stroke="#5eb8c2" stroke-opacity=".5"/>
+    <path d="M170 0v315M0 158h340" stroke="#aab7b6" stroke-opacity=".2"/>
+    <path d="M150 260v-118a38 38 0 0 1 76 0v118" fill="#ffd4a8" fill-opacity=".13" stroke="#ffd4a8" stroke-opacity=".55"/>
+    <rect y="375" width="340" height="315" fill="#111a1e" stroke="#aab7b6" stroke-opacity=".45"/>
+    <rect x="55" y="410" width="230" height="245" fill="none" stroke="#5eb8c2" stroke-opacity=".5"/>
+    <rect x="112" y="468" width="116" height="122" fill="#aab7b6" fill-opacity=".1" stroke="#aab7b6" stroke-opacity=".5"/>
+  </g>
+  <g fill="#e4e9e5" font-family="Arial, sans-serif">
+    <text x="145" y="90" font-size="26" font-weight="700">SET//FLOW</text>
+    <text x="1110" y="90" font-size="15" fill="#d9b85d">TWO CAMERA / ONE ROOM</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080a0b" />
+    <meta name="description" content="ZIAVER visual archive: 205 uncropped original photographs, 51 commercial videos, graphic systems and editorial work." />
+    <title>VISUAL INDEX / ZIAVER</title>
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="archive-header">
+      <a class="archive-back" href="../../index.html?ziaver=latest" aria-label="&#36820;&#22238;&#20316;&#21697;&#38598;">&larr; <span>ZIAVER</span></a>
+      <div class="archive-brand"><strong>VISUAL INDEX</strong><span>VIDEO / PHOTOGRAPHY / IMAGE / EDITORIAL</span></div>
+      <div class="archive-header__right">
+        <span class="archive-index">INDEX / 04 LANES</span>
+        <button class="language-toggle language-toggle--archive" type="button" data-language-toggle aria-label="&#20999;&#25442;&#35821;&#35328;" aria-pressed="true"><span data-language-active>&#20013;&#25991;</span><i aria-hidden="true">/</i><span data-language-other>EN</span></button>
+      </div>
+    </header>
+    <main class="archive-shell">
+      <section class="archive-intro" aria-labelledby="archive-title">
+        <div><p class="archive-kicker">COMMERCIAL VIDEO, MOTION, PHOTOGRAPHY & SYSTEMS / 2021-2024</p><h1 id="archive-title">VISUAL<br /><em>INDEX</em></h1></div>
+        <p class="archive-lede">51 commercial videos & motion pieces, 205 uncropped original photographs, graphic systems and live editorial work.</p>
+      </section>
+      <nav class="archive-filters" aria-label="Visual archive filters" data-filters>
+        <button type="button" class="is-active" data-filter="all"><span data-filter-label>ALL</span> <span>267</span></button>
+        <button type="button" data-filter="video"><span data-filter-label>VIDEO & MOTION</span> <span>51</span></button>
+        <button type="button" data-filter="photography"><span data-filter-label>PHOTOGRAPHY</span> <span>205</span></button>
+        <button type="button" data-filter="design"><span data-filter-label>IMAGE + GRAPHIC</span> <span>10</span></button>
+        <button type="button" data-filter="dynamic"><span data-filter-label>WECHAT EDITORIAL</span> <span>01</span></button>
+      </nav>
+      <section class="archive-grid" data-gallery-grid aria-live="polite"></section>
+      <a class="archive-full-index" href="../../index.html?ziaver=latest">VIEW THE PORTFOLIO &larr;</a>
+    </main>
+    <dialog class="archive-lightbox" data-lightbox aria-labelledby="lightbox-title">
+      <button class="archive-lightbox__close" type="button" data-close aria-label="Close">&times;</button>
+      <button class="archive-lightbox__prev" type="button" data-prev aria-label="Previous">&larr;</button>
+      <figure><img data-lightbox-image alt="" /><figcaption><p data-lightbox-meta></p><h2 id="lightbox-title" data-lightbox-title></h2><p data-lightbox-note></p><div data-lightbox-link-container></div></figcaption></figure>
+      <button class="archive-lightbox__next" type="button" data-next aria-label="Next">&rarr;</button>
+    </dialog>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

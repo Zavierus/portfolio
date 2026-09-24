@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "id": "steam:275850",
+    "appId": 275850,
+    "name": "No Man's Sky",
+    "storeUrl": "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+    "capsuleUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+    "source": {
+      "provider": "steam-store",
+      "url": "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+      "retrievedAt": "2026-08-11T00:00:00.000Z"
+    }
+  }
+}

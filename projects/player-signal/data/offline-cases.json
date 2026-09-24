@@ -1,0 +1,604 @@
+{
+  "description": "Curated offline game intelligence cases for PLAYER SIGNAL showcase.",
+  "updatedAt": "2026-08-29T00:00:00.000Z",
+  "cases": [
+    {
+      "id": "steam:620",
+      "game": {
+        "id": "steam:620",
+        "appId": 620,
+        "name": "Portal 2",
+        "storeUrl": "https://store.steampowered.com/app/620/Portal_2/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620/header.jpg"
+      },
+      "roles": [
+        "game product",
+        "player insight",
+        "onboarding design"
+      ],
+      "signal": "tutorial clarity, puzzle pacing, cooperative communication",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/620/Portal_2/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "c993aa561ed6233ddb13520fefcd4630200927368bce7fc5641f4ed70a34b476",
+          "text": "The tutorial teaches every mechanic seamlessly without slowing the pacing.",
+          "createdAt": "2026-07-03T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 1840,
+          "helpfulVotes": 812,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "8078668729a524b11248048f9134c5e39e1b330e6bbd411e23d40178205e61d5",
+          "text": "Co-op communication becomes unclear in late chambers without voice chat.",
+          "createdAt": "2026-07-14T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 620,
+          "helpfulVotes": 216,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "274224ebbf3e2ac88251bd09589d27aea67e09f36a573bb2aa4347c3e8c2aa76",
+          "text": "The final sequence rewards experimentation and readable feedback in gameplay.",
+          "createdAt": "2026-07-26T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 2410,
+          "helpfulVotes": 403,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "b8c55206c92b61d0b9a2a583746d8b0290ae3f61354f2e7cff4266a6cbce37f7",
+          "text": "Optimization is fantastic, stable fps and zero stutter across all test chambers.",
+          "createdAt": "2026-08-01T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 3200,
+          "helpfulVotes": 154,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "e6c49e4c6700d2fafe9052a90a24b90249884e79ddd19fc3d5f1e6430b9061d5",
+          "text": "Occasional crash when loading heavy user workshop chambers, but stability is generally fine.",
+          "createdAt": "2026-08-05T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 1250,
+          "helpfulVotes": 98,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "87c70892e857485a3e9534162a2c08e52b7a848edb0925da46cbc2ce12c5d55d",
+          "text": "Controller keybind and sensitivity settings are intuitive and responsive.",
+          "createdAt": "2026-08-08T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 890,
+          "helpfulVotes": 45,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "d7b8b15ac9e87ae094cd4a1882ad019f7f2393d1e79a72dab651af4c8127cb8c",
+          "text": "Multiplayer matchmaking with random partners is smooth and low latency.",
+          "createdAt": "2026-08-10T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 4100,
+          "helpfulVotes": 210,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "c7a0d6c85df4ad1cf522b1f08ef8aa278d30fd93b2a02a37a5a4b5c0321b209c",
+          "text": "The interface and clean menu UI make finding community chambers effortless.",
+          "createdAt": "2026-08-12T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 1600,
+          "helpfulVotes": 77,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "52f0d88a5aa000134c2a2aa58adda2587140545220bf7be69f4f7c53b963f428",
+          "text": "Great price for the content, campaign length and unlimited community maps.",
+          "createdAt": "2026-08-15T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 5200,
+          "helpfulVotes": 320,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "a6b9d4fd367844224f0f2db99b5069ca64fce2637a58289767e0cd1bb150d2a4",
+          "text": "Some late game puzzles have confusing instructions and sudden difficulty spikes.",
+          "createdAt": "2026-08-18T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 780,
+          "helpfulVotes": 64,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:292030",
+      "game": {
+        "id": "steam:292030",
+        "appId": 292030,
+        "name": "The Witcher 3: Wild Hunt",
+        "storeUrl": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg"
+      },
+      "roles": [
+        "narrative design",
+        "content progression",
+        "inventory ergonomics"
+      ],
+      "signal": "quest emotional weight, inventory friction, delayed narrative consequences",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "9c5a087fec6d69159a365ec51a5b74f633c4343b17f3ddc2b67db1974866006c",
+          "text": "Side quests and story content carry tremendous emotional weight instead of filler.",
+          "createdAt": "2026-07-02T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 7200,
+          "helpfulVotes": 1420,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "66f47cd4894b35573202d571fa80f4cdcd8d9a35438c83e818f78054ac68603b",
+          "text": "Inventory and crafting menu interface creates severe friction during long sessions.",
+          "createdAt": "2026-07-10T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 1140,
+          "helpfulVotes": 480,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "4f7b436d3d31ec6afefbb71d1399b95e6d7d1f2e04123f6198514d43e206cc1f",
+          "text": "Combat balance can feel repetitive on standard difficulty without alchemy prep.",
+          "createdAt": "2026-07-18T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 3400,
+          "helpfulVotes": 310,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "e033443ee595185f2d9745fee5f714b7c9cb7bbec1c3ba4c966f675cedb0ea9f",
+          "text": "Next-gen patch had some performance frame rate drops in Novigrad, but overall solid.",
+          "createdAt": "2026-07-25T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 8900,
+          "helpfulVotes": 250,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "3ee625a056b53ec60518e17a7e92a8d9d1ae92ac99bd18ecfa807fab9b2c293d",
+          "text": "The onboarding tutorial teaches combat signs effectively in Kaer Morhen.",
+          "createdAt": "2026-08-02T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 450,
+          "helpfulVotes": 89,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "a32816a4159ebf8e3f276e81af1035de3b646a2d13beb8e3c45357a1e28777be",
+          "text": "Controller input delay during swimming and horse navigation feels clunky.",
+          "createdAt": "2026-08-08T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 2800,
+          "helpfulVotes": 190,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "39568869a69924c58c0c7313ceabf32fbff257d3ea7a80dfb3e17c797d6243b7",
+          "text": "Outstanding DLC and value for money, Blood and Wine is like a whole new game.",
+          "createdAt": "2026-08-12T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 12000,
+          "helpfulVotes": 980,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "8df2dd04d2fd35fb30da0f2225a44421a6c84e6d27a247110ca0f739d16b23ed",
+          "text": "No game crash or stability issues across my 80 hour campaign run.",
+          "createdAt": "2026-08-16T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 9400,
+          "helpfulVotes": 115,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:1145360",
+      "game": {
+        "id": "steam:1145360",
+        "appId": 1145360,
+        "name": "Hades",
+        "storeUrl": "https://store.steampowered.com/app/1145360/Hades/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg"
+      },
+      "roles": [
+        "roguelite loop",
+        "combat balance",
+        "narrative cadence"
+      ],
+      "signal": "death progression cadence, weapon aspect tuning, build clarity",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/1145360/Hades/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "7dd1fc43e62756ef4ce307ebb5f4babba78343047343005b550ced17423d932d",
+          "text": "Every failed run unlocks new story content and narrative progression smoothly.",
+          "createdAt": "2026-07-05T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 4800,
+          "helpfulVotes": 910,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "1fa0b9d9b71b80babb21e172dc330893af77cb2dd7fa8662e0908233fbda14ea",
+          "text": "Some weapon balance aspects feel overpowered while others need heavy titan blood investment.",
+          "createdAt": "2026-07-15T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 2900,
+          "helpfulVotes": 320,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "c407a403015bc11bb8f2063d795f8419f9ea66581a16977dd36bb4568f5bd3d7",
+          "text": "Flawless 144 fps performance and zero frame stutter on all PC hardware.",
+          "createdAt": "2026-07-22T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 6100,
+          "helpfulVotes": 180,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "950d7b9ed411d54e0b3356c06488ef19f707e22ba8dc2b4c1573575bdda176b2",
+          "text": "The onboarding curve is smooth and teaches boon synergy without being patronizing.",
+          "createdAt": "2026-08-01T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 520,
+          "helpfulVotes": 75,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "d53649563462f8f48cf8a92b4a11bf2967737387412afcab360561a47fde71ad",
+          "text": "Controller button layout is responsive, dash input buffer feels crisp and tight.",
+          "createdAt": "2026-08-08T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 3600,
+          "helpfulVotes": 140,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "6400222fd9022ae80ae72904bfa7acdfc23fe2a70af06672578883203110b59d",
+          "text": "Clean interface and boon menu make build theorycrafting very readable.",
+          "createdAt": "2026-08-14T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 4200,
+          "helpfulVotes": 110,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:413150",
+      "game": {
+        "id": "steam:413150",
+        "appId": 413150,
+        "name": "Stardew Valley",
+        "storeUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
+      },
+      "roles": [
+        "cozy simulation",
+        "onboarding pacing",
+        "retention loops"
+      ],
+      "signal": "daily goal loops, early game opacity, long term collection satisfaction",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "8d8333388655da954eca0670ff4111fb627c98b59ac0899da6126a2f7712c1fc",
+          "text": "Daily progression goals make the farm cozy and inviting without pressure.",
+          "createdAt": "2026-07-04T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 8400,
+          "helpfulVotes": 1200,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "6790e12c85eb38d30712b4276a1483a44941bd992b31843292462efe71e8f3fc",
+          "text": "The first spring season onboarding can feel confusing without community center guides.",
+          "createdAt": "2026-07-12T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 680,
+          "helpfulVotes": 240,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "b58bc3508ce239d05e3a0e79c9221e2ea138c7c734f2e05ade99e08be5888ea8",
+          "text": "Multiplayer co-op farming with friends is reliable with no desync or lag.",
+          "createdAt": "2026-07-20T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 5200,
+          "helpfulVotes": 410,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "9aa325dfed5e01d8d76bd5e223dddae4407017fbe9d36833153922eaa1290b7a",
+          "text": "Super stable, runs on low-end hardware with zero stutter and minimal battery drain.",
+          "createdAt": "2026-07-29T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 11000,
+          "helpfulVotes": 320,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "74ddc86c0b3047bc9d568cb22ccb801d4f5ce64cf42da79cdde4cc5811908cdc",
+          "text": "Base building and farm decoration customization options are endless.",
+          "createdAt": "2026-08-06T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 9800,
+          "helpfulVotes": 510,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "a58c27bb0fe3d83afdbed2b72675c1a0c264a1df220f9f0bf31d562528ba81ae",
+          "text": "Inventory space is very tight in early game before backpack upgrades.",
+          "createdAt": "2026-08-15T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 850,
+          "helpfulVotes": 180,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:646570",
+      "game": {
+        "id": "steam:646570",
+        "appId": 646570,
+        "name": "Slay the Spire",
+        "storeUrl": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg"
+      },
+      "roles": [
+        "card mechanics",
+        "balance tuning",
+        "strategic agency"
+      ],
+      "signal": "card utility clarity, relic synergy balance, learning loop velocity",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "636c47853a5fb7cf99aa0a053facd671829bc4a5dbf000e16c3a282ed448b8f4",
+          "text": "The card balance and combat design are masterclass, every card has clear utility.",
+          "createdAt": "2026-07-06T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 6500,
+          "helpfulVotes": 820,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "1702be61967fa4ad36c0dfa2be315f605d4bbbbd1424c9bd52f8313856184488",
+          "text": "Certain boss balance encounters feel punishing if you lack specific block cards.",
+          "createdAt": "2026-07-16T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 2400,
+          "helpfulVotes": 310,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "c80e7f53253d0bcbaa4a8dae81630fa165e5f8d9c8eeba664ccdfefad48a601f",
+          "text": "Great onboarding progression with ascension levels scaling difficulty naturally.",
+          "createdAt": "2026-07-28T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 4200,
+          "helpfulVotes": 160,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "4d91a980def4b32db1e03a9dfb71395bf54e8ae12622793547c557a554f8e2f1",
+          "text": "Interface and keyword tooltips make calculating damage math crystal clear.",
+          "createdAt": "2026-08-04T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 3800,
+          "helpfulVotes": 95,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:632470",
+      "game": {
+        "id": "steam:632470",
+        "appId": 632470,
+        "name": "Disco Elysium",
+        "storeUrl": "https://store.steampowered.com/app/632470/Disco_Elysium/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg"
+      },
+      "roles": [
+        "narrative architecture",
+        "dialogue pacing",
+        "failure mechanics"
+      ],
+      "signal": "internal monologue system, reading fatigue pacing, failure progression",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/632470/Disco_Elysium/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "f46c05d6b257efbba448273f11b59439e3390f8b839cf065cc34668de4445d7e",
+          "text": "The narrative content and internal dialogue system create unprecedented roleplay depth.",
+          "createdAt": "2026-07-08T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 3900,
+          "helpfulVotes": 1100,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "d41e8c2be2b1b352958cb5c494bcc6753b5515d4aa7ae991a79fcadf22b671b2",
+          "text": "Long dialogue text passages can cause reading fatigue when pacing slows down.",
+          "createdAt": "2026-07-19T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 1450,
+          "helpfulVotes": 340,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "232e1a0ea09d0d6566cee162878fdc1087890199c4153798006a76de1bbdf656",
+          "text": "Interface text size scaling and voiceover audio make comprehension comfortable.",
+          "createdAt": "2026-08-03T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 2800,
+          "helpfulVotes": 120,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "d15998a9ea0996b842e81f53d45aafe2b124bf26a33a1c361976c082e3e4b37b",
+          "text": "Onboarding throws you into deep existential concepts immediately, rewarding patient players.",
+          "createdAt": "2026-08-11T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 980,
+          "helpfulVotes": 85,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:367520",
+      "game": {
+        "id": "steam:367520",
+        "appId": 367520,
+        "name": "Hollow Knight",
+        "storeUrl": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg"
+      },
+      "roles": [
+        "metroidvania pacing",
+        "spatial exploration",
+        "boss telegraphing"
+      ],
+      "signal": "shortcut discovery rewards, early map opacity, boss pattern mastery",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "937591ca95bcf10cd6392e960df85b7b8d1daa02792198fd5821d9d3578a767c",
+          "text": "Exploration and map progression stay thrilling with interconnected shortcut routes.",
+          "createdAt": "2026-07-07T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 5800,
+          "helpfulVotes": 980,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "e1d9f4f2e9ad07a7d4e1184e02b3fa59ffc8c2d5c666526321803e5011f332bf",
+          "text": "Early game onboarding map system feels opaque before finding the quill and compass.",
+          "createdAt": "2026-07-17T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 890,
+          "helpfulVotes": 290,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "21b1b6157ea194c7618bd5662c1e58ee0dd5ff2409829fb8e0bebb214525a6b2",
+          "text": "Controls and nail attack responsiveness are pin-point precise.",
+          "createdAt": "2026-07-29T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 4400,
+          "helpfulVotes": 210,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "25bd0a4175a702e861b14f4ee82e8f29337012c082569f4d7f550a04cfde84c3",
+          "text": "Boss combat balance is challenging but always fair and readable.",
+          "createdAt": "2026-08-07T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 6200,
+          "helpfulVotes": 340,
+          "language": "english"
+        }
+      ]
+    },
+    {
+      "id": "steam:753640",
+      "game": {
+        "id": "steam:753640",
+        "appId": 753640,
+        "name": "Outer Wilds",
+        "storeUrl": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+        "capsuleUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg"
+      },
+      "roles": [
+        "curiosity loop",
+        "knowledge progression",
+        "spatial mystery"
+      ],
+      "signal": "knowledge as progression, clue obscurity friction, agency revelation",
+      "source": {
+        "provider": "offline-curated-case",
+        "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+        "retrievedAt": "2026-08-20T00:00:00.000Z"
+      },
+      "reviews": [
+        {
+          "reviewIdHash": "3b990b6997536bb6ccdf8b8621d05a99bd005a00b8eef7ad5b37a7794140b6dd",
+          "text": "Knowledge is the only progression unlock, making every space discovery feel personal.",
+          "createdAt": "2026-07-09T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 3200,
+          "helpfulVotes": 1350,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "9dd03f39a86a7e7aaf4f485cb3df655cf4d6b92c27b919ca82ef67048670d441",
+          "text": "A few clue instructions can be easy to miss without checking ship log regularly.",
+          "createdAt": "2026-07-21T00:00:00.000Z",
+          "recommended": false,
+          "playtimeMinutes": 1100,
+          "helpfulVotes": 230,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "824420360dbce415f594bfa698be59409ca4eddc5863b3c7c6d8e95461670626",
+          "text": "Physics and zero-g spaceship controls feel immersive once mastered.",
+          "createdAt": "2026-08-02T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 2400,
+          "helpfulVotes": 160,
+          "language": "english"
+        },
+        {
+          "reviewIdHash": "5f43efcbaa356c0629d7110f2d34baa5cc3d520747fa814b071d573e95d9f39a",
+          "text": "The interface ship log rumor mode connects mystery nodes brilliantly.",
+          "createdAt": "2026-08-10T00:00:00.000Z",
+          "recommended": true,
+          "playtimeMinutes": 2900,
+          "helpfulVotes": 280,
+          "language": "english"
+        }
+      ]
+    }
+  ]
+}

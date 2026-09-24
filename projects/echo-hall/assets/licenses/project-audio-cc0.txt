@@ -1,0 +1,13 @@
+Echo Run procedural audio dedication
+Effective: 2026-07-21
+
+The original PCM audio files footsteps.wav, breathing.wav,
+facility-ambience.wav, and resonance-score.wav were created entirely by the
+deterministic generator at scripts/generate-echo-audio.mjs. No samples or
+recordings from third parties are used.
+
+To the extent possible under law, the creator waives all copyright and related
+or neighboring rights to these four audio files under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The complete legal code is stored in cc0-1.0-legalcode.txt.

@@ -1,0 +1,350 @@
+[
+  {
+    "target": "00-state/00-core-stores.js",
+    "upstreamPath": "public/js/modules/00-state/00-core-stores.js",
+    "upstreamSha256": "0a0110e1fc46e5bb26b7fbcc8af147c9346f8f15a9147b432b1a06b8bd8a4b50",
+    "adapted": true
+  },
+  {
+    "target": "00-state/01-perf-render-state.js",
+    "upstreamPath": "public/js/modules/00-state/01-perf-render-state.js",
+    "upstreamSha256": "08936ea2758ffcc12f7b492994d1d7f9536c35282c04e309e6a1b460951e9b3c",
+    "adapted": true
+  },
+  {
+    "target": "00-state/02-preferences-ui-modes.js",
+    "upstreamPath": "public/js/modules/00-state/02-preferences-ui-modes.js",
+    "upstreamSha256": "6d2a635886759cc8ad4c7fda560e3c0230387d9ed41e1e1cf9db73406728aeab",
+    "adapted": true
+  },
+  {
+    "target": "00-state/03-beat-dj-state.js",
+    "upstreamPath": "public/js/modules/00-state/03-beat-dj-state.js",
+    "upstreamSha256": "fee8fd4e0b3ee129eaf158d5754f4ecf8094feef107140bc25601b0cc711fcfc",
+    "adapted": false
+  },
+  {
+    "target": "00-state/04-fx-defaults.js",
+    "upstreamPath": "public/js/modules/00-state/04-fx-defaults.js",
+    "upstreamSha256": "8ea8d977cfe4d4b1413d9d357a70818edded97f0f6366cbfd4cc9fdc6e7fc770",
+    "adapted": true
+  },
+  {
+    "target": "00-state/05-packaged-fx-archive.js",
+    "upstreamPath": "public/js/modules/00-state/05-packaged-fx-archive.js",
+    "upstreamSha256": "d154a7f0cae77058241348fb91faf82e5b6f42095f14d7c68ab2293b4bdca618",
+    "adapted": true
+  },
+  {
+    "target": "00-state/06-fx-runtime-layout.js",
+    "upstreamPath": "public/js/modules/00-state/06-fx-runtime-layout.js",
+    "upstreamSha256": "8bf3955a69c9cb2f059c7259d22dbc3d94fb30641d2b860c54a2c0124c2fadd4",
+    "adapted": true
+  },
+  {
+    "target": "00-state/07-ui-playback-runtime.js",
+    "upstreamPath": "public/js/modules/00-state/07-ui-playback-runtime.js",
+    "upstreamSha256": "64a459ce81aebb3d6704ba4c351d26ec2a731f9efbf20e2e6f63ae852b49b55f",
+    "adapted": true
+  },
+  {
+    "target": "00-state/09-performance-probe.js",
+    "upstreamPath": "public/js/modules/00-state/09-performance-probe.js",
+    "upstreamSha256": "ecf4066141c76529c012c0ad50ca377762a1ea9b0cbfd131a690adf3a9f5fe22",
+    "adapted": false
+  },
+  {
+    "target": "00-state/10-frame-scheduler.js",
+    "upstreamPath": "public/js/modules/00-state/10-frame-scheduler.js",
+    "upstreamSha256": "87b7c72ac4a17f826e9daaf879e516ce359995886e37c2fa4d79d075cafa741f",
+    "adapted": false
+  },
+  {
+    "target": "01-scene/00-renderer-quality.js",
+    "upstreamPath": "public/js/modules/01-scene/00-renderer-quality.js",
+    "upstreamSha256": "523d25f65d874ed55290bbd52ae8cb1cc6a966ec28d6d3d9835067b70babadf8",
+    "adapted": true
+  },
+  {
+    "target": "01-scene/01-orbit-free-camera.js",
+    "upstreamPath": "public/js/modules/01-scene/01-orbit-free-camera.js",
+    "upstreamSha256": "60608d9fa9912e6be6dc08d0af98e56e8b54d488de6b41e859f6dfc19dd5743c",
+    "adapted": true
+  },
+  {
+    "target": "01-scene/02-beat-camera-runtime.js",
+    "upstreamPath": "public/js/modules/01-scene/02-beat-camera-runtime.js",
+    "upstreamSha256": "ff573a026361239d90a403ddbf094f6a0e519c3474c8f50014fdada495a2fb7b",
+    "adapted": true
+  },
+  {
+    "target": "01-scene/03-focus-cinema-camera.js",
+    "upstreamPath": "public/js/modules/01-scene/03-focus-cinema-camera.js",
+    "upstreamSha256": "7cd994887229623df325f687cb7a6da193465dd9f748de1db553eee703420d92",
+    "adapted": true
+  },
+  {
+    "target": "01-scene/04-bottom-controls-cursor.js",
+    "upstreamPath": "public/js/modules/01-scene/04-bottom-controls-cursor.js",
+    "upstreamSha256": "5f20a2d415db89bbd63daa84f85b64aa33863dfdb6b4dc6ac921195452f19389",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/00-pointer-cover-particles.js",
+    "upstreamPath": "public/js/modules/02-visual/00-pointer-cover-particles.js",
+    "upstreamSha256": "b39d458a851ed90a84daf1e8a367bf101f4c5b4f948ca4cc4fb8519e9d0387e1",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/01-float-skull-backcover.js",
+    "upstreamPath": "public/js/modules/02-visual/01-float-skull-backcover.js",
+    "upstreamSha256": "b7f28a6013ae26be1b7eb8bf5e131330e4eeb152ea5a454d521939e5b7bfdbdb",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/03-background-star-river.js",
+    "upstreamPath": "public/js/modules/02-visual/03-lyrics-star-river.js",
+    "upstreamSha256": "54bf0c0a97c96e149da51681144eac73b0da8334573a010e962bebe165200544",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/04-visual-settings-persistence.js",
+    "upstreamPath": "public/js/modules/02-visual/04-visual-settings-persistence.js",
+    "upstreamSha256": "233baa13ed79bf1b68740df0af9db345163915256803ae3703e59192584239c3",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/06-custom-background-colorlab.js",
+    "upstreamPath": "public/js/modules/02-visual/06-custom-background-colorlab.js",
+    "upstreamSha256": "906162a1fdfdf2f1712951aed85789cb29ba55992cebc507a5e3570973731c12",
+    "adapted": true
+  },
+  {
+    "target": "02-visual/15-ripples-cover-depth.js",
+    "upstreamPath": "public/js/modules/02-visual/15-ripples-cover-depth.js",
+    "upstreamSha256": "58862e8d906ff7a33a9e9a58552992449ddf798f4a326216f87dce749acac5e9",
+    "adapted": true
+  },
+  {
+    "target": "03-beat/00-tempo-worker-cache-prefetch.js",
+    "upstreamPath": "public/js/modules/03-beat/00-tempo-worker-cache-prefetch.js",
+    "upstreamSha256": "113f6d8a6db8ff091224fb40697bd1c1fddbc79078acf50e4e58072d2822b5d0",
+    "adapted": false
+  },
+  {
+    "target": "03-beat/01-audio-beat-analysis.js",
+    "upstreamPath": "public/js/modules/03-beat/01-audio-beat-analysis.js",
+    "upstreamSha256": "5c8ebfe1e140b8d2da89c5717935d2ebaebfc132d18fca70d78a838f41c7178e",
+    "adapted": false
+  },
+  {
+    "target": "03-beat/04-beat-map-runtime.js",
+    "upstreamPath": "public/js/modules/03-beat/04-beat-map-runtime.js",
+    "upstreamSha256": "3bbd6006e0f78557bc605c37c538465d846333acb7f4c0967e2000dd4ab7a264",
+    "adapted": true
+  },
+  {
+    "target": "03-beat/05-cover-loading-crop.js",
+    "upstreamPath": "public/js/modules/03-beat/05-cover-loading-crop.js",
+    "upstreamSha256": "f665b138024d04045f3dcdc5495381e0e0b2d9dee15a4c0983fd7c783685f04c",
+    "adapted": true
+  },
+  {
+    "target": "03-beat/06-sonic-audio-monitor.js",
+    "upstreamPath": "public/js/modules/03-beat/06-sonic-audio-monitor.js",
+    "upstreamSha256": "3818caffc1e0a32410777ce54fc3831594f95ba826f85ec3be502530a54762d0",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/00-layout-hover.js",
+    "upstreamPath": "public/js/modules/04-shelf/00-layout-hover.js",
+    "upstreamSha256": "0bfd731d786dabf139ce5cf89d8a266ec4313ad1575c7cc9dd12df66afc2f79d",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/01-manager-core.js",
+    "upstreamPath": "public/js/modules/04-shelf/01-manager-core.js",
+    "upstreamSha256": "ca9de5d1d6353195255be2eafe22141c9c7b3144bedf850b4ddc33a5f5890fc4",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/02-rebuild-panel-sync.js",
+    "upstreamPath": "public/js/modules/04-shelf/02-rebuild-panel-sync.js",
+    "upstreamSha256": "8524550bdbc0579032e8c295595b1dc87eeb2cbe9d1c07864a6030d61fe576fb",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/03-content-list-manager.js",
+    "upstreamPath": "public/js/modules/04-shelf/03-content-list-manager.js",
+    "upstreamSha256": "a6de666f1e1191dd0dca6767abd18abf649ee00443761e033e199f370e6141d1",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/04-cover-api-helpers.js",
+    "upstreamPath": "public/js/modules/04-shelf/04-cover-api-helpers.js",
+    "upstreamSha256": "ee2bcc67af361bebf8e7cc827309a85994e98c1265cd73185569a5f06f32524d",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/05-card-interactions.js",
+    "upstreamPath": "public/js/modules/04-shelf/05-card-interactions.js",
+    "upstreamSha256": "c3c57c2a214b2c9c8f5e68129de506da01330a88bbacd24d6571f9ed4aa90ec4",
+    "adapted": true
+  },
+  {
+    "target": "04-shelf/06-keyboard-camera-events.js",
+    "upstreamPath": "public/js/modules/04-shelf/06-keyboard-camera-events.js",
+    "upstreamSha256": "205f5079f710d8dd90d97405ad2fc9f0b7a75447ad7328090ed06653d0fe171c",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/01-cover-custom-map.js",
+    "upstreamPath": "public/js/modules/05-playback/01-cover-custom-map.js",
+    "upstreamSha256": "c02c0a45ac98c99602078ff69c135753a4c70aaae5bbfaa0e9fb5b8c1e489240",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/08-audio-graph-controls.js",
+    "upstreamPath": "public/js/modules/05-playback/08-audio-graph-controls.js",
+    "upstreamSha256": "12ff46c351f140d5dd4e3063524b4b0ea7fa94f180ef67d7aaa275feee348d73",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/09-queue-snapshot-autoplay.js",
+    "upstreamPath": "public/js/modules/05-playback/09-queue-snapshot-autoplay.js",
+    "upstreamSha256": "a556e608ff08dc9aa024680d14704d9030eba29ddc446ac51cf439cc777a24e4",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/10-queue-actions.js",
+    "upstreamPath": "public/js/modules/05-playback/10-queue-actions.js",
+    "upstreamSha256": "4572302d3f00c9b75950d99895616a58ce18da0198032cddb05ac878973207e8",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/12-playback-switch-core.js",
+    "upstreamPath": "public/js/modules/05-playback/12-playback-switch-core.js",
+    "upstreamSha256": "6c52870931bbbcedf867fe940fb2e97efdffced29179d5aae50e6a1066299de8",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/13-playback-start-audio.js",
+    "upstreamPath": "public/js/modules/05-playback/13-playback-start-audio.js",
+    "upstreamSha256": "413fe1add136f62393dfe3aefcf67035a4327eb78daa5327c7cd0c674ae3153b",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/14-player-controls.js",
+    "upstreamPath": "public/js/modules/05-playback/14-player-controls.js",
+    "upstreamSha256": "20475e7b99b4eadceed2a57a55e0fb18245a238b1ef0196a7d12ec1e68ebcee3",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/15-control-glass-animations.js",
+    "upstreamPath": "public/js/modules/05-playback/15-control-glass-animations.js",
+    "upstreamSha256": "f77446031019d32f9b0dd0c397c0cf0eff1335e5a0ba5c9bb0776190e95fd0e4",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/16-progress-seek.js",
+    "upstreamPath": "public/js/modules/06-lyrics/04-progress-seek.js",
+    "upstreamSha256": "36c90da66cc790eccb0117132026dfe92d77f8ec5acf886d28c149edd154d93a",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/17-local-upload.js",
+    "upstreamPath": "public/js/modules/06-lyrics/05-upload-dragdrop.js",
+    "upstreamSha256": "578393940b00ee8cb557d2458127910290aac15197aafd8ee65ad1d9a7d49e16",
+    "adapted": true
+  },
+  {
+    "target": "05-playback/18-playlist-panel-shell.js",
+    "upstreamPath": "public/js/modules/06-lyrics/01-playlist-panel-shell.js",
+    "upstreamSha256": "ccb82e7b3c5f5f2ed4a79ca8549b67cb67d56c622bff9189e36a80fd96c17027",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/00-preset-archive-data.js",
+    "upstreamPath": "public/js/modules/07-fx/00-preset-archive-data.js",
+    "upstreamSha256": "4ef98319b3c18e969b20738e80a6ada95b847c2e35d3605b07e9d120fc5f82e5",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/02-accent-background-controls.js",
+    "upstreamPath": "public/js/modules/07-fx/02-accent-background-controls.js",
+    "upstreamSha256": "7307da489528dd5ff1744040d626d6046208b8c2d017b424b65abbc706e21818",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/03-cover-picker.js",
+    "upstreamPath": "public/js/modules/07-fx/03-cover-picker-fonts.js",
+    "upstreamSha256": "591a7f9f3f70bc854b9533748834a6771d44cf27165a4e5b75cca3b9f98d91fb",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/04-preset-grid-uniforms.js",
+    "upstreamPath": "public/js/modules/07-fx/04-preset-grid-uniforms.js",
+    "upstreamSha256": "ea63b4bf74d5e17310091d80f262d7991514ab054fceacd1b5bbf908ae7c595d",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/05-fx-panel-performance.js",
+    "upstreamPath": "public/js/modules/07-fx/05-fx-panel-performance.js",
+    "upstreamSha256": "51ec1774f0e8b1925ea1a8ff32292fb75ae2a6e6e3e4a36ab1a24e100ce1ccd4",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/06-hotkeys.js",
+    "upstreamPath": "public/js/modules/07-fx/06-hotkeys.js",
+    "upstreamSha256": "4236935bbfde61b452aa05fb861611686a2b576937018a4508c5185a9c824ba1",
+    "adapted": true
+  },
+  {
+    "target": "07-fx/07-bindings-shelf-immersive.js",
+    "upstreamPath": "public/js/modules/07-fx/07-bindings-shelf-immersive.js",
+    "upstreamSha256": "981c0241da28be830f0c0c61b62067d75c84f3caea6af9bb52e7d9145c5a9453",
+    "adapted": true
+  },
+  {
+    "target": "09-idle-toast-libraries.js",
+    "upstreamPath": "public/js/modules/09-idle-toast-libraries.js",
+    "upstreamSha256": "d1b7e5dda23dce47c40f1f65a254d27a1b6c137e4e460aaecb45d45c7dd58799",
+    "adapted": true
+  },
+  {
+    "target": "10-shell/00-gesture-control.js",
+    "upstreamPath": "public/js/modules/10-shell/00-gesture-control.js",
+    "upstreamSha256": "036ee6a91b4d52a2c105d561d728613eed4a2c6d4eee7257519ad9fae8d03603",
+    "adapted": true
+  },
+  {
+    "target": "10-shell/01-viewport-resize-shortcuts.js",
+    "upstreamPath": "public/js/modules/10-shell/01-viewport-resize-shortcuts.js",
+    "upstreamSha256": "13e67dfa3b02ece5eec711a5211348ada7bb3f9a696e874608b9b40d225c369e",
+    "adapted": true
+  },
+  {
+    "target": "10-shell/02-peek-panels-upload.js",
+    "upstreamPath": "public/js/modules/10-shell/02-peek-panels-upload.js",
+    "upstreamSha256": "2604668c65a3e4676871e4576fd614862d3739bf5b69e6a741378a4c80d0e4f6",
+    "adapted": true
+  },
+  {
+    "target": "10-shell/03-splash.js",
+    "upstreamPath": "public/js/modules/10-shell/03-splash.js",
+    "upstreamSha256": "b6f5fcd5a611a565876a192c0687d44d5b5bce46238fe4328759112c39a7d06a",
+    "adapted": true
+  },
+  {
+    "target": "10-shell/05-startup-bindings.js",
+    "upstreamPath": "public/js/modules/10-shell/05-startup-bindings.js",
+    "upstreamSha256": "b4c5cef56e8c3482b11a77615a75bbcec073c13b2453a8e3086d218fef47ae82",
+    "adapted": true
+  },
+  {
+    "target": "11-main-loop.js",
+    "upstreamPath": "public/js/modules/11-main-loop.js",
+    "upstreamSha256": "5f08580764d13cee4a9710d0959e67e32c66edb75a2b28ada616e79a9cc4c7f2",
+    "adapted": true
+  }
+]
